@@ -2,8 +2,8 @@
 Contributors: socialsnap
 Tags: social share, social sharing, floating share, click to tweet, social, share, social media, facebook share, twitter share, floating bar, share buttons, facebook, twitter, linkedin follow buttons, social login, auto poster, social poster, boost old posts, facebook login, twitter login, social locker, content locker, meta tags, social meta, open graph, twitter cards, bitly, social analytics, social statistics, share recovery, share counters, counter, pinterest, media sharing, pin it, pinterest save
 Requires at least: 4.6
-Tested up to: 6.5
-Stable tag: 1.3.6
+Tested up to: 6.8
+Stable tag: 1.4
 Requires PHP: 5.2.4
 License: GNU General Public License v2.0 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -217,6 +217,7 @@ You can get access to additional features, addons and premium support by <a href
 * X (Twitter) Share
 * LinkedIn Share
 * Pinterest Share
+* Bluesky Share
 * Tumblr Share
 * Skype Share
 * Buffer Share
@@ -255,6 +256,10 @@ Yes, Social Snap has full translation and localization support via the "socialsn
 If Social Snap is not available in your language, yet, you can <a href="https://translate.wordpress.org/projects/wp-plugins/socialsnap">help translate it</a>.
 
 == Changelog ==
+
+= 1.4 =
+- Fixed: Deprecated notices
+- Improved: Security
 
 = 1.3.6 =
 - Improved: Security

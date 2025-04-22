@@ -226,12 +226,12 @@ class SocialSnap_Settings extends SocialSnap_Admin_Page {
 			array_walk_recursive(
 				$data,
 				function( &$value ) {
-					$value = sanitize_text_field( $value );
+					$value = sanitize_text_field( html_entity_decode( $value ) );
 				}
 			);
 		} else {
 			$data = stripslashes( $data );
-			$data = sanitize_text_field( $data );
+			$data = sanitize_text_field( html_entity_decode( $data ) );
 		}
 
 		if ( ! empty( $data ) ) {

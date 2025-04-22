@@ -23,7 +23,7 @@ class SocialSnap_Statistics extends SocialSnap_Admin_Page {
 		parent::__construct();
 
 		$this->page_slug = 'statistics';
-		$this->title     = __( 'Statistics', 'socialsnap' );
+		$this->title     = 'Statistics';
 
 		// Actions
 		add_action( 'admin_menu', array( $this, 'register_pages' ), 11 );

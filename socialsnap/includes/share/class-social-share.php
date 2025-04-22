@@ -393,8 +393,12 @@ class SocialSnap_Social_Share {
 
 		<?php
 		$output = ob_get_clean();
-
-		echo wp_kses( apply_filters( 'socialsnap_share_all_popup', $output ), socialsnap_get_allowed_html_tags( 'post' ) );
+		
+		$output = apply_filters( 'socialsnap_share_all_popup_output', $output );
+		
+		if ( $output ) {
+			echo wp_kses( $output, socialsnap_get_allowed_html_tags( 'post' ) );
+		}
 	}
 
 	/**
@@ -517,9 +521,13 @@ class SocialSnap_Social_Share {
 		<?php
 		$output = ob_get_clean();
 
-		$this->add_inline_styles( 'sidebar' );		
+		$this->add_inline_styles( 'sidebar' );
+		
+		$output = apply_filters( 'socialsnap_social_share_sidebar', $output );
 
-		echo wp_kses( apply_filters( 'socialsnap_social_share_sidebar', $output ), socialsnap_get_allowed_html_tags( 'post' ) );
+		if ( $output ) {
+			echo wp_kses( $output, socialsnap_get_allowed_html_tags( 'post' ) );
+		}
 	}
 
 	/**
@@ -582,7 +590,12 @@ class SocialSnap_Social_Share {
 		</div><!-- END .ss-inline-share-wrapper -->
 		<?php
 		$output = ob_get_clean();
-		echo wp_kses( apply_filters( 'socialsnap_social_share_inline_content', $output ), socialsnap_get_allowed_html_tags( 'post' ) );
+		
+		$output = apply_filters( 'socialsnap_social_share_inline_content', $output );
+		
+		if ( $output ) {
+			echo wp_kses( $output, socialsnap_get_allowed_html_tags( 'post' ) );
+		}
 	}
 
 	/**
@@ -820,7 +833,12 @@ class SocialSnap_Social_Share {
 		</div>
 		<?php
 		$output = ob_get_clean();
-		echo wp_kses( apply_filters( 'socialsnap_social_share_on_media', $output ), socialsnap_get_allowed_html_tags( 'post' ) );
+		
+		$output = apply_filters( 'socialsnap_social_share_on_media', $output );
+		
+		if ( $output ) {
+			echo wp_kses( $output, socialsnap_get_allowed_html_tags( 'post' ) );
+		}
 	}
 
 	/**
@@ -905,7 +923,11 @@ class SocialSnap_Social_Share {
 	 * @since 1.0.0
 	 */
 	protected function render_view_count( $location = null ) {
-		echo wp_kses( apply_filters( 'socialsnap_view_count', '', $location ), socialsnap_get_allowed_html_tags( 'post' ) );
+		$output = apply_filters( 'socialsnap_view_count', '', $location );
+		
+		if ( $output ) {
+			echo wp_kses( $output, socialsnap_get_allowed_html_tags( 'post' ) );
+		}
 	}
 
 	/**

@@ -202,7 +202,25 @@ class SocialSnap_Field_social_follow_networks {
 								<?php esc_html_e( 'Enter your profile ID/username (without @ prefix).', 'socialsnap' ); ?>
 							</label><br/>
 
-							<input type="text" name="<?php echo esc_attr( $this->id ); ?>[<?php echo esc_attr( $network_id ); ?>][profile][username]" id="<?php echo esc_attr( $this->id ); ?>_<?php echo esc_attr( $network_id ); ?>_profile_username" value="<?php echo ( isset( $this->value[ $network_id ]['profile']['username'] ) ? esc_attr( $this->value[ $network_id ]['profile']['username'] ) : '' ); ?>"<?php echo esc_html( $readonly_field ); ?> class="ss-follow-username-profile"/>
+							<?php
+							// Get username value with proper fallback
+							$username_value = isset( $this->value[ $network_id ]['profile']['username'] ) 
+								? esc_attr( $this->value[ $network_id ]['profile']['username'] ) 
+								: '';
+
+							// Build field name and ID
+							$field_name = $this->id . '[' . $network_id . '][profile][username]';
+							$field_id = $this->id . '_' . $network_id . '_profile_username';
+							?>
+
+							<input
+								type="text"
+								name="<?php echo esc_attr( $field_name ); ?>"
+								id="<?php echo esc_attr( $field_id ); ?>"
+								value="<?php echo $username_value; ?>"
+								<?php echo esc_attr( $readonly_field ); ?>
+								class="ss-follow-username-profile"
+							/>
 
 							<?php if ( $readonly_field && '' !== $readonly_field ) { ?>
 								<small><?php esc_html_e( 'Username obtained automatically.', 'socialsnap' ); ?></small>

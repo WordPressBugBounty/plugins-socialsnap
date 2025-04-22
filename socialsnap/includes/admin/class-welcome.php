@@ -23,7 +23,7 @@ class SocialSnap_Welcome extends SocialSnap_Admin_Page {
 		parent::__construct();
 
 		$this->page_slug = 'welcome';
-		$this->title     = __( 'Welcome to Social Snap!', 'socialsnap' );
+		$this->title     = 'Welcome to Social Snap!';
 
 		// Actions
 		add_action( 'admin_menu', array( $this, 'register_pages' ), 12 );

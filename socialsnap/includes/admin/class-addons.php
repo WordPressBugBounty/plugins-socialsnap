@@ -32,7 +32,7 @@ class SocialSnap_Addons extends SocialSnap_Admin_Page {
 
 		// Page details
 		$this->page_slug = 'addons';
-		$this->title     = __( 'Available Addons', 'socialsnap' );
+		$this->title     = 'Available Addons';
 
 		// Actions
 		add_action( 'admin_menu', array( $this, 'register_pages' ), 14 );

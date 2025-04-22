@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 1.4 =
+- Fixed: Deprecated notices
+- Improved: Security
+
 = 1.3.6 =
 - Improved: Security
 

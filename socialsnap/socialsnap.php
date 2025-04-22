@@ -5,7 +5,7 @@
  * Description: Social Share Buttons, Social Sharing Icons, Click to Tweet — Social Media Plugin by Social Snap
  * Author:      Social Snap
  * Author URI:  https://socialsnap.com
- * Version:     1.3.6
+ * Version:     1.4
  * Text Domain: socialsnap
  * Domain Path: languages
  *
@@ -87,7 +87,7 @@ if ( class_exists( 'SocialSnap' ) ) {
 		 * @since 1.0.0
 		 * @var string
 		 */
-		public $version = '1.3.6';
+		public $version = '1.4';
 
 		/**
 		 * Paid returns true, free (Lite) returns false.
