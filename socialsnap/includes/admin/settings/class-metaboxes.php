@@ -8,6 +8,12 @@
  * @license    GPL-2.0+
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 class SocialSnap_Metabox {
 
 	/**
@@ -153,7 +159,7 @@ class SocialSnap_Metabox {
 		}
 
 		// Security check
-		if ( ! wp_verify_nonce( $_POST[ $this->metabox['id'] . '_noncename' ], 'socialsnap-metaboxes' ) ) {
+		if ( ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST[ $this->metabox['id'] . '_noncename' ] ) ), 'socialsnap-metaboxes' ) ) {
 			return $post_id;
 		}
 

@@ -2,12 +2,14 @@
 /**
  * Plugin Name: Social Snap Lite
  * Plugin URI:  https://socialsnap.com
- * Description: Social Share Buttons, Social Sharing Icons, Click to Tweet — Social Media Plugin by Social Snap
+ * Description: Social share buttons for Facebook, X (Twitter), LinkedIn and more. Includes Click to Tweet feature.
  * Author:      Social Snap
  * Author URI:  https://socialsnap.com
- * Version:     1.4
+ * Version:     1.4.2
+ * License:     GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: socialsnap
- * Domain Path: languages
+ * Domain Path: /languages
  *
  * Social Snap is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -87,7 +89,7 @@ if ( class_exists( 'SocialSnap' ) ) {
 		 * @since 1.0.0
 		 * @var string
 		 */
-		public $version = '1.4';
+		public $version = '1.4.2';
 
 		/**
 		 * Paid returns true, free (Lite) returns false.

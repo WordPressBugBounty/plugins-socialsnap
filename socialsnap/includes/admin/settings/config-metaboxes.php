@@ -1,4 +1,9 @@
 <?php
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 $config = array(
 	'ss-socialsnap-main' => array(
 		'title'     => esc_html__( 'Social Snap Options', 'socialsnap' ),

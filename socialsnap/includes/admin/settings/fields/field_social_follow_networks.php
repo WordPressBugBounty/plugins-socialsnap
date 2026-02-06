@@ -8,6 +8,12 @@
  * @license    GPL-3.0+
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 class SocialSnap_Field_social_follow_networks {
 
 	public $field;
@@ -134,7 +140,7 @@ class SocialSnap_Field_social_follow_networks {
 								?>
 								</strong>
 
-								<?php esc_html_e( 'Authorize Social Snap to automatically obtain followers count from your account. The count is updated daily.' ); ?>
+								<?php esc_html_e( 'Authorize Social Snap to automatically obtain followers count from your account. The count is updated daily.', 'socialsnap' ); ?>
 							</label><br/>
 
 							<?php if ( $network_settings['access_token'] && $network_settings['access_token_secret'] ) { ?>
@@ -217,7 +223,7 @@ class SocialSnap_Field_social_follow_networks {
 								type="text"
 								name="<?php echo esc_attr( $field_name ); ?>"
 								id="<?php echo esc_attr( $field_id ); ?>"
-								value="<?php echo $username_value; ?>"
+								value="<?php echo esc_attr( $username_value ); ?>"
 								<?php echo esc_attr( $readonly_field ); ?>
 								class="ss-follow-username-profile"
 							/>

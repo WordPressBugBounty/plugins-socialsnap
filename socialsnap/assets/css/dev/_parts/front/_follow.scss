@@ -1,0 +1,463 @@
+/*****************************************/
+/* Variables
+/*****************************************/
+
+$small_follow_width: 	44px;
+$regular_follow_width:	54px;
+$large_follow_width:	64px;
+$font_family: 			-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,Arial,"Helvetica Neue",sans-serif;
+
+
+/*****************************************/
+/* Followers counter.
+/*****************************************/
+
+body h4.ss-follow-total-counter {
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 1em 0;
+	padding: 0;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: 0;
+
+	strong {
+		display: inline;
+		font-weight: 600;
+	}
+}
+
+.ss-preview-screen {
+	
+	h4.ss-follow-total-counter {
+		color: #444;
+		margin: 1.5em 0 1em;
+	}
+
+}
+
+/*****************************************/
+/* General styles.
+/*****************************************/
+
+.ss-follow-wrapper,
+.ss-follow-wrapper .ss-follow-column,
+.ss-follow-wrapper .ss-follow-network {
+	box-sizing: border-box;
+}
+
+.ss-follow-wrapper {
+	margin: 1.5em 0;
+
+	// Columns
+	.ss-follow-column {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	&.ss-columns-2,
+	&.ss-columns-3,
+	&.ss-columns-4,
+	&.ss-columns-5 {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: stretch;
+
+		.ss-follow-column {
+			flex-shrink: 0;
+			flex-grow: 0;
+		}
+	}
+
+	&.ss-columns-2 .ss-follow-column {
+		width: 50%;
+		flex-basis: 50%;
+	}
+
+	&.ss-columns-3 .ss-follow-column {
+		width: 33.33%;
+		flex-basis: 33.33%;
+	}
+
+	&.ss-columns-4 .ss-follow-column {
+		width: 25%;
+		flex-basis: 25%;
+	}
+
+	&.ss-columns-5 .ss-follow-column {
+		width: 20%;
+		flex-basis: 20%;
+	}
+	
+	// Networks
+	.ss-follow-network {
+		@extend %remove_link_styles;
+		background: var(--ss-button-color) !important;
+		box-shadow: none !important;
+		-webkit-font-smoothing: initial;
+		font-family: $font_family;
+		position: relative;
+		overflow: hidden;
+		font-size: 14px;
+		display: flex;
+		align-items: stretch;
+		color: #FFF !important;
+		text-decoration: none !important;
+		box-shadow: none !important;
+		outline: none !important;
+		padding: 0;
+		margin: 0;
+
+		.ss-follow-icon,
+		.ss-follow-network-label,
+		.ss-follow-network-count {
+			position: relative;
+			display: inline-flex;
+			z-index: 2;
+		}
+
+		svg {
+			height: 16px;
+		}
+
+		.ss-follow-icon {
+			flex-shrink: 0;
+			align-items: center;
+			justify-content: center;
+			background: rgba(0,0,0,.12);
+		}
+
+		.ss-follow-network-label {
+			font-weight: 400;
+			margin-left: 12px;
+			align-items: center;
+			line-height: 1.25;
+		}
+
+		.ss-follow-network-count {
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-end;
+			margin-left: auto;
+			margin-right: 18px;
+			flex-shrink: 0;
+			line-height: 1;
+
+			span {
+				display: inline-block;
+				margin: 2px 0;
+			}
+		}
+
+		.ss-follow-network-count-number {
+			font-weight: 700;
+			font-size: 16px;
+		}
+
+		.ss-follow-network-count-label {
+			font-size: 12px;
+			font-weight: 400;
+			opacity: 0.6;
+		}
+	
+		&:hover,
+		&:focus,
+		&:active {
+			color: #FFF;
+			box-shadow: none;
+			background: var(--ss-button-color);
+		}
+
+		&:after {
+			transition: background-color .2s ease;
+			content: '';
+			background-color: rgba(255,255,255,0);
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+		}
+
+		&:hover,
+		&:focus {
+			&:after {
+				background-color: rgba(255,255,255,.1);
+			}
+		}
+	}
+
+	// Button sizes.
+	&.ss-small-buttons {
+		.ss-follow-network {
+			height: $small_follow_width;
+			line-height: $small_follow_width;
+
+			.ss-follow-network-count-number {
+				font-size: 14px;
+			}
+
+			.ss-follow-icon {
+				width: $small_follow_width;
+				height: $small_follow_width;
+			}
+		}
+	}
+
+	&.ss-regular-buttons {
+		.ss-follow-network {
+			height: $regular_follow_width;
+			line-height: $regular_follow_width;
+
+			.ss-follow-icon {
+				width: $regular_follow_width;
+				height: $regular_follow_width;
+			}
+		}
+	}
+
+	&.ss-large-buttons {
+		.ss-follow-network {
+			height: $large_follow_width;
+			line-height: $large_follow_width;
+
+			.ss-follow-icon {
+				width: $large_follow_width;
+				height: $large_follow_width;
+				
+				svg {
+					height: 20px;
+				}
+			}
+		}	
+	}
+
+	// With spacing.
+	&.ss-with-spacing {
+		margin: 1.5rem -3px;
+
+		.ss-follow-column {
+			padding: 3px;
+		}
+
+		.ss-follow-network {
+			border-radius: 3px;
+			//border: 1px solid rgba(0,0,0,0.15);
+		}
+	}
+
+	// Vertical buttons layout.
+	&.ss-follow-vertical {
+		.ss-follow-column {
+			height: auto;
+		}
+
+		.ss-follow-network {
+			flex-direction: column;
+			line-height: 1 !important;
+			height: 100%;
+
+			align-items: center;
+			justify-content: center;
+
+			padding: 20px 0 14px 0;
+
+			.ss-follow-icon {
+				border-radius: 60px;
+			}
+		}
+
+		&.ss-small-buttons {
+			.ss-follow-network {
+				padding-top: 14px;
+			}
+		}
+
+		.ss-follow-network-count {
+			order: 2;
+			margin: 12px auto 0 auto;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.ss-follow-network-label {
+			order: 3;
+			margin: 12px 0 0 0;
+			width: 100%;
+			justify-content: center;
+			text-align: center;
+			border-top: 1px solid rgba(255,255,255,0.1);
+			padding-top: 14px;
+		}
+	}
+
+	// Default style.
+	&.ss-network-style,
+	&.ss-default-style {
+		.ss-follow-network.ss-snapchat-color {
+
+			color: #000 !important;
+		}
+	}
+
+	// Light and dark styles.
+	&.ss-light-style,
+	&.ss-dark-style {
+		.ss-follow-network {
+
+			&:hover {
+				color: #FFF !important;
+
+				&:after {
+					background-color: rgba(0,0,0,0) !important;
+				}
+			}
+
+			&.ss-snapchat-color:hover {
+				color: #000 !important;
+			}
+		}
+
+		&.ss-small-buttons .ss-follow-network::after {
+			left: $small_follow_width;
+		}
+
+		&.ss-regular-buttons .ss-follow-network::after {
+			left: $regular_follow_width;
+		}
+
+		&.ss-large-buttons .ss-follow-network::after {
+			left: $large_follow_width;
+		}
+	}
+
+	&.ss-light-style {
+
+		.ss-follow-network {
+			color: $tertiary_color !important;
+			border-color: #e4e4e4;
+
+			svg {
+				fill: #FFF;
+			}
+
+			&:after {
+				background-color: #f4f4f4;
+				opacity: 1;
+			}
+		}
+
+		.ss-follow-column:nth-child(even) .ss-follow-network::after {
+			background-color: darken(#f4f4f4, 2);
+		}
+
+		&.ss-with-spacing .ss-follow-column:nth-child(even) .ss-follow-network::after {
+			background-color: #f4f4f4;
+		}
+	}
+
+	&.ss-dark-style {
+
+		.ss-follow-network {
+			border: none;
+
+			&:after {
+				background-color: $tertiary_color;
+				opacity: 1;
+			}
+		}
+
+		.ss-follow-column:nth-child(even) .ss-follow-network::after {
+			background-color: lighten($tertiary_color, 2);
+		}
+
+		&.ss-with-spacing .ss-follow-column:nth-child(even) .ss-follow-network::after {
+			background-color: $tertiary_color;
+		}
+	}
+
+	&.ss-follow-vertical {
+		&.ss-light-style,
+		&.ss-dark-style {
+			.ss-follow-network::after {
+				left: 0;
+			}
+		}
+
+		&.ss-light-style {
+			.ss-follow-network {
+				.ss-follow-icon {
+					background-color: rgba(0,0,0,0.03);
+				}
+
+				svg {
+					fill: $tertiary_color;
+				}
+
+				&:hover svg {
+					fill: #FFF;
+				}
+			}
+		}
+
+		.ss-follow-network-label {
+			border-top-color: rgba(0,0,0,0.1);
+		}
+	}
+}
+
+
+/*****************************************/
+/* Media Queries.
+/*****************************************/
+
+/* Mobile only ( <= 667px ) */
+@media screen and (max-width: 667px) {
+	.ss-follow-wrapper {
+
+		&.ss-columns-2,
+		&.ss-columns-3,
+		&.ss-columns-4,
+		&.ss-columns-5 {
+
+			.ss-follow-column {
+				width: 100%;
+				flex-basis: 100%;
+			}
+		}
+
+		&.ss-follow-vertical {
+			&.ss-columns-2,
+			&.ss-columns-3,
+			&.ss-columns-4,
+			&.ss-columns-5 {
+
+				.ss-follow-column {
+					width: 50%;
+					flex-basis: 50%;
+				}
+			}
+		}
+	}
+}
+
+/* Mobile only ( <= 500px ) */
+@media screen and (max-width: 500px) {
+	.ss-follow-wrapper {
+		&.ss-follow-vertical {
+			&.ss-columns-2,
+			&.ss-columns-3,
+			&.ss-columns-4,
+			&.ss-columns-5 {
+
+				.ss-follow-column {
+					width: 100%;
+					flex-basis: 100%;
+				}
+			}
+		}
+	}
+}

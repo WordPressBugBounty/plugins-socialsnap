@@ -1,0 +1,13 @@
+/* ==========================================================================
+*  Helper classes used in both frontend and admin
+*  ========================================================================== */
+.ss-clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.ss-flex {
+	display: flex;
+	align-items: center;
+}

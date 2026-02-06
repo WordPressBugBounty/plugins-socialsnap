@@ -8,6 +8,12 @@
  * @license    GPL-3.0+
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 class SocialSnap_Rating {
 
 	/**
@@ -88,7 +94,7 @@ class SocialSnap_Rating {
 		$message .= '<p><strong>~ Branko Conjic<br>' . __( 'Co-Founder of Social Snap', 'socialsnap' ) . '</strong></p>';
 
 		$message .= '<p>
-				<a href="https://wordpress.org/support/plugin/socialsnap/reviews/?filter=5#new-post" class="socialsnap-notice-dismiss-button socialsnap-review-out" target="_blank" rel="noopener">' . esc_html__( 'Ok, you deserve it', 'socialsnap' ) . '</a><br>
+				<a href="https://wordpress.org/support/plugin/socialsnap/reviews/#new-post" class="socialsnap-notice-dismiss-button socialsnap-review-out" target="_blank" rel="noopener">' . esc_html__( 'Ok, you deserve it', 'socialsnap' ) . '</a><br>
 				<a href="#" class="socialsnap-notice-dismiss-button" rel="noopener noreferrer">' . esc_html__( 'Nope, maybe later', 'socialsnap' ) . '</a><br>
 				<a href="#" class="socialsnap-notice-dismiss-button" rel="noopener noreferrer">' . esc_html__( 'I already did', 'socialsnap' ) . '</a>
 			</p>';
@@ -128,7 +134,7 @@ class SocialSnap_Rating {
 		// Only do this if we are on one of our plugin pages
 		if ( strpos( get_current_screen()->base, 'socialsnap' ) !== false ) {
 
-			$url = 'https://wordpress.org/support/plugin/socialsnap/reviews/?filter=5#new-post';
+			$url = 'https://wordpress.org/support/plugin/socialsnap/reviews/';
 
 			// translators: %s = review link.
 			$text = sprintf( __( 'If you like <strong>Social Snap</strong> please leave us a <a href="%s" target="_blank" rel="noopener">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating to help us spread the word. Thank you!', 'socialsnap' ), $url );

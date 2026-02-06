@@ -1,0 +1,108 @@
+/* ==========================================================================
+*  Font Icons
+*  ========================================================================== */
+
+/******************** PRO ONLY ************************* */
+/* @import '_pro_icons'; */
+/******************************************************** */
+
+@import '_variables';
+
+/* Spinner */
+.ss-social-login-options .ss-spinner {
+	animation: ss_rotate 2s linear infinite;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -8px;
+	width: 16px;
+	height: 16px;
+
+	& .path {
+		stroke: #fff;
+		stroke: rgba(255, 255, 255, 0.65);
+		stroke-linecap: round;
+		animation: ss_dash 1.5s ease-in-out infinite;
+	}
+}
+
+@keyframes ss_rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes ss_dash {
+	0% {
+		stroke-dasharray: 1, 150;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 90, 150;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 90, 150;
+		stroke-dashoffset: -124;
+	}
+}
+
+.ss-svg-icon {
+	height: 16px;
+	width: auto;
+	fill: currentColor;
+
+	path {
+		transition: none;
+	}
+}
+
+:root {
+	--ss-button-color: #000;
+}
+
+/* Brand colors */
+.ss-socialsnap-color {
+	--ss-button-color: var(--ss-brand-color);
+}
+.ss-envelope-color {
+	--ss-button-color: #323b43;
+}
+.ss-subscribers-color {
+	--ss-button-color: #323b43;
+}
+.ss-facebook-color {
+	--ss-button-color: #1877f2;
+}
+.ss-twitter-color,
+.ss-twitter-color:focus {
+	--ss-button-color: #060606;
+}
+.ss-tumblr-color {
+	--ss-button-color: #36465d;
+}
+.ss-instagram-color {
+	--ss-button-color: #c13584;
+}
+.ss-google-color {
+	--ss-button-color: #ea4335;
+}
+.ss-linkedin-color {
+	--ss-button-color: #2867b2;
+}
+.ss-pinterest-color {
+	--ss-button-color: #bd081c;
+}
+.ss-copy-color {
+	--ss-button-color: #323b43;
+}
+.ss-shareall-color {
+	--ss-button-color: #f1f1f1;
+}
+.ss-print-color {
+	--ss-button-color: #323b43;
+}
+.ss-mix-color {
+	--ss-button-color: #ff8226;
+}

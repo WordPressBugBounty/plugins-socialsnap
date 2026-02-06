@@ -1,0 +1,44 @@
+/*****************************************/
+/* Columns
+/*****************************************/
+.ss-row {
+	margin: 0 -6px 12px -6px;
+
+	&.ss-large-spacing {
+		margin: 0 -20px;
+
+		.ss-col-2,
+		.ss-col-3,
+		.ss-col-4,
+		.ss-col-7 {
+			padding: 0 20px 30px 20px;
+		}
+	}
+}
+
+.ss-col-2,
+.ss-col-3,
+.ss-col-4,
+.ss-col-7 {
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.ss-col-2 {
+	width: 50%;
+}
+
+.ss-col-3 {
+	width: 33.33%;
+}
+
+.ss-col-4 {
+	width: 25%;
+}
+
+.ss-col-7 {
+	width: 66.67%;
+}

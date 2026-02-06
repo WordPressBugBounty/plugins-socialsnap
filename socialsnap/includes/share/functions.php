@@ -9,6 +9,11 @@
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Get share count of a network for a particular post/page.
  *

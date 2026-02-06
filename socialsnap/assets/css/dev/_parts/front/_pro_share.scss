@@ -1,0 +1,837 @@
+/*****************************************/
+/* Share Hub
+/*****************************************/
+
+#ss-share-hub {
+	-webkit-font-smoothing: initial;
+	position: fixed;
+	bottom: 30px;
+	z-index: 99998;
+	height: 62px;
+	width: 62px;
+	line-height: 62px;
+	font-weight: 400;
+
+	&.ss-left-hub {
+		left: 30px;
+	}
+
+	&.ss-right-hub {
+		right: 30px;
+	}
+
+	&.ss-small-icons,
+	&.ss-small-icons > a {
+		width: 42px;
+		height: 42px;
+		line-height: 42px;
+
+		.ss-social-icons-container {
+			padding: 0 0 10px !important
+		}
+	}
+
+	&.ss-regular-icons,
+	&.ss-regular-icons > a {
+		width: 52px;
+		height: 52px;
+		line-height: 52px;
+
+		.ss-social-icons-container {
+			padding: 0 0 15px !important
+		}
+	}
+
+	.ss-share-hub-total-counter {
+		position: absolute;
+		text-align: center;
+		bottom: 100%;
+		left: 0;
+		width: 100%;
+		transition: opacity 0.45s cubic-bezier(.15,0.2,.1,1);
+		line-height: 1;
+
+		& > span {
+			padding: 0 0 12px;
+		}
+	}
+
+	.ss-share-hub-total-counter {
+		pointer-events: none;
+	}
+
+	& > a {
+		@extend %remove_link_styles;
+		height: 62px;
+		width: 62px;
+		line-height: 62px;
+		text-align: center;
+		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+		padding: 0;
+		margin: 0;
+		color: #FFF;
+		cursor: default;
+
+		&:after {
+			@extend %backface_fix;
+			display: block;
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			transition: all 0.3s cubic-bezier(.15,0.2,.1,1);
+			background-color: $primary_color;
+		}
+
+		i,
+		svg {
+			position: relative;
+			z-index: 2;
+			font-size: 18px;
+		}
+
+		svg {
+			height: 18px;
+		}
+
+		& > span {
+			display: inline-block;
+			position: absolute;
+			top: -5px;
+			right: -5px;
+			padding: 5px 7px;
+			background-color: #333;
+			border-radius: 2px;
+			color: #FFF;
+			font-size: 10px;
+			line-height: 1;
+			z-index: 3;
+		}
+	}
+
+	&:hover {
+		& > a:after {
+			transform: scale(1.25) translateZ(0);
+		}
+
+		.ss-social-icons-container {
+			visibility: visible;
+		}
+
+		.ss-share-hub-total-counter {
+			opacity: 0;
+		}
+
+		.ss-social-icons-container > li a {
+			opacity: 1;
+			transition: all 0.45s cubic-bezier(.15,0.2,.1,1);
+			transform: translateY(0) scale(1);
+		}
+	}
+
+	.ss-social-icons-container {
+		position: absolute;
+		bottom: 100%;
+		padding: 0 0 20px 0 !important;
+		text-align: center;
+		line-height: 1;
+		vertical-align: middle;
+		visibility: hidden;
+
+		& > li {
+			display: inline-block;
+
+			&:hover {
+				.ss-share-network-tooltip {
+					opacity: 1;
+					transform: translateX(0) translateY(-50%);
+				}
+			}
+
+			& > a {
+				&:after {
+					width: 0;
+				}
+
+				&:hover:after {
+					width: 100%;
+				}
+			}
+		}
+
+		& > li a {
+			padding: 0;
+			margin: 5px 0;
+			transition: all 0.25s cubic-bezier(.20,0.21,.12,1);
+			display: inline-block;
+			display: inline-flex;
+			flex-direction: column;
+			opacity: 0;
+			transform: translateY(100px) scale(0);
+
+			i {
+				font-size: 16px;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	&.ss-circle-icons {
+		& > a:after,
+		.ss-social-icons-container > li > a,
+		.ss-social-icons-container > li > .ss-ss-on-media-button {
+			border-radius: $circle_icons;
+		}
+	}
+
+	&.ss-rounded-icons {
+		& > a:after,
+		.ss-social-icons-container > li > a,
+		.ss-social-icons-container > li > .ss-ss-on-media-button {
+			border-radius: $rounded_icons;
+		}
+	}
+}
+
+
+/*****************************************/
+/* Sticky Bar
+/*****************************************/
+
+#ss-sticky-bar {
+	@extend %flex;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 100%;
+	overflow: hidden;
+	z-index: 99997;
+	background-color: rgba(255,255,255,0.98);
+	box-shadow: 0 0 30px rgba(0,0,0,.12);
+
+	&.ss-small-icons .ss-total-counter > span:first-child {
+		font-size: 16px !important;
+	}
+
+	// Hide network labels
+	&.ss-stretched-sticky-bar,
+	&.ss-simple-sticky-bar {
+		.ss-network-label {
+			display: none;
+		}
+
+		.ss-total-counter {
+			padding: 0 15px;
+			width: auto !important;
+		}
+
+		.ss-social-icons-container {
+			@extend %flex;
+
+			.ss-share-network-content {
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+
+				.ss-network-count {
+					margin-top: 0;
+					background: rgba(0,0,0,.3);
+					padding: 0 6px;
+					line-height: 20px;
+					text-align: center;
+					border-radius: 6px 6px 6px 0;
+					font-size: 11px;
+					margin-right: 11px;
+				}
+			}
+		}
+	}
+
+	&.ss-sync-inline:not(.ss-animate-entrance) {
+		&.ss-hidden {
+			display: none !important;
+		}
+	}
+
+	&.ss-show-after-scroll:not(.ss-animate-entrance),
+	&.ss-show-after-scroll.ss-initially-hidden {
+		display: none;
+
+		&.ss-visible {
+			display: flex;
+		}
+	}
+	
+	// As-inline
+	.ss-inline-share-wrapper {
+		position: relative;
+		width: 100%;
+		padding: 0 25px;
+		margin: 6px 0 0 0;
+
+		.ss-social-share-label {
+			display: none;
+		}
+
+		.ss-inline-share-content {
+			display: flex;
+		}
+	}
+
+	// Top bar
+	&.ss-top-sticky-bar {
+		bottom: auto;
+		top: 0;
+	}
+
+	.ss-sticky-bar-label {
+		flex-shrink: 0;
+		padding-right: 15px;
+		font-size: 16px;
+		color: $tertiary_color;
+	}
+
+	.ss-sticky-bar-share-elements {
+		@extend %flex;
+		padding: 12px 0;
+		margin-left: auto;
+		overflow-y: scroll;
+	}
+
+	&.ss-stretched-sticky-bar {
+		align-items: center;
+
+		.ss-social-icons-container {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-content: stretch;
+			align-items: stretch;
+			width: 100%;
+			height: initial;
+
+			& > li {
+				flex: 1;
+				min-width: 54px;
+
+				& > a {
+					display: block;
+					width: 100% !important;
+
+					.ss-network-count {
+						margin-left: 8px;
+					}
+				}
+			}
+
+			.ss-share-network-content {
+				.ss-network-label {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.admin-bar #ss-sticky-bar.ss-top-sticky-bar {
+	top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+	.admin-bar #ss-sticky-bar.ss-top-sticky-bar {
+		top: 46px;
+	}
+}
+
+/*****************************************/
+/* Entrance animations
+/*****************************************/
+
+#ss-floating-bar,
+#ss-share-hub,
+#ss-sticky-bar {
+	&.ss-animate-entrance {
+		transition: opacity .15s .1s, transform .4s ease .1s;
+	}
+
+	// Fade
+	&.ss-entrance-animation-fade {
+		opacity: 0;
+
+		&.ss-animated {
+			opacity: 1;
+		}
+	}
+
+	// Slide
+	&.ss-entrance-animation-slide {
+		&.ss-left-sidebar,
+		&.ss-left-hub {
+			transform: translate3d(-150px, 0, 0);
+		}
+
+		&.ss-right-sidebar,
+		&.ss-right-hub {
+			transform: translate3d(150px, 0, 0);
+		}
+
+		&.ss-top-sticky-bar {
+			transform: translate3d(0, -150px, 0);
+		}
+
+		&.ss-bottom-sticky-bar {
+			transform: translate3d(0, 150px, 0);
+		}
+
+		&.ss-animated {
+			transform: translate3d(0, 0, 0) !important;
+		}
+	}
+
+	// Bounce
+	&.ss-entrance-animation-bounce {
+		animation-name: ss-bounce;
+		opacity: 0;
+		transform: scale3d(.3, .3, .3);
+
+		&.ss-animated {
+			animation-delay: .2s;
+			animation-duration: 1s;
+			animation-fill-mode: both;
+		}
+	}
+
+	// Flip
+	&.ss-entrance-animation-flip {
+		opacity: 0;
+
+		&.ss-animated {
+			opacity: 1;
+		}
+		
+		&.ss-left-sidebar,
+		&.ss-left-hub {
+			transform-origin: left center;
+			transform: perspective(600px) rotateY(-90deg);
+
+			&.ss-animated {
+				transform: perspective(600px) rotateY(0);
+			}
+		}
+
+		&.ss-right-sidebar,
+		&.ss-right-hub {
+			transform-origin: right center;
+			transform: perspective(600px) rotateY(90deg);
+			
+			&.ss-animated {
+				transform: perspective(600px) rotateY(0);
+				opacity: 1;
+			}
+		}
+
+		&.ss-top-sticky-bar {
+			transform-origin: center top;
+			transform: perspective(600px) rotateX(-90deg);
+
+			&.ss-animated {
+				transform: perspective(600px) rotateX(0);
+			}
+		}
+
+		&.ss-bottom-sticky-bar {
+			transform-origin: center bottom;
+			transform: perspective(600px) rotateX(90deg);
+
+			&.ss-animated {
+				transform: perspective(600px) rotateX(0);
+			}
+		}
+	}
+}
+
+/*****************************************/
+/* Button hover animations
+/*****************************************/
+
+/* Hover animation 1 - slide background */
+.ss-hover-animation-1 {
+	.ss-social-icons-container > li > a {
+		overflow: hidden;
+
+		&:after {
+			transition: width .25s, background .3s;
+			content: '';
+			width: 5px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0,0,0,0.1);
+		}
+
+		&:hover:after {
+			background-color: rgba(0,0,0,0.1);
+			width: 100%;
+		}
+
+		&.ss-share-all:hover:after,
+		&.ss-share-all:after {
+			background-color: rgba(0,0,0,0.05);
+		}
+	}
+
+	&.ss-inline-share-wrapper .ss-social-icons-container > li > a,
+	&.ss-circle-icons .ss-social-icons-container > li > a,
+	&.ss-with-spacing .ss-social-icons-container > li > a {
+		&:after {
+			width: 0;
+		}
+
+		&:hover:after {
+			width: 100%;
+		}
+	}
+}
+
+#ss-share-hub .ss-social-icons-container > li > a {
+	&:after {
+		width: 0;
+	}
+
+	&:hover:after {
+		width: 100%;
+	}
+}
+
+.ss-hover-animation-1,
+.ss-hover-animation-2 {
+	i {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+/* Hover animation 2 - slide icon */
+.ss-hover-animation-2 {
+	.ss-social-icons-container > li > a {
+		overflow: hidden;
+
+		i {
+			transition: transform .25s;
+		}
+
+		&:hover {
+			i {
+				transform: translateX(120%);
+
+				&.ss-slide-icon {
+					transform: translateX(0);
+				}
+			}
+		}
+	}
+}
+
+/* Label Reveal Animation */
+.ss-reveal-label {
+	&.ss-inline-share-wrapper {
+
+		&.ss-stretched-inline-content {
+			.ss-social-icons-container {
+				& > li {
+					transition: all .122s linear;
+
+					& > a i {
+						background-color: rgba(0,0,0,0) !important;
+					}
+				}
+
+				.ss-share-network-content {
+					justify-content: center;
+				}
+			}
+
+			.ss-reveal-label-wrap {
+				.ss-network-label {
+					margin-left: 0 !important;
+				}
+			}
+		}
+		
+		.ss-social-icons-container {
+			& > li {
+				& > a:after {
+					content: none;
+				}
+			}
+		}
+	}
+
+	.ss-reveal-label-wrap {
+		display: inline-flex;
+		align-items: center;
+		transition: padding .122s linear;
+		overflow: hidden;
+		width: 0;
+	}
+
+	&.ss-without-labels {
+		.ss-share-all {
+			.ss-reveal-label-wrap {
+				.ss-network-label {
+					margin-left: 0 !important;
+				}
+			}
+		}
+	}
+}
+
+.wp-admin {
+
+	.ss-social-icons-container.inline_content {
+		.ss-reveal-label-wrap {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+
+/* Animation keyframes */
+@keyframes ss-bounce {
+	from, 20%, 40%, 60%, 80%, to {
+		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+
+	0% {
+		opacity: 0;
+		transform: scale3d(.3, .3, .3);
+	}
+
+	20% {
+		transform: scale3d(1.1, 1.1, 1.1);
+	}
+
+	40% {
+		transform: scale3d(.9, .9, .9);
+	}
+
+	60% {
+		opacity: 1;
+		transform: scale3d(1.03, 1.03, 1.03);
+	}
+
+	80% {
+		transform: scale3d(.97, .97, .97);
+	}
+
+	to {
+		opacity: 1;
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+
+
+/*****************************************/
+/* Light Counter
+/*****************************************/
+
+#ss-share-hub,
+#ss-floating-bar,
+.ss-inline-share-wrapper {
+	&.ss-light-count {
+		.ss-total-counter {
+			& > span:first-child {
+				color: #f9f9f9;
+				color: rgba(255,255,255,0.9);
+			}
+
+			& > span:last-child {
+				color: #eee;
+				color: rgba(255,255,255,0.65);
+			}
+		}
+	}
+}
+
+.ss-inline-share-wrapper.ss-light-count {
+	.ss-inline-counter svg {
+		fill: #eee;
+		fill: rgba(255,255,255,0.65);
+	}
+
+	.ss-social-share-label > span {
+		color: #f9f9f9;
+		color: rgba(255,255,255,0.9);
+	}
+
+	&.ss-with-counter-border {
+		.ss-inline-counter {
+			border-color: rgba(255,255,255,0.15);
+		}
+	}
+}
+
+.ss-inline-share-wrapper {
+
+	&.ss-inline-total-counter-right {
+
+		.ss-inline-counter {
+			order: 2;
+			margin: 0 0 5px 0;
+			padding: 0 0 0 13px;
+		}
+
+		&.ss-with-counter-border {
+			&.ss-slanted-icons .ss-inline-counter {
+				border-left: 0;
+
+				&:after {
+					right: auto;
+					left: 3px;
+				}
+			}
+		}
+
+		.ss-social-icons-container {
+			order: 1;
+		}
+
+		&.ss-with-counter-border .ss-inline-counter {
+			border-width: 0 0 0 1px;
+			margin: 0 0 5px 13px;
+			padding: 0 0 0 13px;
+		}
+	}
+}
+
+
+/*****************************************/
+/* Like Animation
+/*****************************************/
+
+.ss-heart-pulse-animation i::before {
+	display: inline-block;
+	animation-duration: .28s;
+	animation-iteration-count: 2;
+	animation-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+	animation-fill-mode: both;
+	animation-name: ssHeartPulse;
+}
+
+@keyframes ssHeartPulse {
+	0%  { transform: scale(1); }
+	50% { transform: scale(1.22); }
+}
+
+
+/*****************************************/
+/* Popular Posts Widget
+/*****************************************/
+
+.ss-popular-posts-widget {
+
+	.ss-popular-post {
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding-bottom: 1.75em;
+	}
+
+	.ss-popular-post-image {
+		float: left;
+		box-shadow: none;
+		border: 0;
+		text-decoration: none;
+
+		&:hover {
+			opacity: 0.85;
+			box-shadow: none;
+			border: 0;
+			text-decoration: none;
+		}
+	}
+
+	.ss-popular-post-image {
+		display: inline-block;
+		margin-right: 1.25em;
+		flex-shrink: 0;
+	}
+
+	.ss-popular-post-content,
+	.ss-popular-post-title {
+		display: block;
+	}
+
+	&.ss-with-rankings {
+		.ss-popular-post-title {
+			position: relative;
+
+			&:before {
+				color: inherit;
+				content: attr(data-ranking);
+			}
+		}
+	}
+
+	img {
+		display: block;
+		border-radius: $border_radius;
+	}
+
+	&.ss-small-thumb img {
+		width: 50px;
+		height: 50px;
+	}
+
+	&.ss-regular-thumb img {
+		width: 70px;
+		height: 70px;
+	}
+
+	&.ss-large-thumb img {
+		width: 120px;
+		height: 120px;
+	}
+
+	&.ss-circle-thumb img {
+		border-radius: 60px;
+		border-radius: 50%;
+	}
+
+	.ss-popular-post-shares {
+		padding-top: 5px;
+		font-size: 12px;
+		opacity: .65;
+	}
+}
+
+/*****************************************/
+/* Media queries
+/*****************************************/
+
+/* WordPress Admin Bar Height Change ( <= 782px ) */
+@media screen and (max-width: 782px) {
+	.admin-bar #ss-sticky-bar.ss-top-sticky-bar {
+		top: 46px;
+	}
+}
+
+/* WordPress Admin Bar Height Change ( <= 782px ) */
+@media screen and (max-width: 601px) {
+	.admin-bar #ss-sticky-bar.ss-top-sticky-bar {
+		top: 0;
+	}
+}
+

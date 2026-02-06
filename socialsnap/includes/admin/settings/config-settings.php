@@ -1,4 +1,9 @@
 <?php
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 $config = array(
 	'ss_social_sharing'     => array(
 		'type'   => 'group',

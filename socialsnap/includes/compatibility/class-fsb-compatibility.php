@@ -9,6 +9,11 @@
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 // Check if Social Warfare was installed & settings exist in database.
 $fsb_options = get_option( 'fsb_global_option' );
 
@@ -133,7 +138,7 @@ class SocialSnap_FSB_Compatibility {
 		update_option( SOCIALSNAP_SETTINGS, $ss_settings );
 
 		// Send success message.
-		wp_send_json_success( array( 'message' => esc_html__( 'Social Warfare settings imported successfully.', 'sinatra' ) ) );
+		wp_send_json_success( array( 'message' => esc_html__( 'Social Warfare settings imported successfully.', 'socialsnap' ) ) );
 	}
 
 }

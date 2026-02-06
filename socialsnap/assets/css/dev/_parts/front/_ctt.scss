@@ -1,0 +1,323 @@
+/* ==========================================================================
+*  Click to Tweet
+*  ========================================================================== */
+
+.ss-ctt-wrapper {
+	position: relative;
+	margin: 20px 0;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	transition: border 0.15s ease;
+	text-align: left;
+
+	&:hover {
+		border-color: rgba(0, 0, 0, 0.2);
+	}
+
+	// Reset link styles
+	.ss-ctt-tweet,
+	.ss-ctt-link {
+		text-decoration: none !important;
+		border: none !important;
+		box-shadow: none;
+		outline: none;
+		display: block;
+		padding: 0;
+		margin: 0;
+		letter-spacing: 0;
+	}
+
+	.ss-ctt-tweet:active,
+	.ss-ctt-link:active,
+	.ss-ctt-tweet:focus,
+	.ss-ctt-link:focus,
+	.ss-ctt-tweet:hover,
+	.ss-ctt-link:hover {
+		text-decoration: none;
+		box-shadow: none;
+		outline: none;
+		border: none;
+	}
+
+	.ss-ctt-tweet {
+		display: block;
+		position: relative;
+		z-index: 3;
+		padding: 25px 35px 40px 35px;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 1.5;
+		transition: color 0.15s ease;
+	}
+
+	.ss-ctt-link {
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		position: absolute;
+		z-index: 2;
+		display: block;
+		bottom: 10px;
+		right: 25px;
+		text-align: right;
+		line-height: 1;
+		font-size: 12px;
+		letter-spacing: 0.5px;
+		color: inherit;
+		display: flex;
+		align-items: center;
+
+		span {
+			font-weight: 500;
+			opacity: 0.6;
+		}
+
+		svg {
+			position: relative;
+			top: -1px;
+			height: 22px;
+			margin-left: 7px;
+			fill: #000000;
+		}
+	}
+
+	// Style 2
+	&.ss-ctt-style-2 {
+		background-color: #000000;
+		border: none;
+
+		.ss-ctt-tweet {
+			font-style: italic;
+		}
+
+		.ss-ctt-tweet,
+		.ss-ctt-link {
+			z-index: 2;
+			color: #fff !important;
+		}
+
+		.ss-ctt-link svg {
+			fill: currentColor;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			border-radius: 3px;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border: 1px solid rgba(0, 0, 0, 0.25);
+			transition: border 0.15s ease;
+			z-index: 1;
+		}
+
+		&:hover:after {
+			border-width: 5px;
+		}
+	}
+
+	// Style 3
+	&.ss-ctt-style-3 {
+		background-color: #000000;
+		border: none;
+
+		.ss-ctt-tweet,
+		.ss-ctt-link {
+			color: #ffffff !important;
+		}
+
+		.ss-ctt-link svg {
+			fill: #ffffff;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			border-radius: 3px;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border: 1px solid rgba(0, 0, 0, 0.25);
+			transition: border 0.15s ease;
+			z-index: 1;
+		}
+
+		&:hover {
+			.ss-ctt-tweet {
+				color: #fff !important;
+			}
+
+			&:after {
+				border-width: 5px;
+			}
+		}
+	}
+
+	// Style 4
+	&.ss-ctt-style-4 {
+		background-color: #f5f8fa;
+		border: none;
+
+		.ss-ctt-tweet {
+			font-weight: 500;
+		}
+
+		.ss-ctt-tweet,
+		.ss-ctt-link {
+			color: #000000 !important;
+			transition: color 0.15s ease;
+		}
+
+		.ss-ctt-link svg {
+			fill: #000000;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			border-radius: 3px;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			transition: border 0.25s ease;
+			z-index: 1;
+		}
+
+		&:hover {
+			.ss-ctt-tweet,
+			.ss-ctt-link {
+				color: #14171a !important;
+			}
+
+			&:after {
+				border-color: rgba(0, 0, 0, 0.2);
+			}
+		}
+	}
+
+	// Style 5
+	&.ss-ctt-style-5 {
+		background-color: #3a424a;
+		transition: background-color 0.25s ease, box-shadow 0.25s ease;
+		border-radius: 6px;
+		overflow: hidden;
+
+		.ss-ctt-tweet {
+			color: #fff !important;
+			margin-left: 35px;
+			padding-left: 25px;
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-weight: 500;
+			letter-spacing: 0.5px;
+		}
+
+		&:before,
+		&:after {
+			content: '';
+			width: 5px;
+			position: absolute;
+			left: 35px;
+			top: 30px;
+			bottom: 45px;
+			border-radius: 12px;
+			background-color: $primary_color;
+		}
+
+		&:before {
+			z-index: 2;
+			transition: transform 0.25s ease;
+			transition-delay: 0.1s;
+			background-color: rgba(255, 255, 255, 0.3);
+			transform: scaleY(0);
+			transform-origin: center top;
+		}
+
+		.ss-ctt-link {
+			opacity: 0;
+			transform: translateY(30px);
+			transition: all 0.25s ease;
+			color: #fff !important;
+
+			svg {
+				fill: #fff;
+			}
+		}
+
+		&:hover {
+			background-color: darken(#3a424a, 5);
+			box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
+			&:before {
+				transition-delay: 0s;
+				transform: scaleY(1);
+			}
+
+			.ss-ctt-link {
+				transition-delay: 0.1s;
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+	}
+
+	// Style 6
+	&.ss-ctt-style-6 {
+		border: none;
+		border-radius: 0;
+		margin-left: 35px;
+		margin-right: 35px;
+
+		.ss-ctt-tweet {
+			padding-left: 25px;
+			color: inherit;
+		}
+
+		.ss-ctt-link,
+		.ss-ctt-tweet {
+			color: $tertiary_color;
+			transition: color 0.15s ease, opacity 0.15s ease;
+		}
+
+		&:after {
+			content: '';
+			width: 3px;
+			position: absolute;
+			left: 0;
+			top: 28px;
+			bottom: 40px;
+			border-radius: 12px;
+			background-color: rgba(0, 0, 0, 0.15);
+			transition: background-color 0.15s ease;
+		}
+
+		.ss-ctt-link {
+			right: auto;
+			left: 25px;
+			bottom: 5px;
+			font-size: 11px;
+
+			svg {
+				height: 18px;
+				fill: $tertiary_color;
+			}
+		}
+
+		&:hover {
+			.ss-ctt-tweet,
+			.ss-ctt-link {
+				color: #1da1f2 !important;
+			}
+
+			.ss-ctt-link svg {
+				fill: #1da1f2;
+			}
+
+			&:after {
+				background-color: #1da1f2;
+			}
+		}
+	}
+}

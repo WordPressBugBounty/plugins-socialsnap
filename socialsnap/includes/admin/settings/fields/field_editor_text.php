@@ -8,6 +8,12 @@
  * @license    GPL-3.0+
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 class SocialSnap_Field_editor_text {
 
 	public $field;
@@ -76,7 +82,7 @@ class SocialSnap_Field_editor_text {
 				<input type="<?php echo esc_attr( $this->value_type ); ?>" <?php echo $this->placeholder; // phpcs:ignore ?> name="<?php echo esc_attr( $this->id ); ?>" id="<?php echo esc_attr( $this->id ); ?>" value="<?php echo esc_attr( $this->value ); ?>" <?php echo esc_html( $additional_params ); ?>/>
 
 				<?php if ( $this->countchar ) { ?>
-				<div class="ss-count-char" data-count="<?php echo esc_attr( $this->countchar ); ?>"><strong><?php echo esc_html( $this->countchar ); ?></strong> <?php esc_html_e( 'characters remaining' ); ?></div>
+				<div class="ss-count-char" data-count="<?php echo esc_attr( $this->countchar ); ?>"><strong><?php echo esc_html( $this->countchar ); ?></strong> <?php esc_html_e( 'characters remaining', 'socialsnap' ); ?></div>
 				<?php } ?>
 
 			</div>

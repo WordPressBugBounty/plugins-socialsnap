@@ -9,6 +9,11 @@
  * @copyright  Copyright (c) 2021, Social Snap LLC
  */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -27,7 +32,7 @@ function socialsnap_update_share_count_click() {
 		wp_send_json_error();
 	}
 
-	$nonce = sanitize_text_field( $_POST['nonce'] );
+	$nonce = sanitize_text_field( wp_unslash( $_POST['nonce'] ) );
 
 	$nonce_verified = wp_verify_nonce( $nonce, 'socialsnap-nonce' );
 

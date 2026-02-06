@@ -11,6 +11,12 @@
  * @license    GPL-3.0+
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 abstract class SocialSnap_DB {
 
 	/**
@@ -60,6 +66,25 @@ abstract class SocialSnap_DB {
 	}
 
 	/**
+	 * Validates a column name against the allowed columns and returns it escaped for SQL.
+	 *
+	 * @since 1.0.0
+	 * @param string $column Column name to validate.
+	 * @return string|false The escaped column name with backticks, or false if invalid.
+	 */
+	protected function validate_column( $column ) {
+		$columns = $this->get_columns();
+
+		if ( ! array_key_exists( $column, $columns ) ) {
+			return false;
+		}
+
+		// Return the column name wrapped in backticks for safe SQL usage.
+		// The column is validated against our whitelist, so it's safe.
+		return '`' . str_replace( '`', '``', $column ) . '`';
+	}
+
+	/**
 	 * Retrieves column defaults.
 	 *
 	 * Sub-classes can define default for any/all of columns defined in the get_columns() method.
@@ -103,13 +128,15 @@ abstract class SocialSnap_DB {
 
 		global $wpdb;
 
-		if ( ! array_key_exists( $column, $this->get_columns() ) || empty( $row_id ) ) {
+		$column = $this->validate_column( $column );
+
+		if ( false === $column || empty( $row_id ) ) {
 			return false;
 		}
 
 		return $wpdb->get_row(
 			$wpdb->prepare(
-				"SELECT * FROM $this->table_name WHERE $column = '%s' LIMIT 1;",
+				"SELECT * FROM $this->table_name WHERE $column = %s LIMIT 1;", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Column is validated via validate_column().
 				$row_id
 			)
 		);
@@ -127,13 +154,15 @@ abstract class SocialSnap_DB {
 
 		global $wpdb;
 
-		if ( ! array_key_exists( $column, $this->get_columns() ) || empty( $row_id ) ) {
+		$column = $this->validate_column( $column );
+
+		if ( false === $column || empty( $row_id ) ) {
 			return false;
 		}
 
 		return $wpdb->get_var(
 			$wpdb->prepare(
-				"SELECT $column FROM $this->table_name WHERE $this->primary_key = '%s' LIMIT 1;",
+				"SELECT $column FROM $this->table_name WHERE $this->primary_key = %s LIMIT 1;", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Column is validated via validate_column().
 				$row_id
 			)
 		);
@@ -152,13 +181,20 @@ abstract class SocialSnap_DB {
 
 		global $wpdb;
 
-		if ( empty( $column ) || empty( $column_where ) || empty( $column_value ) || ! array_key_exists( $column, $this->get_columns() ) ) {
+		if ( empty( $column_value ) ) {
+			return false;
+		}
+
+		$column       = $this->validate_column( $column );
+		$column_where = $this->validate_column( $column_where );
+
+		if ( false === $column || false === $column_where ) {
 			return false;
 		}
 
 		return $wpdb->get_var(
 			$wpdb->prepare(
-				"SELECT $column FROM $this->table_name WHERE $column_where = %s LIMIT 1;",
+				"SELECT $column FROM $this->table_name WHERE $column_where = %s LIMIT 1;", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Columns are validated via validate_column().
 				$column_value
 			)
 		);
@@ -316,10 +352,13 @@ abstract class SocialSnap_DB {
 
 		global $wpdb;
 
-		if ( empty( $column ) || empty( $row_id ) || ! array_key_exists( $column, $this->get_columns() ) ) {
+		$column = $this->validate_column( $column );
+
+		if ( false === $column || empty( $row_id ) ) {
 			return false;
 		}
 
+		// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- Column is validated via validate_column().
 		if ( false === $wpdb->query( $wpdb->prepare( "DELETE FROM $this->table_name WHERE $column = %s", $row_id ) ) ) {
 			return false;
 		}
@@ -345,6 +384,6 @@ abstract class SocialSnap_DB {
 
 		$table = sanitize_text_field( $table );
 
-		return $wpdb->get_var( $wpdb->prepare( "SHOW TABLES LIKE '%s'", $table ) ) === $table;
+		return $wpdb->get_var( $wpdb->prepare( "SHOW TABLES LIKE %s", $table ) ) === $table;
 	}
 }

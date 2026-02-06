@@ -1,25 +1,25 @@
-=== Social Share Buttons, Social Sharing Icons, Click to Tweet — Social Media Plugin by Social Snap ===
+=== Social Snap — Social Share Buttons & Click to Tweet ===
 Contributors: socialsnap
-Tags: social share, social sharing, floating share, click to tweet, social, share, social media, facebook share, twitter share, floating bar, share buttons, facebook, twitter, linkedin follow buttons, social login, auto poster, social poster, boost old posts, facebook login, twitter login, social locker, content locker, meta tags, social meta, open graph, twitter cards, bitly, social analytics, social statistics, share recovery, share counters, counter, pinterest, media sharing, pin it, pinterest save
+Tags: social share, share buttons, click to tweet, floating share, social media
 Requires at least: 4.6
-Tested up to: 6.8
-Stable tag: 1.4
+Tested up to: 6.9
+Stable tag: 1.4.2
 Requires PHP: 5.2.4
 License: GNU General Public License v2.0 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-The best social sharing plugin. Share buttons for Facebook, X (Twitter), LinkedIn and more. Click to Tweet and more.
+Social sharing plugin with share buttons for Facebook, X (Twitter), LinkedIn and more. Includes Click to Tweet feature.
 
 == Description ==
 
 = WordPress Social Sharing Plugin =
 
-Social Snap is the leading WordPress social sharing plugin that helps you **drive more traffic and increase engagement** by leveraging the power of social media. Learn more at <a href="https://socialsnap.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend" title="Click here to learn more about Social Snap!">Social Snap</a>.
+Social Snap is a WordPress social sharing plugin that helps you **drive more traffic and increase engagement** by leveraging the power of social media. Learn more at <a href="https://socialsnap.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend" title="Click here to learn more about Social Snap!">Social Snap</a>.
 
 Within minutes, you can have Social Snap up and running. Giving your new and repeat visitors the ability to share your content like wildfire!
-We take pride in providing **high-end UX/UI** within our product. That's why our **easy to use** interface and intuitive design make Social Snap the leading choice for beginners and advanced users looking for a social sharing plugin.
+We take pride in providing **high-end UX/UI** within our product. That's why our **easy to use** interface and intuitive design make Social Snap a great choice for beginners and advanced users looking for a social sharing plugin.
 
-Social Snap is loading asynchronously and it's using vector icons that won't slow down your website unlike other social sharing plugins. We spent months making sure Social Snap performance was top-notch. Expect nothing but the **fastest performance** when using it yourself and displaying Social Snap social share and follow options to your visitors.
+Social Snap is loading asynchronously and it's using vector icons that won't slow down your website. We spent months making sure Social Snap performance was top-notch. Expect **great performance** when using it yourself and displaying Social Snap social share and follow options to your visitors.
 
 = Social Share & Follow Buttons =
 
@@ -77,7 +77,7 @@ We understand all sites have their own style so we made it easy to customize you
 * Control spacing between share buttons & more
 
 > <strong>Social Snap Pro</strong><br /><br />
-> This plugin is the lite version of the Social Snap Pro plugin that comes with all the social sharing features you will ever need including all major social networks, share count recovery, social share meta tags, social login, boost old posts, social auto-poster and more! <a href="https://socialsnap.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend" title="Social Snap">Click here to purchase the best premium social media plugin now!</a>
+> This plugin is the lite version of the Social Snap Pro plugin that comes with all the social sharing features you will ever need including all major social networks, share count recovery, social share meta tags, social login, boost old posts, social auto-poster and more! <a href="https://socialsnap.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend" title="Social Snap">Click here to purchase Social Snap Pro now!</a>
 
 = Click to Tweet Boxes =
 
@@ -131,6 +131,15 @@ Want more features? <a href="https://socialsnap.com/?utm_source=wprepo&utm_mediu
 3. Navigate to the Social Snap tab at the bottom of your admin menu and click the "Settings" button to begin customizing Social Snap on your website.
 
 See step-by-step instructions on <a href="https://socialsnap.com/help/getting-started/how-to-install-social-snap-lite-free/" rel="friend">how to install Social Snap Lite plugin</a>.
+
+== Source Code & Build Tools ==
+
+This plugin includes minified/compiled JavaScript and CSS files for performance. The original, human-readable source code is included in the plugin package:
+
+= Source File Locations =
+
+* **JavaScript source files:** `assets/js/dev/`
+* **SCSS/CSS source files:** `assets/css/dev/`
 
 == Screenshots ==
 
@@ -257,37 +266,14 @@ If Social Snap is not available in your language, yet, you can <a href="https://
 
 == Changelog ==
 
+= 1.4.2 =
+- Fixed: Compatibility with WordPress guidelines.
+
+= 1.4.1 =
+- Fixed: Compatibility with WordPress guidelines.
+
 = 1.4 =
 - Fixed: Deprecated notices
 - Improved: Security
-
-= 1.3.6 =
-- Improved: Security
-
-= 1.3.5 =
-- Added: Option to allow share all popup on custom buttons.
-- Fixed: Oversized X (Twitter) logo.
-- Improved: Security
-- Improved: PHP Compatibility
-
-= 1.3.4 =
-- Updated: X (Twitter) logo.
-
-= 1.3.3 =
-- Fixed: Custom style not working.
-
-= 1.3.2 =
-- Improved: Security.
-
-= 1.3.1 =
-- Added: Translation option for follow links.
-- Added: Compatibility with Bricks Builder.
-- Fixed: On media buttons break image height.
-- Fixed: "Powered By" link was enabled by default.
-
-= 1.3 =
-- Fixed: Custom query args not included in share link.
-- Fixed: On media buttons add white space below image.
-- Fixed: Twitter share popup height.
 
 [See changelog for all versions](http://plugins.svn.wordpress.org/socialsnap/trunk/changelog.txt).

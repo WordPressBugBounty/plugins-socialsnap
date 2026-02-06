@@ -8,6 +8,11 @@
  * @license    GPL-3.0+
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 class SocialSnap_Click_To_Tweet {
 
 	/**

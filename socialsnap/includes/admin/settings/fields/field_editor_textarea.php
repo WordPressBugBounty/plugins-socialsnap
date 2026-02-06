@@ -8,6 +8,12 @@
  * @license    GPL-3.0+
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 class SocialSnap_Field_editor_textarea {
 
 	public $field;
@@ -87,7 +93,7 @@ class SocialSnap_Field_editor_textarea {
 				<textarea <?php echo $this->placeholder; // phpcs:ignore ?> name="<?php echo esc_attr( $this->id ); ?>" id="<?php echo esc_attr( $this->id ); ?>" rows="<?php echo esc_attr( $this->rows ); ?>"<?php echo esc_html( $additional_params ); ?>><?php echo wp_kses_post( $this->value ); ?></textarea>
 
 				<?php if ( $this->countchar ) { ?>
-				<div class="ss-count-char" data-count="<?php echo esc_attr( $this->countchar ); ?>"><strong><?php echo esc_attr( $this->countchar ); ?></strong> <?php esc_html_e( 'characters remaining' ); ?></div>
+				<div class="ss-count-char" data-count="<?php echo esc_attr( $this->countchar ); ?>"><strong><?php echo esc_attr( $this->countchar ); ?></strong> <?php esc_html_e( 'characters remaining', 'socialsnap' ); ?></div>
 				<?php } ?>
 
 			</div>

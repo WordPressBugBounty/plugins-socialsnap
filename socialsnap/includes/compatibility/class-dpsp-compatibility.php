@@ -9,6 +9,11 @@
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 // Check if Social Pug was installed & settings exist in database.
 $socialsnap_dpsp_options = get_option( 'dpsp_settings' );
 
@@ -111,7 +116,7 @@ class SocialSnap_DPSP_Compatibility {
 		$this->import_post_meta();
 
 		// Send success message.
-		wp_send_json_success( array( 'message' => esc_html__( 'Social Pug settings imported successfully.', 'sinatra' ) ) );
+		wp_send_json_success( array( 'message' => esc_html__( 'Social Pug settings imported successfully.', 'socialsnap' ) ) );
 	}
 
 	/**
@@ -711,13 +716,16 @@ class SocialSnap_DPSP_Compatibility {
 
 		set_time_limit( 300 );
 
-		$query = "
-			SELECT postmeta.post_id, postmeta.meta_value
-			FROM   $wpdb->postmeta postmeta
-			WHERE  postmeta.meta_key = %s
-		";
-
-		$results = $wpdb->get_results( $wpdb->prepare( $query, $old_key ) );
+		$results = $wpdb->get_results(
+			$wpdb->prepare(
+				"
+				SELECT postmeta.post_id, postmeta.meta_value
+				FROM   {$wpdb->postmeta} postmeta
+				WHERE  postmeta.meta_key = %s
+				",
+				$old_key
+			)
+		);
 
 		if ( ! empty( $results ) ) {
 			foreach ( $results as $row ) {
@@ -794,7 +802,7 @@ class SocialSnap_DPSP_Compatibility {
 		}
 
 		// Send success message.
-		wp_send_json_success( array( 'message' => esc_html__( 'Social Pug shares imported successfully.', 'sinatra' ) ) );
+		wp_send_json_success( array( 'message' => esc_html__( 'Social Pug shares imported successfully.', 'socialsnap' ) ) );
 	}
 
 	/**

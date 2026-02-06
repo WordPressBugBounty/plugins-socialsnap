@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 1.4.2 =
+- Fixed: Compatibility with WordPress guidelines.
+
+= 1.4.1 =
+- Fixed: Compatibility with WordPress guidelines.
+
 = 1.4 =
 - Fixed: Deprecated notices
 - Improved: Security

@@ -1,4 +1,9 @@
 <?php
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 $ss_social_share = array(
 	'title'   => esc_html__( 'Social Share', 'socialsnap' ),
 	'id'      => 'ss-social-share-editor',

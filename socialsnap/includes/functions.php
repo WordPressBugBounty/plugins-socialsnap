@@ -10,6 +10,11 @@
  * @copyright  Copyright (c) 2019, Social Snap LLC
  */
 
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Get the value of a specific Social Snap setting.
  *
@@ -408,7 +413,7 @@ function socialsnap_get_current_post_id( $permalink = null ) {
  * @return string, filtered username without @ and tags.
  */
 function socialsnap_filter_twitter_username( $username ) {
-	return str_replace( array( '@', ' ' ), '', strip_tags( stripslashes( $username ) ) );
+	return str_replace( array( '@', ' ' ), '', wp_strip_all_tags( stripslashes( $username ) ) );
 }
 add_filter( 'socialsnap_sanitize_username', 'socialsnap_filter_twitter_username', 10, 1 );
 
@@ -793,10 +798,10 @@ function socialsnap_get_excerpt( $post_id = '' ) {
 
 	// Remove script and style tags
 	$excerpt = preg_replace( '/(<script[^>]*>.+?<\/script>|<style[^>]*>.+?<\/style>)/s', '', $excerpt );
-	$excerpt = strip_tags( strip_shortcodes( $excerpt ) );
+	$excerpt = wp_strip_all_tags( strip_shortcodes( $excerpt ) );
 	$excerpt = preg_replace( '/\[[^\]]+\]/', '', $excerpt );
 	$excerpt = str_replace( ']]>', ']]&gt;', $excerpt );
-	$excerpt = strip_tags( $excerpt );
+	$excerpt = wp_strip_all_tags( $excerpt );
 
 	$words = preg_split( "/[\n\r\t ]+/", $excerpt, $excerpt_length + 1, PREG_SPLIT_NO_EMPTY );
 

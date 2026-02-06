@@ -1,0 +1,205 @@
+/*****************************************/
+/* MCE related styles
+/*****************************************/
+
+.button.ss-mce-button,
+.wp-media-buttons .wp-media-buttons-icon.socialsnap-menu-icon,
+.mce-ico.mce-i-socialsnap-menu-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		height: 16px;
+	}
+}
+
+/*****************************************/
+/* Custom popup
+/*****************************************/
+
+.ss-no-scroll {
+	overflow: hidden;
+}
+
+#ss-modal-overlay {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(58, 66, 74, 0.8);
+	z-index: 100100;
+}
+
+.ss-open-modal {
+	#ss-modal-overlay {
+		display: block;
+	}
+}
+
+#ss-modal {
+	position: fixed;
+	border-radius: 3px;
+	width: 900px;
+	height: 540px;
+	max-width: 90%;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	z-index: 100200;
+	transform: translate3d(-50%, -50%, 0);
+
+	& > h4 {
+		display: block;
+		display: flex;
+		align-items: center;
+		font-size: 16px;
+		font-weight: 300;
+		color: #fff;
+		background-color: $secondary_color;
+		line-height: 65px;
+		height: 65px;
+		padding: 0 0 0 25px;
+		margin: 0;
+
+		& .ss-close-modal {
+			transition: $transition_1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			height: 100%;
+			text-decoration: none;
+			float: right;
+			margin-left: auto;
+			color: #FFF;
+			box-shadow: none;
+			width: 60px;
+
+			&:hover {
+				background-color: rgba(0,0,0,0.1);
+			}
+
+			svg {
+				padding: 0;
+			}
+		}
+
+		svg {
+			height: 20px;
+			padding-right: 10px;
+		}
+	}
+
+	.ss-metabox-wrapper {
+		height: 100%;
+	}
+
+	.ss-metabox-tabs {
+		padding: 22px 0;
+	}
+
+	.ss-metabox-tabs>li.current-menu-item>a:after,
+	.ss-metabox-tabs>li.current-menu-item>a:hover:after {
+		border-right-color: $body_background;
+	}
+
+	.ss-metabox-content {
+		background-color: $body_background;
+		height: 411px;
+		overflow-y: scroll;
+		padding: 0;
+	}
+
+	.ss-actions {
+		background-color: #FFF;
+		position: absolute;
+		left: 230px;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+
+		.ss-close-modal,
+		#ss-insert-shortcode {
+			display: inline-block;
+			text-decoration: none;
+			margin: 12px 7px;
+			box-shadow: none;
+		}
+
+		#ss-insert-shortcode {
+			text-decoration: none;
+			padding: 0 35px 0 30px;
+			height: 40px;
+			line-height: 40px;
+			background-color: $primary_color;
+			color: #FFF;
+			border-radius: 3px;
+			box-shadow: none;
+
+			&:hover {
+				background-color: $primary_color_hover;
+			}
+
+			svg {
+				margin-right: 8px;
+			}
+		}
+	}
+
+	.ss-tab.ss-active {
+		padding-bottom: 50px;
+	}
+
+	.ss-field-wrapper {
+		padding-top: 22px;
+		padding-bottom: 22px;
+	}
+
+}
+
+@media screen and (max-width: 1045px) {
+	#ss-modal .ss-actions {
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.wp-media-buttons .wp-media-buttons-icon.socialsnap-menu-icon:before {
+		top: 2px;
+		left: 2px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	#ss-modal {
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: auto;
+		height: auto;
+		transform: none;
+		max-width: initial;
+
+		.ss-metabox-content {
+			height: 100%;
+
+			.ss-tab.ss-active {
+				padding-bottom: 114px;
+			}
+		}
+	}
+
+	.admin-bar {
+		#ss-modal {
+			top: 46px;
+		}
+	}
+}

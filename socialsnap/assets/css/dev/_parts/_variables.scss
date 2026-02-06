@@ -1,0 +1,70 @@
+// Colors
+:root {
+	--ss-brand-color: #557ceb;
+	--ss-brand-color-hover: #4a6bbf;
+	--ss-brand-color-dark: #435f85;
+}
+
+$primary_color: #557ceb;
+$primary_color_hover: lighten($primary_color, 4);
+$primary_color_dark: #435f85;
+
+$secondary_color: #d06a5d;
+$secondary_color_hover: lighten($secondary_color, 4);
+
+$tertiary_color: #3a424a;
+$tertiary_color_dark: #32383e; //#343B42;
+$tertiary_color_darker: #2a2e33; // #2e353c;
+
+$light_text: #7c848a;
+$lighter_text: #e7eaef;
+$light_border: #4f565d;
+
+$menu_text: #a7adb3; // #93999e
+$upgrade_color: #6a9e3a;
+$upgrade_color_hover: lighten($upgrade_color, 6);
+
+$bottom_svg_content: rgba(108, 133, 158, 0.09);
+
+// Misc
+$transition_1: all 0.2s;
+$menu_height: 64px;
+$border_radius: 2px;
+$body_background: #eaecef;
+
+// Left panel width
+$left_panel_width: 360px;
+
+// Other =====
+$font_family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, Arial, 'Helvetica Neue', sans-serif !important;
+
+$icomoon-font-path: '../fonts' !default;
+
+$light_text_color: #909196;
+$light_border_color: #b0b0b1;
+
+$border_standard: 1px solid rgba(0, 0, 0, 0.1);
+
+$primary_color: #557ceb;
+$primary_gradient: #e1604f;
+
+$primary_gradient_hover: lighten($primary_gradient, 6);
+
+%flex {
+	display: flex;
+	align-items: center;
+}
+
+%remove_link_styles {
+	border: 0;
+	text-shadow: none;
+	box-shadow: none;
+	outline: none;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+%backface_fix {
+	outline: none;
+}

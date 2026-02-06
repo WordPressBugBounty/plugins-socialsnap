@@ -8,6 +8,12 @@
  * @license    GPL-3.0+
  * @copyright  Copyright (c) 2018, Social Snap, LLC
  */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 class SocialSnap_CTT_Widget extends WP_Widget {
 
 	/**

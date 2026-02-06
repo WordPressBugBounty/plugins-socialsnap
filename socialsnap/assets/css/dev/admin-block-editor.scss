@@ -1,0 +1,176 @@
+@import '_parts/_variables';
+@import '_parts/_icons';
+@import '_parts/front/_ctt';
+@import '_parts/front/_share';
+@import '_parts/front/_follow';
+
+.ss-ctt-wrapper {
+	margin: 0;
+
+	.ss-ctt-link {
+		z-index: 3;
+	}
+
+	// .ss-ctt-tweet {
+	// 	width: 100%;
+	// }
+
+	textarea {
+		font-family: inherit;
+		background-color: transparent;
+	}
+
+	&.ss-ctt-style-5 {
+		&:hover {
+			&:before {
+				transition-delay: 0s;
+				transform: scaleY(1);
+			}
+		}
+	}
+}
+
+.ss-network-label,
+.ss-follow-network-label {
+    text-transform: capitalize;
+}
+
+.ss-inline-share-wrapper {
+	margin: 0;
+}
+
+.blocks-toggle-control {
+	flex-wrap: wrap;
+}
+
+#ss-socialsnap-main_block_editor {
+
+	.inside {
+		padding: 0;
+		margin: 0;
+	}
+
+	h2.hndle {
+
+		i {
+			display: none;
+		}
+	}
+
+	.ss-meta-gb-title {
+	    padding: 16px;
+	    font-size: 14px;
+	    color: #fff;
+	    background: #32373d;
+	    font-weight: 600;
+	    background-color: #4f89e1;
+
+	    svg {
+			margin-right: 10px;
+		}
+	}
+
+	.ss-field-wrapper {
+		padding: 16px;
+
+		.ss-left-section {
+			width: 80%;
+
+			label strong {
+				font-size: 13px;
+				line-height: 1.4em;
+				font-weight: initial;
+			}
+		}
+
+		.ss-right-section {
+			width: 20%;
+		}
+
+		&.ss-field-dropdown {
+
+			.ss-left-section,
+			.ss-right-section {
+				width: auto;
+			}
+
+			.ss-right-section {
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.ss-small-toggle {	
+		justify-content: flex-end;
+
+		& > label {
+			padding: 0;
+			content: "";
+			display: inline-block;
+			vertical-align: top;
+			box-sizing: border-box;
+			background-color: #fff;
+			border: 2px solid #6c7781;
+			width: 36px;
+			height: 18px;
+			border-radius: 9px;
+			transition: background .2s ease;
+
+			&:after {
+				display: block;
+				position: absolute;
+				top: 2px;
+				left: 2px;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				transition: transform .1s ease;
+				background-color: #6c7781;
+				border: 5px solid #6c7781;
+			}
+
+			&:hover {
+				border-color: #555d66;
+			}
+
+			&:focus {
+				box-shadow: 0 0 0 2px #fff, 0 0 0 3px #6c7781;
+			}
+		}
+
+		& > input:checked + label {
+			background-color: #1e8cbe !important;
+			border-color: #1e8cbe;
+
+			&:after {
+				border-color: #FFF;
+				background-color: #009fd2;
+				transform: translateX(18px);
+			}
+		}
+	}
+
+	.ss-count-char {
+		width: initial;
+	}
+
+	.ss-field-textarea,
+	.ss-field-text,
+	.ss-field-upload {
+		.ss-left-section,
+		.ss-right-section {
+			width: 100%;
+		}
+
+		.ss-right-section {
+			margin-top: 15px;
+		}
+	}
+}
+
+.socialsnap-block-settings {
+
+	.components-base-control {
+		margin-bottom: 8px;
+	}
+}

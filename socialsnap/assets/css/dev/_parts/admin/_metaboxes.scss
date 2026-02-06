@@ -1,0 +1,444 @@
+/*****************************************/
+/* Our custom metabox
+/*****************************************/
+
+#ss-socialsnap-main {
+	
+	.postbox-header {
+		background-color: $secondary_color;
+		border-bottom: none;
+	}
+
+	h2.hndle {
+		color: #FFF;
+
+		i.dashicons-ssbrand {
+			line-height: 16px !important;
+			margin-right: 6px;
+
+			&:before {
+				font-size: 16px !important;
+			}
+		}
+	}
+
+	.toggle-indicator,
+	.handle-order-higher,
+	.handle-order-lower {
+		color: rgba(255,255,255,0.5);
+
+		&:hover {
+			color: rgba(255,255,255,0.75);			
+		}
+	}
+
+	.inside {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.ss-metabox-wrapper {
+	@extend %flex;
+	align-items: stretch;
+}
+
+.ss-metabox-tabs {
+	flex-shrink: 0;
+	padding: 18px 0;
+	margin: 0;
+	list-style: none;
+	width: 230px;
+	background-color: $tertiary_color_dark;
+	float: left;
+
+	& > li {
+		display: block;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		&:last-child {
+			margin: 0;
+		}
+
+		& > a {
+			position: relative;
+			transition: $transition_1;
+			color: $menu_text;
+			line-height: 1;
+			display: block;
+			padding: 12px 25px;
+			font-weight: 400;
+			box-shadow: none;
+			text-decoration: none;
+			vertical-align: middle;
+			white-space: nowrap;
+
+			svg {
+				padding-right: 10px;
+				opacity: .5;
+			}
+
+			&:hover {
+				color: $lighter_text;
+				background-color: rgba(0,0,0,0.2);
+				border-left-color: $primary_color;
+			}
+		}
+
+		&.current-menu-item > a,
+		&.current-menu-item > a:hover {
+			color: #FFF;
+			background-color: $primary_color;
+
+			&:after {
+				right: 0;
+				border: 10px solid transparent;
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				border-right-color: #FFF;
+				top: 50%;
+				margin-top: -10px;
+				transition: all .33s ease;
+				-webkit-backface-visibility: hidden;
+				z-index: 2;
+			}
+		}
+	}
+}
+
+
+/*****************************************/
+/* Metabox content
+/*****************************************/
+
+.ss-metabox-content {
+	
+	width: 100%;
+	padding: 18px 0;
+
+	.ss-tab {
+		display: none;
+
+		&.ss-active {
+			display: block;
+		}
+	}
+}
+
+.ss-field-wrapper {
+	padding: 18px 25px;
+	border-bottom: 1px solid #ddd;
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	.ss-left-section,
+	.ss-right-section {
+		box-sizing: border-box;
+	}
+
+	.ss-left-section {
+		float: left;
+		width: 40%;
+		padding-right: 15px;
+
+		label strong {
+			display: block;
+			font-weight: 600;
+			color: $tertiary_color;
+			margin: 0;
+		}
+
+		label .ss-desc {
+			font-size: 13px;
+			line-height: 1.55;
+			color: $light_text;
+			display: block;
+			margin-top: 7px;
+		}
+	}
+
+	.ss-right-section {
+		float: right;
+		width: 60%;
+
+		.ss-extra-desc {
+			color: $light_text;
+			line-height: 1.55;
+			margin-top: 7px;
+			font-style: italic;
+		}
+
+		input[type=text],
+		input[type=email],
+		input[type=checkbox],
+		select,
+		textarea {
+			transition: box-shadow .15s ease;
+			font-size: 13px;
+			padding: 7px 10px;
+			margin: 0;
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+			border-radius: 0;
+		}
+
+		textarea {
+			height: 110px;
+		}
+	}
+}
+
+.ss-count-char {
+	width: 100%;
+	padding: 5px 12px;
+	box-sizing: border-box;
+	background-color: #f5f5f5;
+	color: $light_text;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	text-align: right;
+
+	strong {
+		color: $upgrade_color;
+		font-weight: 700;
+	}
+
+	&.exceeded strong {
+		color: #e43c3c;
+	}
+}
+
+
+/*****************************************/
+/* Default button.
+/*****************************************/
+
+.ss-button {
+	line-height: 1;
+	font-weight: 400;
+	font-size: 14px;
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: none;
+	box-shadow: none !important;
+	height: auto;
+	border-radius: $border_radius;
+	transition: color .2s, background-color .2s, border .2s;
+	clear: both;
+	box-sizing: border-box;
+	padding: 14px 28px;
+	vertical-align: middle;
+	background-color: $tertiary_color_dark;
+	color: #FFF;
+	border: 1px solid rgba(0,0,0,0.1);
+
+	&.ss-small-button {
+		padding: 8px 16px;
+		line-height: 1;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $tertiary_color;
+		border-color: $tertiary_color_darker;
+		color: #FFF;
+	}
+
+	svg {
+		vertical-align: middle;
+		display: inline-block;
+		margin-right: 10px;
+		font-size: 18px;
+		width: 20px;
+	}
+
+	&[disabled=disabled] {
+		opacity: 0.4;
+		pointer-events: none;
+	}
+}
+
+
+/*****************************************/
+/* Upload image field.
+/*****************************************/
+
+.show-upload-image {
+	margin-top: 15px;
+	display: inline-block;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0);
+		transition: background .15s ease;
+		border-radius: 3px;
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		border-radius: 3px;
+
+	}
+
+	&.mime-type-image:hover:after {
+		background-color: rgba(0,0,0,0.45);
+	}
+
+	&.mime-type-video {
+		width: 100%;
+		border: solid 1px #eee;
+		min-height: 30px;
+		padding: 10px 0;
+		display: flex;
+		align-items: center;
+
+		.ss-video-name {
+			padding: 0 15px;
+			color: $light_text;
+			overflow-wrap: break-word;
+			width: 100%;
+		}
+
+		.ss-image-dimension {
+			display: none !important;
+		}
+	}
+
+	&:hover .ss-image-tools {
+		visibility: visible;
+	}
+
+	.ss-image-tools {
+		visibility: hidden;
+		position: absolute;
+		z-index: 2;
+		top: 5px;
+		right: 5px;
+		left: 5px;
+		bottom: 5px;
+
+		a {
+			transition: background .15s ease;
+			display: inline-block;
+			float: right;
+			margin-left: 3px;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			vertical-align: middle;
+			background-color: rgba(0,0,0,0.75);
+			color: #FFF;
+			text-decoration: none;
+			box-shadow: none;
+
+			&:hover {
+				background-color: $primary_color_hover;
+			}
+
+			i {
+				line-height: inherit;
+			}
+		}
+
+		.ss-image-dimension {
+			position: absolute;
+			display: block;
+			bottom: 5px;
+			left: 10px;
+			color: rgba(255,255,255,.8);
+			font-weight: 500;
+		}
+	}
+}
+
+
+/*****************************************/
+/* Small toggle
+/*****************************************/
+
+.ss-small-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	& > input {
+		display: none !important;
+
+		&:checked + label {
+			background-color: $primary_color !important;
+
+			&:after {
+				transform: translateX(20px)
+			}
+		}
+	}
+
+	& > label {
+		background-color: #acb1b5;
+		border-radius: 20px;
+		padding: 2px;
+		transition: background .15s ease;
+		outline: 0;
+		display: block;
+		width: 40px;
+		height: 20px;
+		position: relative;
+		cursor: pointer;
+		user-select: none;
+
+		&:after {
+			border-radius: 10px;
+			background: #fff;
+			transition: all .15s ease;
+			position: relative;
+			display: block;
+			content: '';
+			width: 20px;
+			height: 20px;
+			left: 0;
+		}
+	}
+}
+
+
+/*****************************************/
+/* Media Queries - Responsive Design.
+/*****************************************/
+
+@media only screen and (max-width: 1300px) {
+	.ss-field-wrapper .ss-left-section,
+	.ss-field-wrapper .ss-right-section {
+		width: 100%;
+		float: none;
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width: 1045px) {
+	.ss-metabox-tabs {
+		flex-shrink: 1;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+}

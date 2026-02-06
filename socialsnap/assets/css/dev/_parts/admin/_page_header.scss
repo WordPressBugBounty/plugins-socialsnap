@@ -1,0 +1,442 @@
+/* ==========================================================================
+*  Styles related to Social Snap admin header
+*  ========================================================================== */
+
+body {
+	background-color: $body_background;
+}
+
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
+	border-right-color: $body_background;
+}
+
+#wpcontent {
+	padding: 0;
+}
+
+.wp-core-ui .button-primary,
+.wp-core-ui .button-secondary {
+	box-shadow: none;
+	text-shadow: none;
+	border-radius: 3px;
+	border: none;
+}
+
+.notice,
+.update-nag,
+div.error,
+div.updated {
+	margin: 10px 25px !important;
+	border-top: $border_standard;
+	border-bottom: $border_standard;
+	border-right: $border_standard;
+	border-left-width: 3px;
+	border-radius: $border_radius;
+	box-shadow: none;
+	padding: 5px 16px;
+}
+
+.ss-page-wrapper {
+	padding: 10px 25px 0;
+}
+
+.ss-button {
+	line-height: 1;
+	font-weight: 500;
+	font-size: 14px;
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: none;
+	box-shadow: none !important;
+	height: auto;
+	border-radius: $border_radius;
+	transition: color .15s, background-color .15s, border .15s;
+	clear: both;
+	box-sizing: border-box;
+	padding: 14px 28px;
+	vertical-align: middle;
+	border: 1px solid rgba(0,0,0,0.1);
+
+	&.ss-small-button {
+		padding: 8px 16px;
+		line-height: 1;
+	}
+
+	&.ss-button-secondary {
+		color: #676869;
+	}
+
+	&.ss-upgrade-button {
+		background-color: $upgrade_color !important;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: $upgrade_color_hover !important;
+		}
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $primary_color;
+		color: #FFF;
+	}
+
+	svg {
+		vertical-align: middle;
+		display: inline-block;
+		margin-right: 10px;
+		height: 18px;
+		width: 20px;
+	}
+
+	&[disabled=disabled] {
+		opacity: 0.4;
+		pointer-events: none;
+	}
+}
+
+#ss-header {
+	padding: 17px 25px;
+	background-color: $secondary_color;
+	position: relative;
+	overflow: hidden;
+	color: #FFF;
+
+	span {
+		font-weight: 300;
+		font-size: 34px;
+		position: relative;
+		z-index: 91;
+
+		strong {
+			font-weight: 600;
+		}
+	}
+
+	p {
+		font-weight: 100;
+		font-size: 18px;
+		color: rgba(255,255,255, 0.7);
+		margin: 1em 0 0 0;
+	}
+
+	svg {
+		position: relative;
+		display: block;
+		height: 27px;
+		width: auto;
+		max-height: 100%;
+		z-index: 90;
+	}
+}
+
+.hx-bg-stripes {
+	z-index: 1;
+	background-image: linear-gradient(to left,rgba(255,255,255,.2),rgba(255,255,255,0));
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 100%;
+	height: 150px;
+	transform: skewY(-29deg);
+	opacity: .65;
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		top: -120%;
+		left: 0;
+		width: 40%;
+		height: 60%;
+		background-image: linear-gradient(to right,rgba(0,0,0,.1),rgba(0,0,0,.09))
+	}
+
+	&:after {
+		top: 90%;
+		left: auto;
+		right: 0;
+		height: 40%;
+		width: 50%;
+		background-image: linear-gradient(to left,rgba(0,0,0,.15),transparent)
+	}
+}
+
+
+
+
+
+.ss-bottom-svg {
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	width: 100%;
+	line-height: 0;
+	transform: rotate(180deg);
+	//display: none;
+
+	svg {
+		display: block;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		height: 70px;
+
+		path {
+			transform-origin: center;
+			fill: rgba(255, 255, 255, 0.13);
+			transform: rotateY(180deg);
+		}
+	}
+}
+
+.heading-title {
+	padding: 0 25px;
+	min-height: 60px;
+	line-height: 1.1;
+	background-color: #FFF;
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+	margin: 0 0 20px;
+	font-weight: 300;
+	color: $tertiary_color;
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+
+	& > a {
+		float: right;
+		margin-left: auto;
+
+		&.ss-button.ss-small-button {
+			padding: 12px 20px;
+			font-size: 13px;
+			background-color: $primary_color;
+			color: #FFF;
+			border: 1px solid rgba(0,0,0,0.1);
+
+			&:hover {
+				background-color: $primary_color_hover;
+			}
+		}
+	}
+}
+
+
+/*****************************************/
+/* Tooltips
+/*****************************************/
+
+.ss-tooltip {
+	position: relative;
+
+	&:after {
+		display: none;
+		position: absolute;
+		background-color: rgba(56, 70, 84, 0.85);
+		top: -7px;
+		left: 50%;
+		width: auto;
+		line-height: 1;
+		white-space: nowrap;
+		text-align: center;
+		transform: translateX(-50%) translateY(-100%);
+		padding: 8px 12px;
+		border-radius: $border_radius;
+		font-size: 12px;
+		color: #FFF;
+		color: rgba(255,255,255,0.9);
+		box-shadow: 0 0 14px rgba(53, 60, 67, 0.8);
+		content: attr(data-title);
+		z-index: 2;
+		font-style: normal;
+		font-family: $font_family;
+	}
+
+	&:hover:after,
+	&:hover:before {
+		display: block;
+	}
+}
+
+#ss-left-panel ul.ss-grandparent-menu .ss-pro-feature i.ss-tooltip {
+	&:after {
+		width: 200px;
+		font-weight: 300;
+		line-height: 1.5;
+		white-space: normal;
+		left: auto;
+		right: 0;
+		transform: translateX(0) translateY(-100%);
+	}
+}
+
+.ss-row {
+	@extend %flex;
+	align-items: stretch;
+	margin: 0 -15px;
+
+	.ss-col-4,
+	.ss-col-8 {
+		position: relative;
+		box-sizing: border-box;
+		float: left;
+		padding: 0 15px;
+	}
+
+	.ss-col-4 {
+		width: 33.33%;
+	}
+
+	.ss-col-8 {
+		width: 66.66%;
+		
+		.ss-tooltip:after {
+			right: auto;
+			left: 0;
+			transform: translateY(-100%);
+		}
+	}
+
+	h3 {
+		@extend %flex;
+		font-size: 20px;
+		font-weight: 400;
+		margin: 60px 0 25px;
+		color: $tertiary_color;
+
+		.ss-tooltip {
+			margin-left: 14px;
+		}
+	}
+}
+
+
+.ss-statistics-placeholder {
+
+	.ss-upgrade-popup {
+		text-align: center;
+		box-sizing: border-box;
+		width: 730px;
+		max-width: 90%;
+		box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.25), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+		background-color: #FFF;
+		border-radius: 3px;
+		position: absolute;
+		border: 1px solid #ddd;
+		top: 100px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 100;
+		padding: 40px 0 0;
+	}
+
+	.ss-upgrade-button {
+		margin-top: 40px;
+		background-color: #f4f5f7;
+		padding: 25px;
+		text-align: center;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+
+		a {
+			background-color: $upgrade_color;
+			color: #FFF;
+			font-size: 16px;
+			font-weight: 600;
+			padding: 16px 28px;
+
+			&:hover {
+				background-color: $upgrade_color_hover;
+			}
+		}
+	}
+
+	.ss-row {
+		max-width: 85%;
+		margin: 30px auto 0 auto;
+		font-size: 16px;
+		color: #666;
+		text-align: left;
+	}
+
+	.ss-check-list {
+		width: 50%;
+		box-sizing: border-box;
+		padding: 0 0 0 40px;
+		margin: 0;
+		
+		& > li {
+			position: relative;
+			line-height: 1.125;
+			padding: 6px 0;
+			display: block;
+
+			&:before {
+				font-family: dashicons;
+				content: "\f147";
+				color: #6a9e3a;
+				font-size: 24px;
+				vertical-align: middle;
+				display: inline-block;
+				position: absolute;
+				left: -32px;
+				bottom: 1px;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+		}
+	}
+
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+		margin: 0 0 16px 0;
+		padding: 0 30px;
+	}
+
+	p {
+		color: #666;
+		font-size: 16px;
+		max-width: 530px;
+		margin: 0 auto;
+		padding: 0 30px;
+	}
+
+	img {
+		user-select: none;
+		display: block;
+		width: 100%;
+		pointer-events: none;
+		filter: blur(4px);
+	}
+}
+
+/*****************************************/
+/* Media Queries
+/*****************************************/
+
+@media screen and (max-width: 600px) {
+	.admin-bar {
+		#wpcontent {
+			padding-top: 46px;
+		}
+
+		#ss-right-panel {
+			.ss-add-networks-popup {
+				top: 46px;
+
+				.ss-popup-network {
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	#wpbody {
+		padding-top: 0;
+	}
+}

@@ -1,4 +1,4 @@
-# Copyright (C) 2025 Social Snap
+# Copyright (C) 2026 Social Snap
 # This file is distributed under the same license as the Social Snap package.
 msgid ""
 msgstr ""
@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-21 02:32+0000\n"
+"POT-Creation-Date: 2026-01-27 02:52+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -14,2949 +14,2985 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: socialsnap.php:57
+#: socialsnap.php:59
 msgid "Please deactivate Social Snap Lite before activating the premium version of Social Snap."
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:46
+#: includes/class-click-to-tweet-widget.php:52
 msgctxt "Widget"
 msgid "Displays Click to Tweet box."
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:54
+#: includes/class-click-to-tweet-widget.php:60
 msgctxt "Widget"
 msgid "Social Snap: Click to Tweet"
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:119, includes/follow/class-follow-widget.php:146, pro/includes/share/class-top-posts-widget.php:227
+#: includes/class-click-to-tweet-widget.php:125, includes/follow/class-follow-widget.php:152, pro/includes/share/class-top-posts-widget.php:233
 msgctxt "Widget"
 msgid "Title:"
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:129
+#: includes/class-click-to-tweet-widget.php:135
 msgctxt "Widget"
 msgid "Tweet Content:"
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:132
+#: includes/class-click-to-tweet-widget.php:138
 msgid "Content that will be posted on Twitter. If empty, Quote Content will be used."
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:137
+#: includes/class-click-to-tweet-widget.php:143
 msgctxt "Widget"
 msgid "Quote Content:"
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:140
+#: includes/class-click-to-tweet-widget.php:146
 msgid "Text that will be shown on your website, inside the Click to Tweet box."
-msgstr ""
-
-#: includes/class-click-to-tweet-widget.php:145
-msgctxt "Widget"
-msgid "Style:"
-msgstr ""
-
-#: includes/class-click-to-tweet-widget.php:149
-msgctxt "Widget"
-msgid "Default"
-msgstr ""
-
-#: includes/class-click-to-tweet-widget.php:150
-msgctxt "Widget"
-msgid "Style 1"
 msgstr ""
 
 #: includes/class-click-to-tweet-widget.php:151
 msgctxt "Widget"
-msgid "Style 2"
-msgstr ""
-
-#: includes/class-click-to-tweet-widget.php:152
-msgctxt "Widget"
-msgid "Style 3"
-msgstr ""
-
-#: includes/class-click-to-tweet-widget.php:153
-msgctxt "Widget"
-msgid "Style 4"
-msgstr ""
-
-#: includes/class-click-to-tweet-widget.php:154
-msgctxt "Widget"
-msgid "Style 5"
+msgid "Style:"
 msgstr ""
 
 #: includes/class-click-to-tweet-widget.php:155
 msgctxt "Widget"
+msgid "Default"
+msgstr ""
+
+#: includes/class-click-to-tweet-widget.php:156
+msgctxt "Widget"
+msgid "Style 1"
+msgstr ""
+
+#: includes/class-click-to-tweet-widget.php:157
+msgctxt "Widget"
+msgid "Style 2"
+msgstr ""
+
+#: includes/class-click-to-tweet-widget.php:158
+msgctxt "Widget"
+msgid "Style 3"
+msgstr ""
+
+#: includes/class-click-to-tweet-widget.php:159
+msgctxt "Widget"
+msgid "Style 4"
+msgstr ""
+
+#: includes/class-click-to-tweet-widget.php:160
+msgctxt "Widget"
+msgid "Style 5"
+msgstr ""
+
+#: includes/class-click-to-tweet-widget.php:161
+msgctxt "Widget"
 msgid "Style 6"
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:162
+#: includes/class-click-to-tweet-widget.php:168
 msgctxt "Widget"
 msgid "Append page link to Tweet."
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:166
+#: includes/class-click-to-tweet-widget.php:172
 msgctxt "Widget"
 msgid "Include via @username in Tweet."
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:166
+#: includes/class-click-to-tweet-widget.php:172
 msgid "Configure here"
 msgstr ""
 
-#: includes/class-click-to-tweet-widget.php:170
+#: includes/class-click-to-tweet-widget.php:176
 msgctxt "Widget"
 msgid "Hide on mobile devices."
 msgstr ""
 
-#: includes/class-click-to-tweet.php:106
+#: includes/class-click-to-tweet.php:111
 msgid "Enter Tweet Content here..."
 msgstr ""
 
-#: includes/class-click-to-tweet.php:163, includes/class-click-to-tweet.php:165, includes/class-click-to-tweet.php:166, includes/functions.php:542, pro/includes/class-statistics.php:631, pro/includes/class-statistics.php:880, includes/admin/settings/config-editor.php:93, includes/admin/settings/config-settings.php:1073
+#: includes/class-click-to-tweet.php:168, includes/class-click-to-tweet.php:170, includes/class-click-to-tweet.php:171, includes/functions.php:547, pro/includes/class-statistics.php:637, pro/includes/class-statistics.php:886, includes/admin/settings/config-editor.php:98, includes/admin/settings/config-settings.php:1078
 msgid "Click to Tweet"
 msgstr ""
 
-#: includes/class-click-to-tweet.php:262
+#: includes/class-click-to-tweet.php:267
 msgid "Social Snap allows you to create beautiful Click to Tweet boxes in several different styles. #awesome"
 msgstr ""
 
-#: includes/functions.php:467, pro/includes/share/class-social-share-pro.php:248
+#: includes/functions.php:472, pro/includes/share/class-social-share-pro.php:254
 msgid "Print"
 msgstr ""
 
-#: includes/functions.php:468, pro/includes/share/class-social-share-pro.php:249
+#: includes/functions.php:473, pro/includes/share/class-social-share-pro.php:255
 msgid "Copy Link"
 msgstr ""
 
-#: includes/functions.php:541
+#: includes/functions.php:546
 msgid "Other"
 msgstr ""
 
-#: includes/functions.php:725
+#: includes/functions.php:730
 msgid "Categories"
 msgstr ""
 
-#: includes/functions.php:726
+#: includes/functions.php:731
 msgid "Tags"
 msgstr ""
 
-#: includes/functions.php:1051, pro/socialsnap-pro.php:262
+#: includes/functions.php:1056, pro/socialsnap-pro.php:267
 msgid "Upgrade"
 msgstr ""
 
-#: pro/socialsnap-pro.php:200, includes/admin/settings/config-settings.php:132
+#: pro/socialsnap-pro.php:205, includes/admin/settings/config-settings.php:137
 msgid "Sidebar Position"
 msgstr ""
 
-#: pro/socialsnap-pro.php:203, includes/admin/settings/config-settings.php:754
+#: pro/socialsnap-pro.php:208, includes/admin/settings/config-settings.php:759
 msgid "Top Left"
 msgstr ""
 
-#: pro/socialsnap-pro.php:204
+#: pro/socialsnap-pro.php:209
 msgid "Center Left"
 msgstr ""
 
-#: pro/socialsnap-pro.php:205, includes/admin/settings/config-settings.php:757
+#: pro/socialsnap-pro.php:210, includes/admin/settings/config-settings.php:762
 msgid "Bottom Left"
 msgstr ""
 
-#: pro/socialsnap-pro.php:206, includes/admin/settings/config-settings.php:755
+#: pro/socialsnap-pro.php:211, includes/admin/settings/config-settings.php:760
 msgid "Top Right"
 msgstr ""
 
-#: pro/socialsnap-pro.php:207
+#: pro/socialsnap-pro.php:212
 msgid "Center Right"
 msgstr ""
 
-#: pro/socialsnap-pro.php:208, includes/admin/settings/config-settings.php:758
+#: pro/socialsnap-pro.php:213, includes/admin/settings/config-settings.php:763
 msgid "Bottom Right"
 msgstr ""
 
-#: pro/socialsnap-pro.php:240
+#: pro/socialsnap-pro.php:245
 msgid "Browse plugin documentation, reference materials and tutorials."
 msgstr ""
 
-#: pro/socialsnap-pro.php:262, includes/admin/class-addons.php:168, pro/includes/admin/class-addons.php:131, pro/includes/admin/class-addons.php:189, pro/includes/admin/class-addons.php:248
+#: pro/socialsnap-pro.php:267, includes/admin/class-addons.php:174, pro/includes/admin/class-addons.php:137, pro/includes/admin/class-addons.php:195, pro/includes/admin/class-addons.php:254
 msgid "Activate"
 msgstr ""
 
-#: includes/admin/class-addons.php:52
+#: includes/admin/class-addons.php:58
 msgid "Social Snap Addons"
 msgstr ""
 
-#: includes/admin/class-addons.php:53, includes/admin/settings/class-settings.php:459
+#: includes/admin/class-addons.php:59, includes/admin/settings/class-settings.php:465
 msgid "Addons"
 msgstr ""
 
-#: includes/admin/class-addons.php:76
+#: includes/admin/class-addons.php:82
 msgid "There was an issue retrieving the addons for this site. Please click on the button above the refresh the addons data."
 msgstr ""
 
-#: includes/admin/class-addons.php:143, includes/admin/class-addons.php:162, includes/admin/class-addons.php:156
+#: includes/admin/class-addons.php:149, includes/admin/class-addons.php:168, includes/admin/class-addons.php:162
 msgid "Not Installed"
 msgstr ""
 
-#: includes/admin/class-addons.php:144, includes/admin/class-addons.php:157, includes/admin/class-addons.php:302, includes/admin/class-welcome.php:269, includes/admin/settings/class-settings.php:778, pro/includes/admin/class-addons.php:227, includes/admin/settings/fields/field_info.php:46, includes/admin/settings/fields/field_social_share_networks.php:76
+#: includes/admin/class-addons.php:150, includes/admin/class-addons.php:163, includes/admin/class-addons.php:308, includes/admin/class-welcome.php:274, includes/admin/settings/class-settings.php:784, pro/includes/admin/class-addons.php:233, includes/admin/settings/fields/field_info.php:52, includes/admin/settings/fields/field_social_share_networks.php:82
 msgid "Upgrade Now"
 msgstr ""
 
-#: includes/admin/class-addons.php:172, pro/includes/admin/class-addons.php:159
+#: includes/admin/class-addons.php:178, pro/includes/admin/class-addons.php:165
 msgid "Active"
 msgstr ""
 
-#: includes/admin/class-addons.php:173, pro/includes/admin/class-addons.php:160
+#: includes/admin/class-addons.php:179, pro/includes/admin/class-addons.php:166
 msgid "Deactivate"
 msgstr ""
 
-#: includes/admin/class-addons.php:167, pro/includes/admin/class-addons.php:130, pro/includes/admin/class-addons.php:188
+#: includes/admin/class-addons.php:173, pro/includes/admin/class-addons.php:136, pro/includes/admin/class-addons.php:194
 msgid "Inactive"
 msgstr ""
 
-#: includes/admin/class-addons.php:163
+#: includes/admin/class-addons.php:169
 msgid "Install"
 msgstr ""
 
-#: includes/admin/class-addons.php:151
+#: includes/admin/class-addons.php:157
 msgid "Coming Soon"
 msgstr ""
 
-#: includes/admin/class-addons.php:302, pro/includes/admin/class-addons.php:227
+#: includes/admin/class-addons.php:308, pro/includes/admin/class-addons.php:233
 msgid "Social Snap Addons are a PRO feature."
 msgstr ""
 
-#: includes/admin/class-addons.php:302, pro/includes/admin/class-addons.php:227
+#: includes/admin/class-addons.php:308, pro/includes/admin/class-addons.php:233
 msgid "Please upgrade to Social Snap PRO plan to unlock Addons and more awesome features."
 msgstr ""
 
-#: includes/admin/class-admin-page.php:76
+#: includes/admin/class-admin-page.php:82
 msgid "Invalid email address. Please check."
 msgstr ""
 
-#: includes/admin/class-admin-page.php:77
+#: includes/admin/class-admin-page.php:83
 msgid "Thank you for subscribing!"
 msgstr ""
 
-#: includes/admin/class-admin-page.php:78
+#: includes/admin/class-admin-page.php:84
 msgid "Something went wrong. Please try again later."
 msgstr ""
 
-#: includes/admin/class-admin-page.php:79
+#: includes/admin/class-admin-page.php:85
 msgid "Uploaded File"
 msgstr ""
 
-#: includes/admin/class-admin-page.php:127
+#: includes/admin/class-admin-page.php:133
 msgid "License Activation"
 msgstr ""
 
-#: includes/admin/class-admin-page.php:123, includes/admin/class-statistics.php:43
+#: includes/admin/class-admin-page.php:129, includes/admin/class-statistics.php:49
 msgid "Statistics"
 msgstr ""
 
-#: includes/admin/class-admin-page.php:113
+#: includes/admin/class-admin-page.php:119
 msgid "Available Addons"
 msgstr ""
 
-#: includes/admin/class-post-list-table.php:69
+#: includes/admin/class-post-list-table.php:75
 msgid "Disabled"
 msgstr ""
 
-#: includes/admin/class-post-list-table.php:137, includes/admin/settings/config-metaboxes.php:17
+#: includes/admin/class-post-list-table.php:143, includes/admin/settings/config-metaboxes.php:22
 msgid "Disable Share Buttons"
 msgstr ""
 
-#: includes/admin/class-rating.php:86
+#: includes/admin/class-rating.php:92
 msgid "Hey, you just crossed 50 shares via Social Snap - that’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation."
 msgstr ""
 
-#: includes/admin/class-rating.php:88
+#: includes/admin/class-rating.php:94
 msgid "Co-Founder of Social Snap"
 msgstr ""
 
-#: includes/admin/class-rating.php:91
+#: includes/admin/class-rating.php:97
 msgid "Ok, you deserve it"
 msgstr ""
 
-#: includes/admin/class-rating.php:92
+#: includes/admin/class-rating.php:98
 msgid "Nope, maybe later"
 msgstr ""
 
-#: includes/admin/class-rating.php:93
+#: includes/admin/class-rating.php:99
 msgid "I already did"
 msgstr ""
 
 #. translators: %s = review link.
-#: includes/admin/class-rating.php:134
+#: includes/admin/class-rating.php:140
 msgid "If you like <strong>Social Snap</strong> please leave us a <a href=\"%s\" target=\"_blank\" rel=\"noopener\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating to help us spread the word. Thank you!"
 msgstr ""
 
-#: includes/admin/class-statistics.php:42
+#: includes/admin/class-statistics.php:48
 msgid "Social Snap Statistics"
 msgstr ""
 
-#: includes/admin/class-statistics.php:64
+#: includes/admin/class-statistics.php:70
 msgid "Your Website Social Stats in One Place"
 msgstr ""
 
-#: includes/admin/class-statistics.php:65
+#: includes/admin/class-statistics.php:71
 msgid "Upgrade Social Snap today and get access to advanced social network statistics to track how your website performs on social networks."
 msgstr ""
 
-#: includes/admin/class-statistics.php:70
+#: includes/admin/class-statistics.php:76
 msgid "Track Shares, Views and Likes"
 msgstr ""
 
-#: includes/admin/class-statistics.php:71
+#: includes/admin/class-statistics.php:77
 msgid "Share Stats for All Networks"
 msgstr ""
 
-#: includes/admin/class-statistics.php:72
+#: includes/admin/class-statistics.php:78
 msgid "Filter Share Stats by Location"
 msgstr ""
 
-#: includes/admin/class-statistics.php:73
+#: includes/admin/class-statistics.php:79
 msgid "Filter Share Stats by Networks"
 msgstr ""
 
-#: includes/admin/class-statistics.php:78
+#: includes/admin/class-statistics.php:84
 msgid "Filter by Date"
 msgstr ""
 
-#: includes/admin/class-statistics.php:79
+#: includes/admin/class-statistics.php:85
 msgid "Custom Post Types Supported"
 msgstr ""
 
-#: includes/admin/class-statistics.php:80
+#: includes/admin/class-statistics.php:86
 msgid "Track Click to Tweet Engagement"
 msgstr ""
 
-#: includes/admin/class-statistics.php:81
+#: includes/admin/class-statistics.php:87
 msgid "Top Performing Posts"
 msgstr ""
 
-#: includes/admin/class-statistics.php:87
+#: includes/admin/class-statistics.php:93
 msgid "Upgrade Social Snap Now"
 msgstr ""
 
-#: includes/admin/class-welcome.php:50
+#: includes/admin/class-welcome.php:55
 msgid "Welcome to Social Snap"
 msgstr ""
 
-#: includes/admin/class-welcome.php:51
+#: includes/admin/class-welcome.php:56
 msgid "About"
 msgstr ""
 
-#: includes/admin/class-welcome.php:109
+#: includes/admin/class-welcome.php:114
 msgid "Customize Social Snap"
 msgstr ""
 
-#: includes/admin/class-welcome.php:111
+#: includes/admin/class-welcome.php:116
 msgid "Read Guide"
 msgstr ""
 
-#: includes/admin/class-welcome.php:119
+#: includes/admin/class-welcome.php:124
 msgid "Social Snap Features"
 msgstr ""
 
-#: includes/admin/class-welcome.php:119
+#: includes/admin/class-welcome.php:124
 msgid "Social Snap Lite Features"
 msgstr ""
 
-#: includes/admin/class-welcome.php:122
+#: includes/admin/class-welcome.php:127
 msgid "Social Snap is the best social media plugin that gives you everything you need to increase shares and drive more traffic to your website."
 msgstr ""
 
-#: includes/admin/class-welcome.php:129
+#: includes/admin/class-welcome.php:134
 msgid "Social Share Buttons"
 msgstr ""
 
-#: includes/admin/class-welcome.php:130
+#: includes/admin/class-welcome.php:135
 msgid "Add social sharing buttons without slowing down your website."
 msgstr ""
 
-#: includes/admin/class-welcome.php:137, includes/admin/class-welcome.php:242
+#: includes/admin/class-welcome.php:142, includes/admin/class-welcome.php:247
 msgid "Share Counters"
 msgstr ""
 
-#: includes/admin/class-welcome.php:138
+#: includes/admin/class-welcome.php:143
 msgid "Display social media share counters and encourage users to share."
 msgstr ""
 
-#: includes/admin/class-welcome.php:147
+#: includes/admin/class-welcome.php:152
 msgid "Floating Share Buttons"
 msgstr ""
 
-#: includes/admin/class-welcome.php:148
+#: includes/admin/class-welcome.php:153
 msgid "Stunning share buttons that are accessible throughout the entire page."
 msgstr ""
 
-#: includes/admin/class-welcome.php:155
+#: includes/admin/class-welcome.php:160
 msgid "On Media Share Buttons"
 msgstr ""
 
-#: includes/admin/class-welcome.php:156
+#: includes/admin/class-welcome.php:161
 msgid "Display share buttons on media and leverage the power of Pinterest."
 msgstr ""
 
-#: includes/admin/class-welcome.php:165
+#: includes/admin/class-welcome.php:170
 msgid "Fully Responsive"
 msgstr ""
 
-#: includes/admin/class-welcome.php:166
+#: includes/admin/class-welcome.php:171
 msgid "Social Snap is fully responsive and looks great on all devices."
 msgstr ""
 
-#: includes/admin/class-welcome.php:173
+#: includes/admin/class-welcome.php:178
 msgid "Gutenberg Block &amp; Shortcode"
 msgstr ""
 
-#: includes/admin/class-welcome.php:174
+#: includes/admin/class-welcome.php:179
 msgid "Insert social media buttons into your content in a few simple clicks."
 msgstr ""
 
-#: includes/admin/class-welcome.php:183
+#: includes/admin/class-welcome.php:188
 msgid "Scalable Vector Icons (SVG)"
 msgstr ""
 
-#: includes/admin/class-welcome.php:184
+#: includes/admin/class-welcome.php:189
 msgid "Scalable vector icons will look crisp on all devices and load faster."
 msgstr ""
 
-#: includes/admin/class-welcome.php:191
+#: includes/admin/class-welcome.php:196
 msgid "Lightning Fast / Async Load"
 msgstr ""
 
-#: includes/admin/class-welcome.php:192
+#: includes/admin/class-welcome.php:197
 msgid "Advanced caching and async loading makes everything run smooth."
 msgstr ""
 
-#: includes/admin/class-welcome.php:207
+#: includes/admin/class-welcome.php:212
 msgid "Click to Tweet Boxes"
 msgstr ""
 
-#: includes/admin/class-welcome.php:208
+#: includes/admin/class-welcome.php:213
 msgid "An effective tool for increasing your site engagement and getting more shares on X (Twitter). "
 msgstr ""
 
-#: includes/admin/class-welcome.php:215
+#: includes/admin/class-welcome.php:220
 msgid "Social Follow Buttons"
 msgstr ""
 
-#: includes/admin/class-welcome.php:216
+#: includes/admin/class-welcome.php:221
 msgid "Get more followers and subscribers with beautifully designed follow buttons and counters."
 msgstr ""
 
-#: includes/admin/class-welcome.php:220
+#: includes/admin/class-welcome.php:225
 msgid "See All Features"
 msgstr ""
 
-#: includes/admin/class-welcome.php:220
+#: includes/admin/class-welcome.php:225
 msgid "See Premium Features"
 msgstr ""
 
-#: includes/admin/class-welcome.php:235, includes/admin/settings/config-settings.php:1334
+#: includes/admin/class-welcome.php:240, includes/admin/settings/config-settings.php:1339
 msgid "Go Premium"
 msgstr ""
 
-#: includes/admin/class-welcome.php:240
+#: includes/admin/class-welcome.php:245
 msgid "30+ Share Providers"
 msgstr ""
 
-#: includes/admin/class-welcome.php:241
+#: includes/admin/class-welcome.php:246
 msgid "More Share Positions"
 msgstr ""
 
-#: includes/admin/class-welcome.php:243
+#: includes/admin/class-welcome.php:248
 msgid "URL Shortening"
 msgstr ""
 
-#: includes/admin/class-welcome.php:244
+#: includes/admin/class-welcome.php:249
 msgid "Analytics"
 msgstr ""
 
-#: includes/admin/class-welcome.php:249
+#: includes/admin/class-welcome.php:254
 msgid "Top Posts Widget"
 msgstr ""
 
-#: includes/admin/class-welcome.php:250, includes/admin/settings/config-settings.php:1282
+#: includes/admin/class-welcome.php:255, includes/admin/settings/config-settings.php:1287
 msgid "Social Login"
 msgstr ""
 
-#: includes/admin/class-welcome.php:251, includes/admin/settings/config-settings.php:1299
+#: includes/admin/class-welcome.php:256, includes/admin/settings/config-settings.php:1304
 msgid "Boost Old Posts"
 msgstr ""
 
-#: includes/admin/class-welcome.php:252
+#: includes/admin/class-welcome.php:257
 msgid "Social Auto Poster"
 msgstr ""
 
-#: includes/admin/class-welcome.php:253
+#: includes/admin/class-welcome.php:258
 msgid "Social Meta Tags"
 msgstr ""
 
-#: includes/admin/class-welcome.php:262
+#: includes/admin/class-welcome.php:267
 msgid "Starting at"
 msgstr ""
 
-#: includes/admin/class-welcome.php:287
+#: includes/admin/class-welcome.php:292
 msgid "Stay in the loop!"
 msgstr ""
 
-#: includes/admin/class-welcome.php:289
+#: includes/admin/class-welcome.php:294
 msgid "Sign up to receive emails for the latest Social Snap updates, features, and news."
 msgstr ""
 
-#: includes/admin/class-welcome.php:293
+#: includes/admin/class-welcome.php:298
 msgid "Subscribe"
 msgstr ""
 
-#: includes/admin/class-welcome.php:372
+#: includes/admin/class-welcome.php:377
 msgid "Error. Please try again."
 msgstr ""
 
-#: includes/admin/class-welcome.php:379
+#: includes/admin/class-welcome.php:384
 msgid "Success."
 msgstr ""
 
-#: includes/compatibility/class-dpsp-compatibility.php:63
+#: includes/compatibility/class-dpsp-compatibility.php:68
 msgid "Social Pug"
 msgstr ""
 
-#: includes/compatibility/class-dpsp-compatibility.php:64
+#: includes/compatibility/class-dpsp-compatibility.php:69
 msgid "Import Social Pug settings"
 msgstr ""
 
-#: includes/compatibility/class-dpsp-compatibility.php:65, includes/compatibility/class-fsb-compatibility.php:56, includes/compatibility/class-mashshare-compatibility.php:66, includes/compatibility/class-sw-compatibility.php:69, includes/admin/settings/config-settings.php:1262, includes/admin/settings/fields/field_import.php:52
+#: includes/compatibility/class-dpsp-compatibility.php:70, includes/compatibility/class-fsb-compatibility.php:61, includes/compatibility/class-mashshare-compatibility.php:71, includes/compatibility/class-sw-compatibility.php:74, includes/admin/settings/config-settings.php:1267, includes/admin/settings/fields/field_import.php:58
 msgid "Import Settings"
 msgstr ""
 
-#: includes/compatibility/class-dpsp-compatibility.php:68
+#: includes/compatibility/class-dpsp-compatibility.php:73
 msgid "Are you sure you want to import Social Pug settings? This will overwrite current plugin settings and individual post settings. Please make a full backup of your website before you start the migration process."
 msgstr ""
 
-#: includes/compatibility/class-dpsp-compatibility.php:73, includes/compatibility/class-mashshare-compatibility.php:74, includes/compatibility/class-sw-compatibility.php:77
+#: includes/compatibility/class-dpsp-compatibility.php:78, includes/compatibility/class-mashshare-compatibility.php:79, includes/compatibility/class-sw-compatibility.php:82
 msgid "Import Share Counts"
 msgstr ""
 
-#: includes/compatibility/class-dpsp-compatibility.php:76
+#: includes/compatibility/class-dpsp-compatibility.php:81
 msgid "Are you sure you want to import Social Pug share counts? Share counts will be imported only if they are greater than counts stored by Social Snap. Please make a full backup of your website before you start the import process."
 msgstr ""
 
-#: includes/compatibility/class-dpsp-compatibility.php:95, includes/compatibility/class-dpsp-compatibility.php:763, includes/compatibility/class-fsb-compatibility.php:77, includes/compatibility/class-mashshare-compatibility.php:96, includes/compatibility/class-mashshare-compatibility.php:297, includes/compatibility/class-sw-compatibility.php:98, includes/compatibility/class-sw-compatibility.php:508, includes/share/class-social-share.php:1577, includes/admin/settings/class-settings.php:212, includes/admin/settings/class-settings.php:275, includes/admin/settings/class-settings.php:307
+#: includes/compatibility/class-dpsp-compatibility.php:100, includes/compatibility/class-dpsp-compatibility.php:771, includes/compatibility/class-fsb-compatibility.php:82, includes/compatibility/class-mashshare-compatibility.php:101, includes/compatibility/class-mashshare-compatibility.php:305, includes/compatibility/class-sw-compatibility.php:103, includes/compatibility/class-sw-compatibility.php:516, includes/share/class-social-share.php:1582, includes/admin/settings/class-settings.php:218, includes/admin/settings/class-settings.php:281, includes/admin/settings/class-settings.php:313
 msgid "Error. Access denied."
 msgstr ""
 
-#: includes/compatibility/class-fsb-compatibility.php:54
-msgid "Floating Social Bar"
+#: includes/compatibility/class-dpsp-compatibility.php:119
+msgid "Social Pug settings imported successfully."
 msgstr ""
 
-#: includes/compatibility/class-fsb-compatibility.php:55
-msgid "Import Floating Social Bar settings"
+#: includes/compatibility/class-dpsp-compatibility.php:805
+msgid "Social Pug shares imported successfully."
 msgstr ""
 
 #: includes/compatibility/class-fsb-compatibility.php:59
+msgid "Floating Social Bar"
+msgstr ""
+
+#: includes/compatibility/class-fsb-compatibility.php:60
+msgid "Import Floating Social Bar settings"
+msgstr ""
+
+#: includes/compatibility/class-fsb-compatibility.php:64
 msgid "Are you sure you want to import Floating Social Bar settings? Please make a full backup of your website before you start the migration process."
 msgstr ""
 
-#: includes/compatibility/class-mashshare-compatibility.php:64
-msgid "MashShare"
-msgstr ""
-
-#: includes/compatibility/class-mashshare-compatibility.php:65
-msgid "Import MashShare settings"
+#: includes/compatibility/class-fsb-compatibility.php:141, includes/compatibility/class-sw-compatibility.php:132
+msgid "Social Warfare settings imported successfully."
 msgstr ""
 
 #: includes/compatibility/class-mashshare-compatibility.php:69
+msgid "MashShare"
+msgstr ""
+
+#: includes/compatibility/class-mashshare-compatibility.php:70
+msgid "Import MashShare settings"
+msgstr ""
+
+#: includes/compatibility/class-mashshare-compatibility.php:74
 msgid "Are you sure you want to import MashShare settings? This will overwrite current plugin settings and individual post settings. Please make a full backup of your website before you start the migration process."
 msgstr ""
 
-#: includes/compatibility/class-mashshare-compatibility.php:77
+#: includes/compatibility/class-mashshare-compatibility.php:82
 msgid "Are you sure you want to import MashShare share counts? Share counts will be imported only if they are greater than counts stored by Social Snap. Please make a full backup of your website before you start the import process."
 msgstr ""
 
-#: includes/compatibility/class-sw-compatibility.php:67
-msgid "Social Warfare"
+#: includes/compatibility/class-mashshare-compatibility.php:122
+msgid "MashShare settings imported successfully."
 msgstr ""
 
-#: includes/compatibility/class-sw-compatibility.php:68
-msgid "Import Social Warfare settings"
+#: includes/compatibility/class-mashshare-compatibility.php:371
+msgid "MashShare share counts imported successfully."
 msgstr ""
 
 #: includes/compatibility/class-sw-compatibility.php:72
+msgid "Social Warfare"
+msgstr ""
+
+#: includes/compatibility/class-sw-compatibility.php:73
+msgid "Import Social Warfare settings"
+msgstr ""
+
+#: includes/compatibility/class-sw-compatibility.php:77
 msgid "Are you sure you want to import Social Warfare settings? This will overwrite current plugin settings and individual post settings. Please make a full backup of your website before you start the migration process."
 msgstr ""
 
-#: includes/compatibility/class-sw-compatibility.php:80
+#: includes/compatibility/class-sw-compatibility.php:85
 msgid "Are you sure you want to import Social Warfare share counts? Share counts will be imported only if they are greater than counts stored by Social Snap. Please make a full backup of your website before you start the import process."
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:48
+#: includes/compatibility/class-sw-compatibility.php:593
+msgid "Social Warfare shares imported successfully."
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:54
 msgctxt "Widget"
 msgid "Displays social follow links with follower counts."
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:56
+#: includes/follow/class-follow-widget.php:62
 msgctxt "Widget"
 msgid "Social Snap: Social Followers"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:156
+#: includes/follow/class-follow-widget.php:162
 msgctxt "Widget"
 msgid "Networks:"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:163
+#: includes/follow/class-follow-widget.php:169
 msgid "Semicolon separated list of networks."
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:164
+#: includes/follow/class-follow-widget.php:170
 msgid "Leave empty to use all configured networks."
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:165
+#: includes/follow/class-follow-widget.php:171
 msgid "You can find the list of available networks <a href=\"https://socialsnap.com/help/features/available-social-networks/\" target=\"_blank\">here</a>."
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:166
-msgid "Example: facebook;twitter;instagram"
-msgstr ""
-
 #: includes/follow/class-follow-widget.php:172
-msgctxt "Widget"
-msgid "Button Size:"
-msgstr ""
-
-#: includes/follow/class-follow-widget.php:176
-msgctxt "Widget"
-msgid "Small"
-msgstr ""
-
-#: includes/follow/class-follow-widget.php:177
-msgctxt "Widget"
-msgid "Regular"
+msgid "Example: facebook;twitter;instagram"
 msgstr ""
 
 #: includes/follow/class-follow-widget.php:178
 msgctxt "Widget"
-msgid "Large"
+msgid "Button Size:"
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:182
+msgctxt "Widget"
+msgid "Small"
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:183
+msgctxt "Widget"
+msgid "Regular"
 msgstr ""
 
 #: includes/follow/class-follow-widget.php:184
 msgctxt "Widget"
-msgid "Color Scheme:"
-msgstr ""
-
-#: includes/follow/class-follow-widget.php:188
-msgctxt "Widget"
-msgid "Network"
-msgstr ""
-
-#: includes/follow/class-follow-widget.php:189
-msgctxt "Widget"
-msgid "Light"
+msgid "Large"
 msgstr ""
 
 #: includes/follow/class-follow-widget.php:190
 msgctxt "Widget"
-msgid "Dark"
+msgid "Color Scheme:"
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:194
+msgctxt "Widget"
+msgid "Network"
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:195
+msgctxt "Widget"
+msgid "Light"
 msgstr ""
 
 #: includes/follow/class-follow-widget.php:196
 msgctxt "Widget"
-msgid "Button Columns:"
-msgstr ""
-
-#: includes/follow/class-follow-widget.php:200
-msgctxt "Widget"
-msgid "1 Column"
-msgstr ""
-
-#: includes/follow/class-follow-widget.php:201
-msgctxt "Widget"
-msgid "2 Column"
+msgid "Dark"
 msgstr ""
 
 #: includes/follow/class-follow-widget.php:202
 msgctxt "Widget"
+msgid "Button Columns:"
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:206
+msgctxt "Widget"
+msgid "1 Column"
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:207
+msgctxt "Widget"
+msgid "2 Column"
+msgstr ""
+
+#: includes/follow/class-follow-widget.php:208
+msgctxt "Widget"
 msgid "3 Column"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:203
+#: includes/follow/class-follow-widget.php:209
 msgctxt "Widget"
 msgid "4 Column"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:204
+#: includes/follow/class-follow-widget.php:210
 msgctxt "Widget"
 msgid "5 Column"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:211
+#: includes/follow/class-follow-widget.php:217
 msgctxt "Widget"
 msgid "Button Spacing"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:216
+#: includes/follow/class-follow-widget.php:222
 msgctxt "Widget"
 msgid "Vertical Layout"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:221
+#: includes/follow/class-follow-widget.php:227
 msgctxt "Widget"
 msgid "Total Followers"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:226
+#: includes/follow/class-follow-widget.php:232
 msgctxt "Widget"
 msgid "Network Followers"
 msgstr ""
 
-#: includes/follow/class-follow-widget.php:231
+#: includes/follow/class-follow-widget.php:237
 msgctxt "Widget"
 msgid "Network Labels"
 msgstr ""
 
 #. translators: $1%s is network name
 #. translators: %s is network name
-#: includes/follow/class-follow.php:184, includes/admin/settings/fields/field_social_follow_networks.php:61
+#: includes/follow/class-follow.php:190, includes/admin/settings/fields/field_social_follow_networks.php:67
 msgid "Follow us on %1$s"
 msgstr ""
 
-#: includes/follow/class-follow.php:238, includes/follow/class-follow.php:281
+#: includes/follow/class-follow.php:244, includes/follow/class-follow.php:287
 msgid "Follower"
 msgid_plural "Followers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/follow/class-follow.php:512
+#: includes/follow/class-follow.php:518
 msgid "Please configure at least one network to show a preview."
 msgstr ""
 
-#: includes/share/class-social-share.php:344
+#: includes/share/class-social-share.php:349
 msgid "Share via"
 msgstr ""
 
-#: includes/share/class-social-share.php:438
+#: includes/share/class-social-share.php:443
 msgid "Copy link"
 msgstr ""
 
-#: includes/share/class-social-share.php:447, includes/share/class-social-share.php:448
+#: includes/share/class-social-share.php:452, includes/share/class-social-share.php:453
 msgid "Copy"
 msgstr ""
 
-#: includes/share/class-social-share.php:448
+#: includes/share/class-social-share.php:453
 msgid "Copied"
 msgstr ""
 
-#: includes/share/class-social-share.php:817
+#: includes/share/class-social-share.php:822
 msgid "Save"
 msgstr ""
 
-#: includes/share/class-social-share.php:908
+#: includes/share/class-social-share.php:913
 msgid "Share"
 msgid_plural "Shares"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/share/class-social-share.php:1198
+#: includes/share/class-social-share.php:1203
 msgid "More Networks"
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:43
+#: pro/includes/class-analytics-tracking.php:49
 msgid "Enable Click Tracking"
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:44
+#: pro/includes/class-analytics-tracking.php:50
 msgid "Notify Google Analytics when a user clicks one of the social buttons. Requires Google Analytics on your website."
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:50
+#: pro/includes/class-analytics-tracking.php:56
 msgid "Enable UTM Tracking"
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:51
+#: pro/includes/class-analytics-tracking.php:57
 msgid "Add UTM parameteres to share button links."
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:57
+#: pro/includes/class-analytics-tracking.php:63
 msgid "UTM Source"
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:58
+#: pro/includes/class-analytics-tracking.php:64
 msgid "This tag identifies the source of your traffic. Use {{social_network}} to use social network id for each share button."
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:69
+#: pro/includes/class-analytics-tracking.php:75
 msgid "UTM Medium"
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:70
+#: pro/includes/class-analytics-tracking.php:76
 msgid "This tag specifies the medium, like website or newsletter."
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:81
+#: pro/includes/class-analytics-tracking.php:87
 msgid "UTM Campaign"
 msgstr ""
 
-#: pro/includes/class-analytics-tracking.php:82
+#: pro/includes/class-analytics-tracking.php:88
 msgid "This tag indicates the campaign that the URL is a part of."
 msgstr ""
 
-#: pro/includes/class-bitly-shortening.php:215
+#: pro/includes/class-bitly-shortening.php:221
 msgid "Missing URLs to cache"
 msgstr ""
 
-#: pro/includes/class-bitly-shortening.php:219
+#: pro/includes/class-bitly-shortening.php:225
 msgid "Missing Bitly Access Token."
 msgstr ""
 
-#: pro/includes/class-bitly-shortening.php:288
+#: pro/includes/class-bitly-shortening.php:294
 msgid "Failed to decode JSON"
 msgstr ""
 
-#: pro/includes/class-bitly-shortening.php:358
+#: pro/includes/class-bitly-shortening.php:364
 msgid "Bitly URL Shortener"
 msgstr ""
 
-#: pro/includes/class-bitly-shortening.php:364, includes/admin/settings/fields/field_social_follow_networks.php:190, pro/includes/admin/settings/fields/field_bitly_authorize.php:83
+#: pro/includes/class-bitly-shortening.php:370, includes/admin/settings/fields/field_social_follow_networks.php:196, pro/includes/admin/settings/fields/field_bitly_authorize.php:89
 msgid "Authorize"
 msgstr ""
 
-#: pro/includes/class-bitly-shortening.php:397
+#: pro/includes/class-bitly-shortening.php:403
 msgid "Note: "
 msgstr ""
 
-#: pro/includes/class-bitly-shortening.php:398
+#: pro/includes/class-bitly-shortening.php:404
 msgid "Bitly authorization and URL shortening will not work on localhost."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:534
+#: pro/includes/class-meta-tags.php:540
 msgid "Enable Social Meta"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:540
+#: pro/includes/class-meta-tags.php:546
 msgid "Default Share Image"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:541
+#: pro/includes/class-meta-tags.php:547
 msgid "Upload an image that represents your website when shared on social networks. This field is used only if Featured Image or post specific image is not set. Recommended size is 1,200px by 628px."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:551
+#: pro/includes/class-meta-tags.php:557
 msgid "Twitter Card Layout"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:552
+#: pro/includes/class-meta-tags.php:558
 msgid "The Summary Card is designed to give the reader a preview of the content before clicking through to your website."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:555
+#: pro/includes/class-meta-tags.php:561
 msgid "Summary"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:556
+#: pro/includes/class-meta-tags.php:562
 msgid "Summary with Large Image"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:566
+#: pro/includes/class-meta-tags.php:572
 msgid "Website Twitter Username"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:567
+#: pro/includes/class-meta-tags.php:573
 msgid "The Twitter @username the card should be attributed to."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:577
+#: pro/includes/class-meta-tags.php:583
 msgid "Website Facebook Profile URL"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:578
+#: pro/includes/class-meta-tags.php:584
 msgid "Enter your Facebook Profile/Page link."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:588, includes/admin/settings/config-settings.php:82, includes/admin/settings/config-settings.php:974, includes/admin/settings/config-settings.php:1274, includes/admin/settings/config-settings.php:1290, includes/admin/settings/config-settings.php:1306, includes/admin/settings/config-settings.php:1322, pro/includes/share/class-social-share-pro.php:1742, pro/includes/share/class-social-share-pro.php:2461
+#: pro/includes/class-meta-tags.php:594, includes/admin/settings/config-settings.php:87, includes/admin/settings/config-settings.php:979, includes/admin/settings/config-settings.php:1279, includes/admin/settings/config-settings.php:1295, includes/admin/settings/config-settings.php:1311, includes/admin/settings/config-settings.php:1327, pro/includes/share/class-social-share-pro.php:1748, pro/includes/share/class-social-share-pro.php:2467
 msgid "Note:"
 msgstr ""
 
 #. translators: %s is link to profile.
-#: pro/includes/class-meta-tags.php:590
+#: pro/includes/class-meta-tags.php:596
 msgid "Post authors can specify their Twitter and Facebook info in %s settings."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:590
+#: pro/includes/class-meta-tags.php:596
 msgid "Profile"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:619
+#: pro/includes/class-meta-tags.php:625
 msgid "Social Media Title"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:621
+#: pro/includes/class-meta-tags.php:627
 msgid "A title which will be displayed when this post is shared on networks that use Open Graph, such as Facebook, LinkedIn and others."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:627
+#: pro/includes/class-meta-tags.php:633
 msgid "Social Media Description"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:629
+#: pro/includes/class-meta-tags.php:635
 msgid "A description which will be displayed when this post is shared on networks that use Open Graph, such as Facebook, LinkedIn and others."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:635
+#: pro/includes/class-meta-tags.php:641
 msgid "Social Media Image"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:637
+#: pro/includes/class-meta-tags.php:643
 msgid "Upload an image which will be displayed when this post is shared on networks that use Open Graph, such as Facebook, LinkedIn and others."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:638
+#: pro/includes/class-meta-tags.php:644
 msgid "Recommended image dimension is 1,200px by 628px."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:643
+#: pro/includes/class-meta-tags.php:649
 msgid "Social Media Video"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:645
+#: pro/includes/class-meta-tags.php:651
 msgid "Upload a video which will be displayed when this post is shared on networks. Note that your video is not guaranteed to play in-line based on a variety of factors."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:646
+#: pro/includes/class-meta-tags.php:652
 msgid "Recommended video extension is mp4."
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:648
+#: pro/includes/class-meta-tags.php:654
 msgid "Upload Video"
 msgstr ""
 
-#: pro/includes/class-meta-tags.php:653, includes/admin/settings/config-settings.php:1123
+#: pro/includes/class-meta-tags.php:659, includes/admin/settings/config-settings.php:1128
 msgid "Social Meta"
 msgstr ""
 
-#: pro/includes/class-statistics.php:240
+#: pro/includes/class-statistics.php:246
 msgid "Invalid chart data"
 msgstr ""
 
 #. translators: %1$s is statistics type
-#: pro/includes/class-statistics.php:525
+#: pro/includes/class-statistics.php:531
 msgid "Total %1$s"
 msgstr ""
 
-#: pro/includes/class-statistics.php:490
+#: pro/includes/class-statistics.php:496
 msgid "All time %1$s counts"
 msgstr ""
 
-#: pro/includes/class-statistics.php:629, pro/includes/class-statistics.php:630, pro/includes/class-statistics.php:927, pro/includes/class-statistics.php:929, pro/includes/share/class-top-posts-widget.php:125
+#: pro/includes/class-statistics.php:635, pro/includes/class-statistics.php:636, pro/includes/class-statistics.php:933, pro/includes/class-statistics.php:935, pro/includes/share/class-top-posts-widget.php:131
 msgid "Shares"
 msgstr ""
 
-#: pro/includes/class-statistics.php:632, pro/includes/class-statistics.php:881, pro/includes/class-statistics.php:930, pro/includes/share/class-top-posts-widget.php:124
+#: pro/includes/class-statistics.php:638, pro/includes/class-statistics.php:887, pro/includes/class-statistics.php:936, pro/includes/share/class-top-posts-widget.php:130
 msgid "Likes"
 msgstr ""
 
-#: pro/includes/class-statistics.php:633, pro/includes/class-statistics.php:931, pro/includes/share/class-top-posts-widget.php:126
+#: pro/includes/class-statistics.php:639, pro/includes/class-statistics.php:937, pro/includes/share/class-top-posts-widget.php:132
 msgid "Views"
 msgstr ""
 
-#: pro/includes/class-statistics.php:767, includes/admin/settings/config-editor.php:85, includes/admin/settings/config-settings.php:563
+#: pro/includes/class-statistics.php:773, includes/admin/settings/config-editor.php:90, includes/admin/settings/config-settings.php:568
 msgid "Total Shares"
 msgstr ""
 
-#: pro/includes/class-statistics.php:767
+#: pro/includes/class-statistics.php:773
 msgid "Total number of shares."
 msgstr ""
 
 #. translators: %1$s is count.
-#: pro/includes/class-statistics.php:772
+#: pro/includes/class-statistics.php:778
 msgid "Past 7 days: %1$s shares"
 msgstr ""
 
-#: pro/includes/class-statistics.php:777, pro/includes/class-statistics.php:775, pro/includes/class-statistics.php:799, pro/includes/class-statistics.php:797, pro/includes/class-statistics.php:821, pro/includes/class-statistics.php:819
+#: pro/includes/class-statistics.php:783, pro/includes/class-statistics.php:781, pro/includes/class-statistics.php:805, pro/includes/class-statistics.php:803, pro/includes/class-statistics.php:827, pro/includes/class-statistics.php:825
 msgid "than week before"
 msgstr ""
 
-#: pro/includes/class-statistics.php:789
+#: pro/includes/class-statistics.php:795
 msgid "Total Click to Tweets"
 msgstr ""
 
-#: pro/includes/class-statistics.php:789
+#: pro/includes/class-statistics.php:795
 msgid "Total number of times viewers clicked the Click to Tweet element."
 msgstr ""
 
 #. translators: %1$s is count
-#: pro/includes/class-statistics.php:794
+#: pro/includes/class-statistics.php:800
 msgid "Past 7 days: %1$s click to tweets"
 msgstr ""
 
-#: pro/includes/class-statistics.php:811
+#: pro/includes/class-statistics.php:817
 msgid "Total Likes"
 msgstr ""
 
-#: pro/includes/class-statistics.php:811
+#: pro/includes/class-statistics.php:817
 msgid "Total number of inbuilt likes."
 msgstr ""
 
 #. translators: %1$s is count
-#: pro/includes/class-statistics.php:816
+#: pro/includes/class-statistics.php:822
 msgid "Past 7 days: %1$s likes"
 msgstr ""
 
-#: pro/includes/class-statistics.php:838
+#: pro/includes/class-statistics.php:844
 msgid "Chart"
 msgstr ""
 
-#: pro/includes/class-statistics.php:839
+#: pro/includes/class-statistics.php:845
 msgid "Visual representation of your stats."
 msgstr ""
 
-#: pro/includes/class-statistics.php:844, pro/includes/class-statistics.php:846
+#: pro/includes/class-statistics.php:850, pro/includes/class-statistics.php:852
 msgid "All locations"
 msgstr ""
 
-#: pro/includes/class-statistics.php:847, includes/admin/settings/config-settings.php:119
+#: pro/includes/class-statistics.php:853, includes/admin/settings/config-settings.php:124
 msgid "Floating Sidebar"
 msgstr ""
 
-#: pro/includes/class-statistics.php:848
+#: pro/includes/class-statistics.php:854
 msgid "Inline Content"
 msgstr ""
 
-#: pro/includes/class-statistics.php:849
+#: pro/includes/class-statistics.php:855
 msgid "Share Hub"
 msgstr ""
 
-#: pro/includes/class-statistics.php:850
+#: pro/includes/class-statistics.php:856
 msgid "On Media"
 msgstr ""
 
-#: pro/includes/class-statistics.php:851, includes/admin/settings/config-settings.php:903, pro/includes/share/class-social-share-pro.php:2173
+#: pro/includes/class-statistics.php:857, includes/admin/settings/config-settings.php:908, pro/includes/share/class-social-share-pro.php:2179
 msgid "Sticky Bar"
 msgstr ""
 
-#: pro/includes/class-statistics.php:852
+#: pro/includes/class-statistics.php:858
 msgid "Network Popup"
 msgstr ""
 
-#: pro/includes/class-statistics.php:857
+#: pro/includes/class-statistics.php:863
 msgid "Individual Networks"
 msgstr ""
 
-#: pro/includes/class-statistics.php:859, includes/admin/settings/config-editor.php:71, includes/admin/settings/config-settings.php:215, includes/admin/settings/config-settings.php:529
+#: pro/includes/class-statistics.php:865, includes/admin/settings/config-editor.php:76, includes/admin/settings/config-settings.php:220, includes/admin/settings/config-settings.php:534
 msgid "All Networks"
 msgstr ""
 
-#: pro/includes/class-statistics.php:860
+#: pro/includes/class-statistics.php:866
 msgid "Individual networks"
 msgstr ""
 
-#: pro/includes/class-statistics.php:865, pro/includes/class-statistics.php:867
+#: pro/includes/class-statistics.php:871, pro/includes/class-statistics.php:873
 msgid "Past 7 Days"
 msgstr ""
 
-#: pro/includes/class-statistics.php:868
+#: pro/includes/class-statistics.php:874
 msgid "Past 30 Days"
 msgstr ""
 
-#: pro/includes/class-statistics.php:869
+#: pro/includes/class-statistics.php:875
 msgid "Past 12 Months"
 msgstr ""
 
-#: pro/includes/class-statistics.php:870
+#: pro/includes/class-statistics.php:876
 msgid "Past Years"
 msgstr ""
 
-#: pro/includes/class-statistics.php:871
+#: pro/includes/class-statistics.php:877
 msgid "Total"
 msgstr ""
 
-#: pro/includes/class-statistics.php:876, pro/includes/class-statistics.php:878
+#: pro/includes/class-statistics.php:882, pro/includes/class-statistics.php:884
 msgid "Shares API"
 msgstr ""
 
-#: pro/includes/class-statistics.php:879
+#: pro/includes/class-statistics.php:885
 msgid "Shares Clicks"
 msgstr ""
 
-#: pro/includes/class-statistics.php:902
+#: pro/includes/class-statistics.php:908
 msgid "Top Performing"
 msgstr ""
 
-#: pro/includes/class-statistics.php:902
+#: pro/includes/class-statistics.php:908
 msgid "Top performing posts on your website."
 msgstr ""
 
-#: pro/includes/class-statistics.php:907, pro/includes/class-statistics.php:909
+#: pro/includes/class-statistics.php:913, pro/includes/class-statistics.php:915
 msgid "Posts"
 msgstr ""
 
-#: pro/includes/class-statistics.php:910
+#: pro/includes/class-statistics.php:916
 msgid "Pages"
 msgstr ""
 
-#: includes/admin/settings/class-editor.php:105, includes/admin/settings/class-editor.php:107, includes/admin/settings/class-settings.php:57, includes/admin/settings/class-settings.php:58
+#: includes/admin/settings/class-editor.php:110, includes/admin/settings/class-editor.php:112, includes/admin/settings/class-settings.php:63, includes/admin/settings/class-settings.php:64
 msgid "Social Snap"
 msgstr ""
 
-#: includes/admin/settings/class-editor.php:154, includes/admin/settings/class-metaboxes.php:83, includes/admin/settings/fields/field_upload.php:72
+#: includes/admin/settings/class-editor.php:159, includes/admin/settings/class-metaboxes.php:89, includes/admin/settings/fields/field_upload.php:78
 msgid "Choose or upload a file"
 msgstr ""
 
-#: includes/admin/settings/class-editor.php:155, includes/admin/settings/class-metaboxes.php:84
+#: includes/admin/settings/class-editor.php:160, includes/admin/settings/class-metaboxes.php:90
 msgid "Use this file"
 msgstr ""
 
-#: includes/admin/settings/class-editor.php:223
+#: includes/admin/settings/class-editor.php:228
 msgid "Insert Element"
 msgstr ""
 
-#: includes/admin/settings/class-editor.php:280
+#: includes/admin/settings/class-editor.php:285
 msgid "Insert"
 msgstr ""
 
-#: includes/admin/settings/class-editor.php:281
+#: includes/admin/settings/class-editor.php:286
 msgid "Cancel"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:69
+#: includes/admin/settings/class-settings.php:75
 msgid "Social Snap Settings"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:70, includes/admin/settings/class-settings.php:455, includes/admin/settings/class-settings.php:690
+#: includes/admin/settings/class-settings.php:76, includes/admin/settings/class-settings.php:461, includes/admin/settings/class-settings.php:696
 msgid "Settings"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:256
+#: includes/admin/settings/class-settings.php:262
 msgid "Error. Please reload and try again."
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:249
+#: includes/admin/settings/class-settings.php:255
 msgid "No changes were made"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:243, includes/admin/settings/class-settings.php:390, includes/admin/settings/class-settings.php:392
+#: includes/admin/settings/class-settings.php:249, includes/admin/settings/class-settings.php:396, includes/admin/settings/class-settings.php:398
 msgid "Saved"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:289
+#: includes/admin/settings/class-settings.php:295
 msgid "Settings restored. Reloading..."
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:316
+#: includes/admin/settings/class-settings.php:322
 msgid "No file uploaded"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:327
+#: includes/admin/settings/class-settings.php:333
 msgid "Please upload a valid .json form export file"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:346
+#: includes/admin/settings/class-settings.php:352
 msgid "Imported settings are identical as current settings."
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:339
+#: includes/admin/settings/class-settings.php:345
 msgid "Settings imported successfully. Reloading..."
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:355
+#: includes/admin/settings/class-settings.php:361
 msgid "Import could not be finished"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:390
+#: includes/admin/settings/class-settings.php:396
 msgid "Save Changes"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:427
+#: includes/admin/settings/class-settings.php:433
 msgid "Please wait&hellip;"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:475
+#: includes/admin/settings/class-settings.php:481
 msgid "If you like <strong>Social Snap</strong> please leave us a <a href=\"https://wordpress.org/plugins/socialsnap/\">★★★★★</a> rating to help us spread the word. Thank you!"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:476
+#: includes/admin/settings/class-settings.php:482
 msgid "Bring your old posts to life by automatically posting them on your social media."
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:477
+#: includes/admin/settings/class-settings.php:483
 msgid "Completely automate posting on social media whenever you publish a new article."
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:478
+#: includes/admin/settings/class-settings.php:484
 msgid "Allow your users to log into your website through their favorite social networks."
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:479
+#: includes/admin/settings/class-settings.php:485
 msgid "Unlock 30+ share providers, share counters for all providers, URL shortening and more awesome features!"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:758
+#: includes/admin/settings/class-settings.php:764
 msgid "Live Preview"
 msgstr ""
 
-#: includes/admin/settings/class-settings.php:780
+#: includes/admin/settings/class-settings.php:786
 msgid "Visit Help Center"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:3, includes/admin/settings/config-settings.php:13, includes/admin/settings/config-settings.php:120, includes/admin/settings/config-settings.php:367, includes/admin/settings/config-settings.php:672, includes/admin/settings/config-settings.php:895, includes/admin/settings/config-settings.php:904, pro/includes/share/class-social-share-pro.php:1891, pro/includes/share/class-social-share-pro.php:2174
+#: includes/admin/settings/config-editor.php:8, includes/admin/settings/config-settings.php:18, includes/admin/settings/config-settings.php:125, includes/admin/settings/config-settings.php:372, includes/admin/settings/config-settings.php:677, includes/admin/settings/config-settings.php:900, includes/admin/settings/config-settings.php:909, pro/includes/share/class-social-share-pro.php:1897, pro/includes/share/class-social-share-pro.php:2180
 msgid "Social Share"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:9, includes/admin/settings/config-editor.php:163
+#: includes/admin/settings/config-editor.php:14, includes/admin/settings/config-editor.php:168
 msgid "Social Networks"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:10
+#: includes/admin/settings/config-editor.php:15
 msgid "Semicolon separated list of networks. Leave empty to use selected networks from settings panel. Find the list of all networks <a href=\"https://socialsnap.com/help/features/available-social-networks/\" target=\"_blank\">here</a>.<br/><br/><em>Example: facebook;twitter;linkedin</em>."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:16, includes/admin/settings/config-settings.php:395
+#: includes/admin/settings/config-editor.php:21, includes/admin/settings/config-settings.php:400
 msgid "Alignment"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:19, includes/admin/settings/config-settings.php:399, includes/admin/settings/config-settings.php:599, pro/includes/share/class-social-share-pro.php:1905, pro/includes/share/class-social-share-pro.php:2508
+#: includes/admin/settings/config-editor.php:24, includes/admin/settings/config-settings.php:404, includes/admin/settings/config-settings.php:604, pro/includes/share/class-social-share-pro.php:1911, pro/includes/share/class-social-share-pro.php:2514
 msgid "Left"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:20, includes/admin/settings/config-settings.php:400, includes/admin/settings/config-settings.php:756
+#: includes/admin/settings/config-editor.php:25, includes/admin/settings/config-settings.php:405, includes/admin/settings/config-settings.php:761
 msgid "Center"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:21, includes/admin/settings/config-settings.php:401, includes/admin/settings/config-settings.php:600, pro/includes/share/class-social-share-pro.php:1906, pro/includes/share/class-social-share-pro.php:2509
+#: includes/admin/settings/config-editor.php:26, includes/admin/settings/config-settings.php:406, includes/admin/settings/config-settings.php:605, pro/includes/share/class-social-share-pro.php:1912, pro/includes/share/class-social-share-pro.php:2515
 msgid "Right"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:22, includes/admin/settings/config-settings.php:402, pro/includes/share/class-social-share-pro.php:2265
+#: includes/admin/settings/config-editor.php:27, includes/admin/settings/config-settings.php:407, pro/includes/share/class-social-share-pro.php:2271
 msgid "Stretched"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:28, includes/admin/settings/config-settings.php:146, includes/admin/settings/config-settings.php:425, includes/admin/settings/config-settings.php:700, pro/includes/share/class-social-share-pro.php:1916
+#: includes/admin/settings/config-editor.php:33, includes/admin/settings/config-settings.php:151, includes/admin/settings/config-settings.php:430, includes/admin/settings/config-settings.php:705, pro/includes/share/class-social-share-pro.php:1922
 msgid "Button Shape"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:31, includes/admin/settings/config-settings.php:149, includes/admin/settings/config-settings.php:428, includes/admin/settings/config-settings.php:704, pro/includes/share/class-social-share-pro.php:1919
+#: includes/admin/settings/config-editor.php:36, includes/admin/settings/config-settings.php:154, includes/admin/settings/config-settings.php:433, includes/admin/settings/config-settings.php:709, pro/includes/share/class-social-share-pro.php:1925
 msgid "Rounded"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:32, includes/admin/settings/config-settings.php:150, includes/admin/settings/config-settings.php:429, includes/admin/settings/config-settings.php:705, pro/includes/share/class-social-share-pro.php:1920
+#: includes/admin/settings/config-editor.php:37, includes/admin/settings/config-settings.php:155, includes/admin/settings/config-settings.php:434, includes/admin/settings/config-settings.php:710, pro/includes/share/class-social-share-pro.php:1926
 msgid "Circle"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:33, includes/admin/settings/config-settings.php:151, includes/admin/settings/config-settings.php:430, includes/admin/settings/config-settings.php:706, pro/includes/share/class-social-share-pro.php:1921
+#: includes/admin/settings/config-editor.php:38, includes/admin/settings/config-settings.php:156, includes/admin/settings/config-settings.php:435, includes/admin/settings/config-settings.php:711, pro/includes/share/class-social-share-pro.php:1927
 msgid "Rectangle"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:34, includes/admin/settings/config-settings.php:431
+#: includes/admin/settings/config-editor.php:39, includes/admin/settings/config-settings.php:436
 msgid "Slanted"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:40, includes/admin/settings/config-editor.php:170, includes/admin/settings/config-settings.php:161, includes/admin/settings/config-settings.php:442, includes/admin/settings/config-settings.php:717, includes/admin/settings/config-settings.php:990, pro/includes/share/class-social-share-pro.php:1931, pro/includes/share/class-social-share-pro.php:2277
+#: includes/admin/settings/config-editor.php:45, includes/admin/settings/config-editor.php:175, includes/admin/settings/config-settings.php:166, includes/admin/settings/config-settings.php:447, includes/admin/settings/config-settings.php:722, includes/admin/settings/config-settings.php:995, pro/includes/share/class-social-share-pro.php:1937, pro/includes/share/class-social-share-pro.php:2283
 msgid "Button Size"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:43, includes/admin/settings/config-editor.php:175, includes/admin/settings/config-settings.php:166, includes/admin/settings/config-settings.php:445, includes/admin/settings/config-settings.php:723, includes/admin/settings/config-settings.php:996, pro/includes/share/class-social-share-pro.php:1936, pro/includes/share/class-social-share-pro.php:2282
+#: includes/admin/settings/config-editor.php:48, includes/admin/settings/config-editor.php:180, includes/admin/settings/config-settings.php:171, includes/admin/settings/config-settings.php:450, includes/admin/settings/config-settings.php:728, includes/admin/settings/config-settings.php:1001, pro/includes/share/class-social-share-pro.php:1942, pro/includes/share/class-social-share-pro.php:2288
 msgid "Small"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:44, includes/admin/settings/config-editor.php:176, includes/admin/settings/config-settings.php:165, includes/admin/settings/config-settings.php:446, includes/admin/settings/config-settings.php:722, includes/admin/settings/config-settings.php:995, pro/includes/share/class-social-share-pro.php:1935, pro/includes/share/class-social-share-pro.php:2281
+#: includes/admin/settings/config-editor.php:49, includes/admin/settings/config-editor.php:181, includes/admin/settings/config-settings.php:170, includes/admin/settings/config-settings.php:451, includes/admin/settings/config-settings.php:727, includes/admin/settings/config-settings.php:1000, pro/includes/share/class-social-share-pro.php:1941, pro/includes/share/class-social-share-pro.php:2287
 msgid "Regular"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:45, includes/admin/settings/config-editor.php:177, includes/admin/settings/config-settings.php:164, includes/admin/settings/config-settings.php:447, includes/admin/settings/config-settings.php:721, includes/admin/settings/config-settings.php:994, pro/includes/share/class-social-share-pro.php:1934, pro/includes/share/class-social-share-pro.php:2280
+#: includes/admin/settings/config-editor.php:50, includes/admin/settings/config-editor.php:182, includes/admin/settings/config-settings.php:169, includes/admin/settings/config-settings.php:452, includes/admin/settings/config-settings.php:726, includes/admin/settings/config-settings.php:999, pro/includes/share/class-social-share-pro.php:1940, pro/includes/share/class-social-share-pro.php:2286
 msgid "Large"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:51, includes/admin/settings/config-settings.php:458
+#: includes/admin/settings/config-editor.php:56, includes/admin/settings/config-settings.php:463
 msgid "Button Labels"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:54, includes/admin/settings/config-settings.php:310, includes/admin/settings/config-settings.php:462, pro/includes/share/class-social-share-pro.php:2047, pro/includes/share/class-social-share-pro.php:2247
+#: includes/admin/settings/config-editor.php:59, includes/admin/settings/config-settings.php:315, includes/admin/settings/config-settings.php:467, pro/includes/share/class-social-share-pro.php:2053, pro/includes/share/class-social-share-pro.php:2253
 msgid "None"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:55, includes/admin/settings/config-settings.php:463
+#: includes/admin/settings/config-editor.php:60, includes/admin/settings/config-settings.php:468
 msgid "Network Label"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:56, includes/admin/settings/config-settings.php:464
+#: includes/admin/settings/config-editor.php:61, includes/admin/settings/config-settings.php:469
 msgid "Share Count"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:57, includes/admin/settings/config-settings.php:465
+#: includes/admin/settings/config-editor.php:62, includes/admin/settings/config-settings.php:470
 msgid "Both"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:63
+#: includes/admin/settings/config-editor.php:68
 msgid "Additional spacing between buttons."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:64, includes/admin/settings/config-editor.php:198, includes/admin/settings/config-settings.php:204, includes/admin/settings/config-settings.php:517, includes/admin/settings/config-settings.php:826, includes/admin/settings/config-settings.php:1016
+#: includes/admin/settings/config-editor.php:69, includes/admin/settings/config-editor.php:203, includes/admin/settings/config-settings.php:209, includes/admin/settings/config-settings.php:522, includes/admin/settings/config-settings.php:831, includes/admin/settings/config-settings.php:1021
 msgid "Button Spacing"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:70
+#: includes/admin/settings/config-editor.php:75
 msgid "Enable a button that allows users to choose from all available networks."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:77
+#: includes/admin/settings/config-editor.php:82
 msgid "Hide buttons on mobile devices."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:78, includes/admin/settings/config-settings.php:259, includes/admin/settings/config-settings.php:552, includes/admin/settings/config-settings.php:838, pro/includes/share/class-social-share-pro.php:2077
+#: includes/admin/settings/config-editor.php:83, includes/admin/settings/config-settings.php:264, includes/admin/settings/config-settings.php:557, includes/admin/settings/config-settings.php:843, pro/includes/share/class-social-share-pro.php:2083
 msgid "Hide on Mobile"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:84
+#: includes/admin/settings/config-editor.php:89
 msgid "Enable total shares counter."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:99
+#: includes/admin/settings/config-editor.php:104
 msgid "Tweet Content"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:100
+#: includes/admin/settings/config-editor.php:105
 msgid "Text that will be posted on Twitter."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:108
+#: includes/admin/settings/config-editor.php:113
 msgid "Quote Content"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:109
+#: includes/admin/settings/config-editor.php:114
 msgid "Text that will be shown on your website, inside the Click to Tweet."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:115
+#: includes/admin/settings/config-editor.php:120
 msgid "Include Page Link"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:116
+#: includes/admin/settings/config-editor.php:121
 msgid "Link to this post will be appended to the Tweet."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:119, includes/admin/settings/config-editor.php:131, includes/admin/settings/config-editor.php:143, includes/admin/settings/config-editor.php:174, includes/admin/settings/config-editor.php:187, includes/admin/settings/config-editor.php:202, includes/admin/settings/config-editor.php:214, includes/admin/settings/config-editor.php:226, includes/admin/settings/config-editor.php:238, includes/admin/settings/config-editor.php:250, includes/admin/settings/config-editor.php:262, includes/admin/settings/config-settings.php:580, pro/includes/share/class-social-share-pro.php:2489
+#: includes/admin/settings/config-editor.php:124, includes/admin/settings/config-editor.php:136, includes/admin/settings/config-editor.php:148, includes/admin/settings/config-editor.php:179, includes/admin/settings/config-editor.php:192, includes/admin/settings/config-editor.php:207, includes/admin/settings/config-editor.php:219, includes/admin/settings/config-editor.php:231, includes/admin/settings/config-editor.php:243, includes/admin/settings/config-editor.php:255, includes/admin/settings/config-editor.php:267, includes/admin/settings/config-settings.php:585, pro/includes/share/class-social-share-pro.php:2495
 msgid "Default"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:120, includes/admin/settings/config-editor.php:132, includes/admin/settings/config-editor.php:215, includes/admin/settings/config-editor.php:227, includes/admin/settings/config-editor.php:239, includes/admin/settings/config-editor.php:251
+#: includes/admin/settings/config-editor.php:125, includes/admin/settings/config-editor.php:137, includes/admin/settings/config-editor.php:220, includes/admin/settings/config-editor.php:232, includes/admin/settings/config-editor.php:244, includes/admin/settings/config-editor.php:256
 msgid "Yes"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:121, includes/admin/settings/config-editor.php:133, includes/admin/settings/config-editor.php:216, includes/admin/settings/config-editor.php:228, includes/admin/settings/config-editor.php:240, includes/admin/settings/config-editor.php:252
+#: includes/admin/settings/config-editor.php:126, includes/admin/settings/config-editor.php:138, includes/admin/settings/config-editor.php:221, includes/admin/settings/config-editor.php:233, includes/admin/settings/config-editor.php:245, includes/admin/settings/config-editor.php:257
 msgid "No"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:127, includes/admin/settings/config-settings.php:1079
+#: includes/admin/settings/config-editor.php:132, includes/admin/settings/config-settings.php:1084
 msgid "Include via @username"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:128
+#: includes/admin/settings/config-editor.php:133
 msgid "Twitter username from Social Identity tab will be appended to the end of the Tweet with the text “via @username”"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:139, pro/includes/share/class-social-share-pro.php:2262
+#: includes/admin/settings/config-editor.php:144, pro/includes/share/class-social-share-pro.php:2268
 msgid "Style"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:140
+#: includes/admin/settings/config-editor.php:145
 msgid "Choose Click to Tweet style."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:144, includes/admin/settings/config-settings.php:1110
+#: includes/admin/settings/config-editor.php:149, includes/admin/settings/config-settings.php:1115
 msgid "Style 1"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:145, includes/admin/settings/config-settings.php:1111
+#: includes/admin/settings/config-editor.php:150, includes/admin/settings/config-settings.php:1116
 msgid "Style 2"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:146, includes/admin/settings/config-settings.php:1112
+#: includes/admin/settings/config-editor.php:151, includes/admin/settings/config-settings.php:1117
 msgid "Style 3"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:147, includes/admin/settings/config-settings.php:1113
+#: includes/admin/settings/config-editor.php:152, includes/admin/settings/config-settings.php:1118
 msgid "Style 4"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:148, includes/admin/settings/config-settings.php:1114
+#: includes/admin/settings/config-editor.php:153, includes/admin/settings/config-settings.php:1119
 msgid "Style 5"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:149, includes/admin/settings/config-settings.php:1115
+#: includes/admin/settings/config-editor.php:154, includes/admin/settings/config-settings.php:1120
 msgid "Style 6"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:157, includes/admin/settings/config-settings.php:922, includes/admin/settings/config-settings.php:985
+#: includes/admin/settings/config-editor.php:162, includes/admin/settings/config-settings.php:927, includes/admin/settings/config-settings.php:990
 msgid "Social Follow"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:164
+#: includes/admin/settings/config-editor.php:169
 msgid "Semicolon separated list of networks. Leave empty to use all configured networks. Find the list of all networks <a href=\"https://socialsnap.com/help/features/available-social-networks/\" target=\"_blank\">here</a>.<br/><br/><em>Example: facebook;twitter;instagram</em>"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:183, includes/admin/settings/config-settings.php:1002
+#: includes/admin/settings/config-editor.php:188, includes/admin/settings/config-settings.php:1007
 msgid "Button Columns"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:188, includes/admin/settings/config-settings.php:1006
+#: includes/admin/settings/config-editor.php:193, includes/admin/settings/config-settings.php:1011
 msgid "1 Column"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:189, includes/admin/settings/config-settings.php:1007
+#: includes/admin/settings/config-editor.php:194, includes/admin/settings/config-settings.php:1012
 msgid "2 Columns"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:190, includes/admin/settings/config-settings.php:1008
+#: includes/admin/settings/config-editor.php:195, includes/admin/settings/config-settings.php:1013
 msgid "3 Columns"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:191, includes/admin/settings/config-settings.php:1009
+#: includes/admin/settings/config-editor.php:196, includes/admin/settings/config-settings.php:1014
 msgid "4 Columns"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:192, includes/admin/settings/config-settings.php:1010
+#: includes/admin/settings/config-editor.php:197, includes/admin/settings/config-settings.php:1015
 msgid "5 Columns"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:199, includes/admin/settings/config-settings.php:1017
+#: includes/admin/settings/config-editor.php:204, includes/admin/settings/config-settings.php:1022
 msgid "Show additional spacing between follow buttons."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:203
+#: includes/admin/settings/config-editor.php:208
 msgid "With Spacing"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:204
+#: includes/admin/settings/config-editor.php:209
 msgid "Without Spacing"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:210, includes/admin/settings/config-settings.php:1023
+#: includes/admin/settings/config-editor.php:215, includes/admin/settings/config-settings.php:1028
 msgid "Vertical Layout"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:211, includes/admin/settings/config-settings.php:1024
+#: includes/admin/settings/config-editor.php:216, includes/admin/settings/config-settings.php:1029
 msgid "Use vertical button style."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:222, includes/admin/settings/config-settings.php:1030
+#: includes/admin/settings/config-editor.php:227, includes/admin/settings/config-settings.php:1035
 msgid "Total Followers"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:223, includes/admin/settings/config-settings.php:1031
+#: includes/admin/settings/config-editor.php:228, includes/admin/settings/config-settings.php:1036
 msgid "Display Total Follower count from all follow networks."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:234, includes/admin/settings/config-settings.php:1037
+#: includes/admin/settings/config-editor.php:239, includes/admin/settings/config-settings.php:1042
 msgid "Network Followers"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:235, includes/admin/settings/config-settings.php:1038
+#: includes/admin/settings/config-editor.php:240, includes/admin/settings/config-settings.php:1043
 msgid "Display follow count on each network if possible."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:246, includes/admin/settings/config-settings.php:1044
+#: includes/admin/settings/config-editor.php:251, includes/admin/settings/config-settings.php:1049
 msgid "Network Labels"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:247
+#: includes/admin/settings/config-editor.php:252
 msgid "Display the network label."
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:258, includes/admin/settings/config-settings.php:1050
+#: includes/admin/settings/config-editor.php:263, includes/admin/settings/config-settings.php:1055
 msgid "Color Scheme"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:263, includes/admin/settings/config-settings.php:1054
+#: includes/admin/settings/config-editor.php:268, includes/admin/settings/config-settings.php:1059
 msgid "Network Colors"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:264, includes/admin/settings/config-settings.php:1055
+#: includes/admin/settings/config-editor.php:269, includes/admin/settings/config-settings.php:1060
 msgid "Light"
 msgstr ""
 
-#: includes/admin/settings/config-editor.php:265, includes/admin/settings/config-settings.php:1056
+#: includes/admin/settings/config-editor.php:270, includes/admin/settings/config-settings.php:1061
 msgid "Dark"
 msgstr ""
 
-#: includes/admin/settings/config-metaboxes.php:4
+#: includes/admin/settings/config-metaboxes.php:9
 msgid "Social Snap Options"
 msgstr ""
 
-#: includes/admin/settings/config-metaboxes.php:11, includes/admin/settings/config-settings.php:6
+#: includes/admin/settings/config-metaboxes.php:16, includes/admin/settings/config-settings.php:11
 msgid "Social Sharing"
 msgstr ""
 
-#: includes/admin/settings/config-metaboxes.php:19
+#: includes/admin/settings/config-metaboxes.php:24
 msgid "Hide share buttons on this page. This will not hide the Social Share shortcode."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:12, includes/admin/settings/config-settings.php:921
+#: includes/admin/settings/config-settings.php:17, includes/admin/settings/config-settings.php:926
 msgid "Manage Networks"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:14
+#: includes/admin/settings/config-settings.php:19
 msgid "Add and reorder social share providers. You can define network label and device visibility for each network. Drag networks to change their order."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:18, includes/admin/settings/config-settings.php:927
+#: includes/admin/settings/config-settings.php:23, includes/admin/settings/config-settings.php:932
 msgid "Networks"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:23, pro/includes/share/class-social-share-pro.php:2448
+#: includes/admin/settings/config-settings.php:28, pro/includes/share/class-social-share-pro.php:2454
 msgid "Facebook"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:28, includes/admin/settings/config-settings.php:1138
+#: includes/admin/settings/config-settings.php:33, includes/admin/settings/config-settings.php:1143
 msgid "X (Twitter)"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:33
+#: includes/admin/settings/config-settings.php:38
 msgid "LinkedIn"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:41
+#: includes/admin/settings/config-settings.php:46
 msgid "Share Count Cache"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:42
+#: includes/admin/settings/config-settings.php:47
 msgid "Force Refresh Now"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:48
+#: includes/admin/settings/config-settings.php:53
 msgid "Facebook Share Count Provider:"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:49
+#: includes/admin/settings/config-settings.php:54
 msgid "Choose a method to retrieve Facebook share counts."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:53
+#: includes/admin/settings/config-settings.php:58
 msgid "Facebook Graph API"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:54
+#: includes/admin/settings/config-settings.php:59
 msgid "SharedCount.com"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:60
+#: includes/admin/settings/config-settings.php:65
 msgid "SharedCount.com API Key"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:62
+#: includes/admin/settings/config-settings.php:67
 msgid "API Key goes here..."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:71
+#: includes/admin/settings/config-settings.php:76
 msgid "Facebook Access Token"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:73
+#: includes/admin/settings/config-settings.php:78
 msgid "Access Token goes here..."
 msgstr ""
 
 #. translators: %1$s is the opening anchor tag, %2$s is the closing anchor tag.
-#: includes/admin/settings/config-settings.php:84
+#: includes/admin/settings/config-settings.php:89
 msgid "Follow our %1$sstep-by-step tutorial%2$s on how to set up Facebook Share Provider."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:89
+#: includes/admin/settings/config-settings.php:94
 msgid "Twitter Share Count Provider:"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:90
+#: includes/admin/settings/config-settings.php:95
 msgid "Choose if you want to connect with a third party service to track your Twitter share counts or use our button click tracking method."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:94
+#: includes/admin/settings/config-settings.php:99
 msgid "Click Tracking"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:95
+#: includes/admin/settings/config-settings.php:100
 msgid "OpenShareCount.com"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:96
+#: includes/admin/settings/config-settings.php:101
 msgid "TwitCount.com"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:102
+#: includes/admin/settings/config-settings.php:107
 msgid "Track share clicks to get share counts for networks without APIs?"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:109
+#: includes/admin/settings/config-settings.php:114
 msgid "Pinterest Browser Extension"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:110
+#: includes/admin/settings/config-settings.php:115
 msgid "Adds a hidden image which will be shared when Pinterest browser extension is used."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:126
+#: includes/admin/settings/config-settings.php:131
 msgid "Enable Sidebar"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:135
+#: includes/admin/settings/config-settings.php:140
 msgid "Left Sidebar"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:136
+#: includes/admin/settings/config-settings.php:141
 msgid "Right Sidebar"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:176, includes/admin/settings/config-settings.php:476, includes/admin/settings/config-settings.php:797, pro/includes/share/class-social-share-pro.php:1946, pro/includes/share/class-social-share-pro.php:2214
+#: includes/admin/settings/config-settings.php:181, includes/admin/settings/config-settings.php:481, includes/admin/settings/config-settings.php:802, pro/includes/share/class-social-share-pro.php:1952, pro/includes/share/class-social-share-pro.php:2220
 msgid "Display on"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:181, includes/admin/settings/config-settings.php:482, includes/admin/settings/config-settings.php:802, pro/includes/share/class-social-share-pro.php:1951, pro/includes/share/class-social-share-pro.php:2219
+#: includes/admin/settings/config-settings.php:186, includes/admin/settings/config-settings.php:487, includes/admin/settings/config-settings.php:807, pro/includes/share/class-social-share-pro.php:1957, pro/includes/share/class-social-share-pro.php:2225
 msgid "Home"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:184, includes/admin/settings/config-settings.php:485, includes/admin/settings/config-settings.php:805, pro/includes/share/class-social-share-pro.php:1954, pro/includes/share/class-social-share-pro.php:2222
+#: includes/admin/settings/config-settings.php:189, includes/admin/settings/config-settings.php:490, includes/admin/settings/config-settings.php:810, pro/includes/share/class-social-share-pro.php:1960, pro/includes/share/class-social-share-pro.php:2228
 msgid "Posts Page"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:187, includes/admin/settings/config-settings.php:488, includes/admin/settings/config-settings.php:808, pro/includes/share/class-social-share-pro.php:1957, pro/includes/share/class-social-share-pro.php:2225
+#: includes/admin/settings/config-settings.php:192, includes/admin/settings/config-settings.php:493, includes/admin/settings/config-settings.php:813, pro/includes/share/class-social-share-pro.php:1963, pro/includes/share/class-social-share-pro.php:2231
 msgid "Post"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:190, includes/admin/settings/config-settings.php:491, includes/admin/settings/config-settings.php:811, pro/includes/share/class-social-share-pro.php:1960, pro/includes/share/class-social-share-pro.php:2228
+#: includes/admin/settings/config-settings.php:195, includes/admin/settings/config-settings.php:496, includes/admin/settings/config-settings.php:816, pro/includes/share/class-social-share-pro.php:1966, pro/includes/share/class-social-share-pro.php:2234
 msgid "Page"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:206, includes/admin/settings/config-settings.php:519
+#: includes/admin/settings/config-settings.php:211, includes/admin/settings/config-settings.php:524
 msgid "Show additional spacing between share buttons."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:217, pro/includes/share/class-social-share-pro.php:1979, pro/includes/share/class-social-share-pro.php:2294
+#: includes/admin/settings/config-settings.php:222, pro/includes/share/class-social-share-pro.php:1985, pro/includes/share/class-social-share-pro.php:2300
 msgid "Enable button that allows users to choose from all available networks."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:226, pro/includes/share/class-social-share-pro.php:1988
+#: includes/admin/settings/config-settings.php:231, pro/includes/share/class-social-share-pro.php:1994
 msgid "Network Label Tooltips"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:228, pro/includes/share/class-social-share-pro.php:1990
+#: includes/admin/settings/config-settings.php:233, pro/includes/share/class-social-share-pro.php:1996
 msgid "Show network labels when hovering social buttons."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:237, pro/includes/share/class-social-share-pro.php:2010, pro/includes/share/class-social-share-pro.php:2325
+#: includes/admin/settings/config-settings.php:242, pro/includes/share/class-social-share-pro.php:2016, pro/includes/share/class-social-share-pro.php:2331
 msgid "Total Share Count"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:239, pro/includes/share/class-social-share-pro.php:2012, pro/includes/share/class-social-share-pro.php:2327
+#: includes/admin/settings/config-settings.php:244, pro/includes/share/class-social-share-pro.php:2018, pro/includes/share/class-social-share-pro.php:2333
 msgid "Display total share count from all social networks."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:248, pro/includes/share/class-social-share-pro.php:2021, pro/includes/share/class-social-share-pro.php:2314
+#: includes/admin/settings/config-settings.php:253, pro/includes/share/class-social-share-pro.php:2027, pro/includes/share/class-social-share-pro.php:2320
 msgid "Share Counts"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:250, pro/includes/share/class-social-share-pro.php:2023
+#: includes/admin/settings/config-settings.php:255, pro/includes/share/class-social-share-pro.php:2029
 msgid "Display share counts on share buttons. Not available on Archive pages"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:269, pro/includes/share/class-social-share-pro.php:1999, pro/includes/share/class-social-share-pro.php:2303
+#: includes/admin/settings/config-settings.php:274, pro/includes/share/class-social-share-pro.php:2005, pro/includes/share/class-social-share-pro.php:2309
 msgid "View Count"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:272, pro/includes/share/class-social-share-pro.php:2001
+#: includes/admin/settings/config-settings.php:277, pro/includes/share/class-social-share-pro.php:2007
 msgid "Display unique view count of the current post/page."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:281, includes/admin/settings/config-settings.php:611, pro/includes/share/class-social-share-pro.php:2032, pro/includes/share/class-social-share-pro.php:2336
+#: includes/admin/settings/config-settings.php:286, includes/admin/settings/config-settings.php:616, pro/includes/share/class-social-share-pro.php:2038, pro/includes/share/class-social-share-pro.php:2342
 msgid "Min Share Count"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:285, pro/includes/share/class-social-share-pro.php:2035, pro/includes/share/class-social-share-pro.php:2339
+#: includes/admin/settings/config-settings.php:290, pro/includes/share/class-social-share-pro.php:2041, pro/includes/share/class-social-share-pro.php:2345
 msgid "Hide share counts if lower than this value."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:294
+#: includes/admin/settings/config-settings.php:299
 msgid "Vertical Offset"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:297
+#: includes/admin/settings/config-settings.php:302
 msgid "Enter negative value to move up and positive value to move down. Values are treated as “px”."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:306, pro/includes/share/class-social-share-pro.php:2044, pro/includes/share/class-social-share-pro.php:2244
+#: includes/admin/settings/config-settings.php:311, pro/includes/share/class-social-share-pro.php:2050, pro/includes/share/class-social-share-pro.php:2250
 msgid "Entrance Animation"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:311, pro/includes/share/class-social-share-pro.php:2048, pro/includes/share/class-social-share-pro.php:2248
+#: includes/admin/settings/config-settings.php:316, pro/includes/share/class-social-share-pro.php:2054, pro/includes/share/class-social-share-pro.php:2254
 msgid "Fade In"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:312, pro/includes/share/class-social-share-pro.php:2049, pro/includes/share/class-social-share-pro.php:2249
+#: includes/admin/settings/config-settings.php:317, pro/includes/share/class-social-share-pro.php:2055, pro/includes/share/class-social-share-pro.php:2255
 msgid "Slide In"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:313, pro/includes/share/class-social-share-pro.php:2050, pro/includes/share/class-social-share-pro.php:2250
+#: includes/admin/settings/config-settings.php:318, pro/includes/share/class-social-share-pro.php:2056, pro/includes/share/class-social-share-pro.php:2256
 msgid "Bounce In"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:314, pro/includes/share/class-social-share-pro.php:2051, pro/includes/share/class-social-share-pro.php:2251
+#: includes/admin/settings/config-settings.php:319, pro/includes/share/class-social-share-pro.php:2057, pro/includes/share/class-social-share-pro.php:2257
 msgid "Flip In"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:324, includes/admin/settings/config-settings.php:625, pro/includes/share/class-social-share-pro.php:2061, pro/includes/share/class-social-share-pro.php:2521
+#: includes/admin/settings/config-settings.php:329, includes/admin/settings/config-settings.php:630, pro/includes/share/class-social-share-pro.php:2067, pro/includes/share/class-social-share-pro.php:2527
 msgid "Button Hover Animation"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:328, includes/admin/settings/config-settings.php:630, pro/includes/share/class-social-share-pro.php:2064, pro/includes/share/class-social-share-pro.php:2525
+#: includes/admin/settings/config-settings.php:333, includes/admin/settings/config-settings.php:635, pro/includes/share/class-social-share-pro.php:2070, pro/includes/share/class-social-share-pro.php:2531
 msgid "Fade"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:329, includes/admin/settings/config-settings.php:631, pro/includes/share/class-social-share-pro.php:2065, pro/includes/share/class-social-share-pro.php:2526
+#: includes/admin/settings/config-settings.php:334, includes/admin/settings/config-settings.php:636, pro/includes/share/class-social-share-pro.php:2071, pro/includes/share/class-social-share-pro.php:2532
 msgid "Slide Background"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:330, pro/includes/share/class-social-share-pro.php:2066
+#: includes/admin/settings/config-settings.php:335, pro/includes/share/class-social-share-pro.php:2072
 msgid "Slide Icon"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:331, pro/includes/share/class-social-share-pro.php:2067
+#: includes/admin/settings/config-settings.php:336, pro/includes/share/class-social-share-pro.php:2073
 msgid "Slide Icon & Background"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:341, pro/includes/share/class-social-share-pro.php:2088
+#: includes/admin/settings/config-settings.php:346, pro/includes/share/class-social-share-pro.php:2094
 msgid "Total Share Count: Light Text"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:344, includes/admin/settings/config-settings.php:646
+#: includes/admin/settings/config-settings.php:349, includes/admin/settings/config-settings.php:651
 msgid "Use this option if your website has a dark background."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:353, includes/admin/settings/config-settings.php:656, includes/admin/settings/config-settings.php:880, pro/includes/share/class-social-share-pro.php:2119, pro/includes/share/class-social-share-pro.php:2363
+#: includes/admin/settings/config-settings.php:358, includes/admin/settings/config-settings.php:661, includes/admin/settings/config-settings.php:885, pro/includes/share/class-social-share-pro.php:2125, pro/includes/share/class-social-share-pro.php:2369
 msgid "Custom Colors"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:366
+#: includes/admin/settings/config-settings.php:371
 msgid "Inline Buttons"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:373
+#: includes/admin/settings/config-settings.php:378
 msgid "Enable Inline Buttons"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:379, pro/includes/share/class-social-share-pro.php:1902, pro/includes/share/class-social-share-pro.php:2186
+#: includes/admin/settings/config-settings.php:384, pro/includes/share/class-social-share-pro.php:1908, pro/includes/share/class-social-share-pro.php:2192
 msgid "Position"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:382
+#: includes/admin/settings/config-settings.php:387
 msgid "Above Content"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:383
+#: includes/admin/settings/config-settings.php:388
 msgid "Below Content"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:384
+#: includes/admin/settings/config-settings.php:389
 msgid "Above + Below"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:397
+#: includes/admin/settings/config-settings.php:402
 msgid "Choose share buttons alignment."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:413
+#: includes/admin/settings/config-settings.php:418
 msgid "Share label"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:415
+#: includes/admin/settings/config-settings.php:420
 msgid "Text shown above inline share buttons. Leave empty to ignore."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:416
+#: includes/admin/settings/config-settings.php:421
 msgid "Share via:"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:459
+#: includes/admin/settings/config-settings.php:464
 msgid "Share counts are not available on Archive pages."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:477
+#: includes/admin/settings/config-settings.php:482
 msgid "Select where to display inline share buttons."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:505
+#: includes/admin/settings/config-settings.php:510
 msgid "Blog displays full post instead of post excerpt?"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:507
+#: includes/admin/settings/config-settings.php:512
 msgid "Enable this option if you are seeing share buttons code in post summaries."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:531
+#: includes/admin/settings/config-settings.php:536
 msgid "Enable button that allows users to share on all available networks."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:541
+#: includes/admin/settings/config-settings.php:546
 msgid "All Networks label"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:543
+#: includes/admin/settings/config-settings.php:548
 msgid "More"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:565
+#: includes/admin/settings/config-settings.php:570
 msgid "Enable Total Shares counter."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:575, pro/includes/share/class-social-share-pro.php:2484
+#: includes/admin/settings/config-settings.php:580, pro/includes/share/class-social-share-pro.php:2490
 msgid "Total Shares Style"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:578
+#: includes/admin/settings/config-settings.php:583
 msgid "Choose Total Shares style."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:581, pro/includes/share/class-social-share-pro.php:2490
+#: includes/admin/settings/config-settings.php:586, pro/includes/share/class-social-share-pro.php:2496
 msgid "With Icon"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:582, pro/includes/share/class-social-share-pro.php:2491
+#: includes/admin/settings/config-settings.php:587, pro/includes/share/class-social-share-pro.php:2497
 msgid "With Separator"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:583, pro/includes/share/class-social-share-pro.php:2492
+#: includes/admin/settings/config-settings.php:588, pro/includes/share/class-social-share-pro.php:2498
 msgid "With Icon + Separator"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:594, pro/includes/share/class-social-share-pro.php:2503
+#: includes/admin/settings/config-settings.php:599, pro/includes/share/class-social-share-pro.php:2509
 msgid "Total Shares Placement"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:597, pro/includes/share/class-social-share-pro.php:2506
+#: includes/admin/settings/config-settings.php:602, pro/includes/share/class-social-share-pro.php:2512
 msgid "Choose between left and right placement for Total Shares counter."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:615
+#: includes/admin/settings/config-settings.php:620
 msgid "This is the minimum number of shares a page needs to have before share counter is shown."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:628
+#: includes/admin/settings/config-settings.php:633
 msgid "Choose share buttons hover animation."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:632, pro/includes/share/class-social-share-pro.php:2527
+#: includes/admin/settings/config-settings.php:637, pro/includes/share/class-social-share-pro.php:2533
 msgid "Reveal Label"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:643
+#: includes/admin/settings/config-settings.php:648
 msgid "Text Color Scheme: Light Text"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:658, pro/includes/share/class-social-share-pro.php:2365
+#: includes/admin/settings/config-settings.php:663, pro/includes/share/class-social-share-pro.php:2371
 msgid "Customize share buttons colors."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:677
+#: includes/admin/settings/config-settings.php:682
 msgid "Enable On Media"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:684
+#: includes/admin/settings/config-settings.php:689
 msgid "Choose Type"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:686
+#: includes/admin/settings/config-settings.php:691
 msgid "Choose between Pinterest Save button or share buttons set in Networks section."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:688
+#: includes/admin/settings/config-settings.php:693
 msgid "Pinterest Button"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:689
+#: includes/admin/settings/config-settings.php:694
 msgid "Share Buttons"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:734, pro/includes/share/class-social-share-pro.php:2348
+#: includes/admin/settings/config-settings.php:739, pro/includes/share/class-social-share-pro.php:2354
 msgid "Visibility"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:738, pro/includes/share/class-social-share-pro.php:2353
+#: includes/admin/settings/config-settings.php:743, pro/includes/share/class-social-share-pro.php:2359
 msgid "Always Visible"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:739
+#: includes/admin/settings/config-settings.php:744
 msgid "On Hover"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:750
+#: includes/admin/settings/config-settings.php:755
 msgid "Choose Position"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:769
+#: includes/admin/settings/config-settings.php:774
 msgid "Min Image Width:"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:773, includes/admin/settings/config-settings.php:787
+#: includes/admin/settings/config-settings.php:778, includes/admin/settings/config-settings.php:792
 msgid "Hide the buttons on images that are smaller than specified."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:783
+#: includes/admin/settings/config-settings.php:788
 msgid "Min Image Height:"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:828
+#: includes/admin/settings/config-settings.php:833
 msgid "Show additional spacing around share buttons."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:848
+#: includes/admin/settings/config-settings.php:853
 msgid "Pinterest Image Source"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:849
+#: includes/admin/settings/config-settings.php:854
 msgid "Choose image source to use for Pinterest sharing."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:853
+#: includes/admin/settings/config-settings.php:858
 msgid "Image under the button"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:854, includes/admin/settings/config-settings.php:870
+#: includes/admin/settings/config-settings.php:859, includes/admin/settings/config-settings.php:875
 msgid "Custom from post/page settings"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:864
+#: includes/admin/settings/config-settings.php:869
 msgid "Pinterest Description Source"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:865
+#: includes/admin/settings/config-settings.php:870
 msgid "Choose description source to use for Pinterest sharing."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:869
+#: includes/admin/settings/config-settings.php:874
 msgid "Image description set in Media Library"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:914
+#: includes/admin/settings/config-settings.php:919
 msgid "Social Followers"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:923
+#: includes/admin/settings/config-settings.php:928
 msgid "Setup and reorder social networks that you want to use in shortcodes and widgets. Drag networks to change their order."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:935
+#: includes/admin/settings/config-settings.php:940
 msgid "Follow us on Facebook"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:943
+#: includes/admin/settings/config-settings.php:948
 msgid "Follow us on Twitter"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:951
+#: includes/admin/settings/config-settings.php:956
 msgid "Follow us on Pinterest"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:959
+#: includes/admin/settings/config-settings.php:964
 msgid "Follow us on Instagram"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:967
+#: includes/admin/settings/config-settings.php:972
 msgid "Follow us on Tumblr"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:975
+#: includes/admin/settings/config-settings.php:980
 msgid "Followers count is updated once daily."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:984
+#: includes/admin/settings/config-settings.php:989
 msgid "Default Settings"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:986
+#: includes/admin/settings/config-settings.php:991
 msgid "Default settings for the Social Follow element."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1067
+#: includes/admin/settings/config-settings.php:1072
 msgid "Widget"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1074
+#: includes/admin/settings/config-settings.php:1079
 msgid "Default settings for the Click To Tweet element."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1080
+#: includes/admin/settings/config-settings.php:1085
 msgid "Twitter username from Social Identity tab will be appended to the end of the Tweet with the text “via @username”."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1086
+#: includes/admin/settings/config-settings.php:1091
 msgid "Include page link"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1087
+#: includes/admin/settings/config-settings.php:1092
 msgid "Page link where the Click to Tweet is located will be appended to the Tweet."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1093
+#: includes/admin/settings/config-settings.php:1098
 msgid "Related Accounts"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1094
+#: includes/admin/settings/config-settings.php:1099
 msgid "Suggest up to two Twitter @usernames related to the Tweet. Twitter may suggest these accounts to follow after the user posts their Tweet."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1100
+#: includes/admin/settings/config-settings.php:1105
 msgid "Hide On Mobile"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1106
+#: includes/admin/settings/config-settings.php:1111
 msgid "Default Style"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1107
+#: includes/admin/settings/config-settings.php:1112
 msgid "Set default style for Click to Tweet. You can also choose individual style per shortcode / block."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1124
+#: includes/admin/settings/config-settings.php:1129
 msgid "If enabled, adds Twitter Cards and Open Graph meta tags for more effective and efficient social sharing, search results and better SEO."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1126
+#: includes/admin/settings/config-settings.php:1131
 msgid "Control how your posts look when shared on social media. Specify custom images, titles and descriptions."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1132, includes/admin/settings/config-settings.php:1139, pro/includes/share/class-social-share-pro.php:2433, pro/includes/share/class-social-share-pro.php:2449
+#: includes/admin/settings/config-settings.php:1137, includes/admin/settings/config-settings.php:1144, pro/includes/share/class-social-share-pro.php:2439, pro/includes/share/class-social-share-pro.php:2455
 msgid "Social Identity"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1140
+#: includes/admin/settings/config-settings.php:1145
 msgid "Enter your Twitter info here."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1144
+#: includes/admin/settings/config-settings.php:1149
 msgid "X (Twitter) Username"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1145
+#: includes/admin/settings/config-settings.php:1150
 msgid "Enter your Twitter @username. This is used for Twitter share functionality (via @username)."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1155, includes/admin/settings/config-settings.php:1189, includes/admin/settings/config-settings.php:1195, includes/admin/settings/config-settings.php:1228
+#: includes/admin/settings/config-settings.php:1160, includes/admin/settings/config-settings.php:1194, includes/admin/settings/config-settings.php:1200, includes/admin/settings/config-settings.php:1233
 msgid "Advanced"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1161
+#: includes/admin/settings/config-settings.php:1166
 msgid "Analytics Tracking"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1162
+#: includes/admin/settings/config-settings.php:1167
 msgid "Connect social share buttons with Google Analytics to obtain additional insights on how users interact with your website."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1164, includes/admin/settings/config-settings.php:1171, includes/admin/settings/config-settings.php:1181
+#: includes/admin/settings/config-settings.php:1169, includes/admin/settings/config-settings.php:1176, includes/admin/settings/config-settings.php:1186
 msgid "Advanced Settings"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1169
+#: includes/admin/settings/config-settings.php:1174
 msgid "Share Count Recovery"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1170
+#: includes/admin/settings/config-settings.php:1175
 msgid "Recover your social share count after changing link structure or switching to SSL."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1178
+#: includes/admin/settings/config-settings.php:1183
 msgid "Link Shortening"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1179
+#: includes/admin/settings/config-settings.php:1184
 msgid "Automatically shorten all links on share buttons. "
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1187
+#: includes/admin/settings/config-settings.php:1192
 msgid "Plugin Migration"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1188
+#: includes/admin/settings/config-settings.php:1193
 msgid "Import settings from other social plugins. "
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1194
+#: includes/admin/settings/config-settings.php:1199
 msgid "Plugin Data"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1200
+#: includes/admin/settings/config-settings.php:1205
 msgid "Remove “Powered by Social Snap” link"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1206
+#: includes/admin/settings/config-settings.php:1211
 msgid "Hide plugin announcements and update details."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1212
+#: includes/admin/settings/config-settings.php:1217
 msgid "Remove Social Snap related data on plugin deletion"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1218
+#: includes/admin/settings/config-settings.php:1223
 msgid "Warning: "
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1219
+#: includes/admin/settings/config-settings.php:1224
 msgid "This will remove all stored data."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1227
+#: includes/admin/settings/config-settings.php:1232
 msgid "GDPR Compliance"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1232
+#: includes/admin/settings/config-settings.php:1237
 msgid "Disable User Cookies"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1233
+#: includes/admin/settings/config-settings.php:1238
 msgid "Check this to disable user cookies. This will cause innacurate view counts."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1239
+#: includes/admin/settings/config-settings.php:1244
 msgid "Disable User Data"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1240
+#: includes/admin/settings/config-settings.php:1245
 msgid "Check this to disable storing the user IP address. This will cause innacurate click share counts."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1251
+#: includes/admin/settings/config-settings.php:1256
 msgid "Import / Export"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1256, includes/admin/settings/fields/field_export.php:51
+#: includes/admin/settings/config-settings.php:1261, includes/admin/settings/fields/field_export.php:57
 msgid "Export Settings"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1268
+#: includes/admin/settings/config-settings.php:1273
 msgid "Reset Settings"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1269
+#: includes/admin/settings/config-settings.php:1274
 msgid "Reset Social Snap settings to default values."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1275
+#: includes/admin/settings/config-settings.php:1280
 msgid "The export contains plugin settings only."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1284
+#: includes/admin/settings/config-settings.php:1289
 msgid "Allow your visitors to log in using their favorite social accounts."
 msgstr ""
 
 #. translators: %1$s and %2$s are opening and closing anchor tags.
-#: includes/admin/settings/config-settings.php:1292
+#: includes/admin/settings/config-settings.php:1297
 msgid "Install Social Login from %1$sAddons%2$s."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1300
+#: includes/admin/settings/config-settings.php:1305
 msgid "Revive your old posts by automatically sharing them on Twitter and LinkedIn."
 msgstr ""
 
 #. translators: %1$s and %2$s are opening and closing anchor tags.
-#: includes/admin/settings/config-settings.php:1308
+#: includes/admin/settings/config-settings.php:1313
 msgid "Install Boost Old Posts from %1$sAddons%2$s."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1315
+#: includes/admin/settings/config-settings.php:1320
 msgid "Social Auto-Poster"
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1316
+#: includes/admin/settings/config-settings.php:1321
 msgid "Automatically share your new posts to Twitter and LinkedIn."
 msgstr ""
 
 #. translators: %1$s and %2$s are opening and closing anchor tags.
-#: includes/admin/settings/config-settings.php:1324
+#: includes/admin/settings/config-settings.php:1329
 msgid "Install Social Auto-Poster from %1$sAddons%2$s."
 msgstr ""
 
-#: includes/admin/settings/config-settings.php:1335
+#: includes/admin/settings/config-settings.php:1340
 msgid "Get access to 40+ networks, automatic counters and more awesome features."
 msgstr ""
 
-#: pro/includes/admin/class-addons.php:52
+#: pro/includes/admin/class-addons.php:58
 msgid "Refresh Addons"
 msgstr ""
 
-#: pro/includes/admin/class-addons.php:70, pro/includes/admin/class-addons.php:82, pro/includes/admin/class-addons.php:86, pro/includes/admin/class-addons.php:108, pro/includes/admin/class-addons.php:138
+#: pro/includes/admin/class-addons.php:76, pro/includes/admin/class-addons.php:88, pro/includes/admin/class-addons.php:92, pro/includes/admin/class-addons.php:114, pro/includes/admin/class-addons.php:144
 msgid "Could not install addon. Please download from socialsnap.com and install manually."
 msgstr ""
 
-#: pro/includes/admin/class-addons.php:168
+#: pro/includes/admin/class-addons.php:174
 msgid "Could not activate addon. Please activate from the Plugins page."
 msgstr ""
 
-#: pro/includes/admin/class-addons.php:196
+#: pro/includes/admin/class-addons.php:202
 msgid "Could not deactivate addon. Please deacticate from the Plugins page."
 msgstr ""
 
-#: pro/includes/admin/class-addons.php:248
+#: pro/includes/admin/class-addons.php:254
 msgid "Social Snap Addons require an activated license."
 msgstr ""
 
-#: pro/includes/admin/class-addons.php:248
+#: pro/includes/admin/class-addons.php:254
 msgid "Please enter and activate your license key for Social Snap to get access to Addons."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:54
+#: pro/includes/admin/class-license-page.php:60
 msgid "Social Snap License"
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:55
+#: pro/includes/admin/class-license-page.php:61
 msgid "License"
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:84
+#: pro/includes/admin/class-license-page.php:90
 msgid "License Key"
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:89
+#: pro/includes/admin/class-license-page.php:95
 msgid "Enter your Social Snap license key here..."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:95
+#: pro/includes/admin/class-license-page.php:97
+msgid "Verify Key"
+msgstr ""
+
+#: pro/includes/admin/class-license-page.php:101
 msgid "Deactivate Key"
 msgstr ""
 
 #. translators: %s is license type
-#: pro/includes/admin/class-license-page.php:104
+#: pro/includes/admin/class-license-page.php:110
 msgid "Your license key type is %s."
 msgstr ""
 
 #. translators: %1$s open anchor tag, %2$s close anchor tag.
-#: pro/includes/admin/class-license-page.php:113
+#: pro/includes/admin/class-license-page.php:119
 msgid "If your license has been upgraded or is incorrect, %1$sclick here to force a refresh%2$s."
 msgstr ""
 
 #. translators: %1$s open anchor tag, %2$s close anchor tag.
-#: pro/includes/admin/class-license-page.php:122
+#: pro/includes/admin/class-license-page.php:128
 msgid "To access your license keys, log in to your %1$sSocial Snap account%2$s."
 msgstr ""
 
 #. translators: %s - plugin settings page URL.
-#: pro/includes/admin/class-license-page.php:249
+#: pro/includes/admin/class-license-page.php:255
 msgid "Please <a href=\"%s\">enter and activate</a> your license key for Social Snap to enable automatic updates and unlock premium features."
 msgstr ""
 
 #. translators: %1$s is admin url, %2$s is upgrade url.
-#: pro/includes/admin/class-license-page.php:273, pro/includes/admin/class-license.php:444
+#: pro/includes/admin/class-license-page.php:279, pro/includes/admin/class-license.php:450
 msgid "Your license key for Social Snap has expired. Please <a href=\"%1$s\">enter a valid license key</a> or <a href=\"%2$s\" target=\"_blank\">purchase a new subscription</a>."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:295
+#: pro/includes/admin/class-license-page.php:301
 msgid "Your license key for Social Snap has been disabled. Please try using a different key."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:304
+#: pro/includes/admin/class-license-page.php:310
 msgid "Your license key for Social Snap is invalid. The key no longer exists or the user associated with the key has been deleted. Please try using a different key."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:322, pro/includes/admin/class-license-page.php:341, pro/includes/admin/class-license-page.php:360, pro/includes/admin/class-license.php:110, pro/includes/admin/class-license.php:129, pro/includes/admin/class-license.php:148
+#: pro/includes/admin/class-license-page.php:328, pro/includes/admin/class-license-page.php:347, pro/includes/admin/class-license-page.php:366, pro/includes/admin/class-license.php:116, pro/includes/admin/class-license.php:135, pro/includes/admin/class-license.php:154
 msgid "Please enter a license key."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:416, pro/includes/admin/class-license.php:204
+#: pro/includes/admin/class-license-page.php:422, pro/includes/admin/class-license.php:210
 msgid "License activated successfully!"
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:483, pro/includes/admin/class-license.php:271
+#: pro/includes/admin/class-license-page.php:489, pro/includes/admin/class-license.php:277
 msgid "You have deactivated the key from this site successfully."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:534, pro/includes/admin/class-license.php:322
+#: pro/includes/admin/class-license-page.php:540, pro/includes/admin/class-license.php:328
 msgid "Your license key has been refreshed successfully."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:602, pro/includes/admin/class-license.php:390
+#: pro/includes/admin/class-license-page.php:608, pro/includes/admin/class-license.php:396
 msgid "You entered an invalid license for this product."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:606, pro/includes/admin/class-license.php:394
+#: pro/includes/admin/class-license-page.php:612, pro/includes/admin/class-license.php:400
 msgid "Your license key has expired."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:610, pro/includes/admin/class-license.php:398
+#: pro/includes/admin/class-license-page.php:616, pro/includes/admin/class-license.php:404
 msgid "Your license key is inactive."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:615, pro/includes/admin/class-license.php:403
+#: pro/includes/admin/class-license-page.php:621, pro/includes/admin/class-license.php:409
 msgid "Your license key has beed disabled."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:619, pro/includes/admin/class-license.php:407
+#: pro/includes/admin/class-license-page.php:625, pro/includes/admin/class-license.php:413
 msgid "Your license key is not active for this URL."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:623, pro/includes/admin/class-license.php:411
+#: pro/includes/admin/class-license-page.php:629, pro/includes/admin/class-license.php:417
 msgid "The key you entered belongs to a bundle, please use the product specific license key."
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:627, pro/includes/admin/class-license.php:415
+#: pro/includes/admin/class-license-page.php:633, pro/includes/admin/class-license.php:421
 msgid "Your license key has reached its activation limit"
 msgstr ""
 
-#: pro/includes/admin/class-license-page.php:631, pro/includes/admin/class-license.php:419
+#: pro/includes/admin/class-license-page.php:637, pro/includes/admin/class-license.php:425
 msgid "There was an error with this license key"
 msgstr ""
 
-#: pro/includes/admin/class-user-profile.php:34
+#: pro/includes/admin/class-user-profile.php:40
 msgid "Social Snap User Info"
 msgstr ""
 
-#: pro/includes/admin/class-user-profile.php:38
+#: pro/includes/admin/class-user-profile.php:44
 msgid "Twitter Username"
 msgstr ""
 
-#: pro/includes/admin/class-user-profile.php:41
+#: pro/includes/admin/class-user-profile.php:47
 msgid "Please enter your Twitter username."
 msgstr ""
 
-#: pro/includes/admin/class-user-profile.php:45
+#: pro/includes/admin/class-user-profile.php:51
 msgid "Facebook Profile URL"
 msgstr ""
 
-#: pro/includes/admin/class-user-profile.php:48
+#: pro/includes/admin/class-user-profile.php:54
 msgid "Please enter the URL of your Facebok profile."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:252
+#: pro/includes/share/class-social-share-count-recovery.php:258
 msgid "Enable Share Count Recovery"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:258
+#: pro/includes/share/class-social-share-count-recovery.php:264
 msgid "Domain Migration"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:259
+#: pro/includes/share/class-social-share-count-recovery.php:265
 msgid "Enable if you changed your base domain (for example, moved from “oldsite.org” to “newsite.com”)"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:269
+#: pro/includes/share/class-social-share-count-recovery.php:275
 msgid "Old Domain"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:270
+#: pro/includes/share/class-social-share-count-recovery.php:276
 msgid "Your old domain. Enter clean domain, without http protocol, www prefix and/or subdomain."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:281
+#: pro/includes/share/class-social-share-count-recovery.php:287
 msgid "New Domain"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:282
+#: pro/includes/share/class-social-share-count-recovery.php:288
 msgid "Your new domain. Enter clean domain, without http protocol, www prefix and/or subdomain."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:293
+#: pro/includes/share/class-social-share-count-recovery.php:299
 msgid "Connection Protocol"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:294
+#: pro/includes/share/class-social-share-count-recovery.php:300
 msgid "Specify your previous connection protocol."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:297, pro/includes/share/class-social-share-count-recovery.php:313, pro/includes/share/class-social-share-count-recovery.php:328, pro/includes/share/class-social-share-count-recovery.php:369
+#: pro/includes/share/class-social-share-count-recovery.php:303, pro/includes/share/class-social-share-count-recovery.php:319, pro/includes/share/class-social-share-count-recovery.php:334, pro/includes/share/class-social-share-count-recovery.php:375
 msgid "Unaltered"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:298
+#: pro/includes/share/class-social-share-count-recovery.php:304
 msgid "http://"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:299
+#: pro/includes/share/class-social-share-count-recovery.php:305
 msgid "https://"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:309
+#: pro/includes/share/class-social-share-count-recovery.php:315
 msgid "WWW Prefix"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:310
+#: pro/includes/share/class-social-share-count-recovery.php:316
 msgid "Specify if you previously used “www” in your URL."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:314
+#: pro/includes/share/class-social-share-count-recovery.php:320
 msgid "With “www” prefix"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:315
+#: pro/includes/share/class-social-share-count-recovery.php:321
 msgid "Without “www” prefix"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:325
+#: pro/includes/share/class-social-share-count-recovery.php:331
 msgid "Subdomain Migration"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:329
+#: pro/includes/share/class-social-share-count-recovery.php:335
 msgid "I now use a subdomain"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:330
+#: pro/includes/share/class-social-share-count-recovery.php:336
 msgid "I used a subdomain, now I do not"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:331
+#: pro/includes/share/class-social-share-count-recovery.php:337
 msgid "I changed my subdomain"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:341
+#: pro/includes/share/class-social-share-count-recovery.php:347
 msgid "Previous Subdomain"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:342
+#: pro/includes/share/class-social-share-count-recovery.php:348
 msgid "If you used a subdomain such as blog.mysite.com."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:353
+#: pro/includes/share/class-social-share-count-recovery.php:359
 msgid "New Subdomain"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:354
+#: pro/includes/share/class-social-share-count-recovery.php:360
 msgid "If are now using a subdomain such as blog.mysite.com."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:365
+#: pro/includes/share/class-social-share-count-recovery.php:371
 msgid "URL Structure"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:367
+#: pro/includes/share/class-social-share-count-recovery.php:373
 msgid "Specify the URL/permalink structure that you migrated away from."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:370
+#: pro/includes/share/class-social-share-count-recovery.php:376
 msgid "Plain"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:371
+#: pro/includes/share/class-social-share-count-recovery.php:377
 msgid "Day and name"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:372
+#: pro/includes/share/class-social-share-count-recovery.php:378
 msgid "Month and name"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:373
+#: pro/includes/share/class-social-share-count-recovery.php:379
 msgid "Numeric"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:374
+#: pro/includes/share/class-social-share-count-recovery.php:380
 msgid "Post Name"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:375
+#: pro/includes/share/class-social-share-count-recovery.php:381
 msgid "Custom"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:385
+#: pro/includes/share/class-social-share-count-recovery.php:391
 msgid "Custom URL Structure"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:386
+#: pro/includes/share/class-social-share-count-recovery.php:392
 msgid "If custom URL structure was used, add it here."
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:418
+#: pro/includes/share/class-social-share-count-recovery.php:424
 msgid "Share Recovery URL"
 msgstr ""
 
-#: pro/includes/share/class-social-share-count-recovery.php:420
+#: pro/includes/share/class-social-share-count-recovery.php:426
 msgid "Add specific URL for this post to use in the Share Count Recovery process. If left empty, options from Social Snap Settings will be used."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:246
+#: pro/includes/share/class-social-share-pro.php:252
 msgid "Like"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1219
+#: pro/includes/share/class-social-share-pro.php:1225
 msgid "view"
 msgid_plural "views"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pro/includes/share/class-social-share-pro.php:1695
+#: pro/includes/share/class-social-share-pro.php:1701
 msgid "[Social Snap] Pin Description"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1702
+#: pro/includes/share/class-social-share-pro.php:1708
 msgid "[Social Snap] Hide Pin Button"
 msgstr ""
 
 #. translators: %1$s open anchor tag, %2$s close anchor tag
-#: pro/includes/share/class-social-share-pro.php:1744
+#: pro/includes/share/class-social-share-pro.php:1750
 msgid "Follow our %1$sstep-by-step tutorial%2$s on how to set up Twitter Share Provider."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1755, pro/includes/share/class-social-share-pro.php:1800, pro/includes/share/class-social-share-pro.php:1845, pro/includes/share/class-social-share-pro.php:2374
+#: pro/includes/share/class-social-share-pro.php:1761, pro/includes/share/class-social-share-pro.php:1806, pro/includes/share/class-social-share-pro.php:1851, pro/includes/share/class-social-share-pro.php:2380
 msgid "Background Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1766, pro/includes/share/class-social-share-pro.php:1811, pro/includes/share/class-social-share-pro.php:1856, pro/includes/share/class-social-share-pro.php:2139, pro/includes/share/class-social-share-pro.php:2385
+#: pro/includes/share/class-social-share-pro.php:1772, pro/includes/share/class-social-share-pro.php:1817, pro/includes/share/class-social-share-pro.php:1862, pro/includes/share/class-social-share-pro.php:2145, pro/includes/share/class-social-share-pro.php:2391
 msgid "Icon Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1777, pro/includes/share/class-social-share-pro.php:1822, pro/includes/share/class-social-share-pro.php:1867, pro/includes/share/class-social-share-pro.php:2396
+#: pro/includes/share/class-social-share-pro.php:1783, pro/includes/share/class-social-share-pro.php:1828, pro/includes/share/class-social-share-pro.php:1873, pro/includes/share/class-social-share-pro.php:2402
 msgid "Background Hover Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1788, pro/includes/share/class-social-share-pro.php:1833, pro/includes/share/class-social-share-pro.php:1878, pro/includes/share/class-social-share-pro.php:2159, pro/includes/share/class-social-share-pro.php:2407
+#: pro/includes/share/class-social-share-pro.php:1794, pro/includes/share/class-social-share-pro.php:1839, pro/includes/share/class-social-share-pro.php:1884, pro/includes/share/class-social-share-pro.php:2165, pro/includes/share/class-social-share-pro.php:2413
 msgid "Icon Hover Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1896
+#: pro/includes/share/class-social-share-pro.php:1902
 msgid "Enable Hub"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:1977, pro/includes/share/class-social-share-pro.php:2292
+#: pro/includes/share/class-social-share-pro.php:1983, pro/includes/share/class-social-share-pro.php:2298
 msgid "All Networks Buttons"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2079
+#: pro/includes/share/class-social-share-pro.php:2085
 msgid "Do not show Share Hub on mobile devices."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2090
+#: pro/includes/share/class-social-share-pro.php:2096
 msgid "Set text color of total counters to light. Use this option if your website has a dark background."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2099
+#: pro/includes/share/class-social-share-pro.php:2105
 msgid "Hub Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2109
+#: pro/includes/share/class-social-share-pro.php:2115
 msgid "Hub Icon Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2129
+#: pro/includes/share/class-social-share-pro.php:2135
 msgid "Icon Background Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2149
+#: pro/includes/share/class-social-share-pro.php:2155
 msgid "Icon Background Hover Color"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2179
+#: pro/includes/share/class-social-share-pro.php:2185
 msgid "Enable Sticky Bar"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2189
+#: pro/includes/share/class-social-share-pro.php:2195
 msgid "Top"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2190
+#: pro/includes/share/class-social-share-pro.php:2196
 msgid "Bottom"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2201
+#: pro/includes/share/class-social-share-pro.php:2207
 msgid "Show After Scrolling (in px)"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2204
+#: pro/includes/share/class-social-share-pro.php:2210
 msgid "Show sticky bar after scrolling. Leave 0 to show always."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2266
+#: pro/includes/share/class-social-share-pro.php:2272
 msgid "Same as Inline Buttons"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2305
+#: pro/includes/share/class-social-share-pro.php:2311
 msgid "Display view count of the current post/page."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2316
+#: pro/includes/share/class-social-share-pro.php:2322
 msgid "Display share counts on share buttons. Not available on Archive pages."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2351
+#: pro/includes/share/class-social-share-pro.php:2357
 msgid "Visible on Mobile Only"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2352
+#: pro/includes/share/class-social-share-pro.php:2358
 msgid "Visible on Desktop Only"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2376
+#: pro/includes/share/class-social-share-pro.php:2382
 msgid "Choose share button background color."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2387
+#: pro/includes/share/class-social-share-pro.php:2393
 msgid "Choose share button icon color."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2398
+#: pro/includes/share/class-social-share-pro.php:2404
 msgid "Choose share button hover background color."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2409
+#: pro/includes/share/class-social-share-pro.php:2415
 msgid "Choose share button icon hover color."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2418
+#: pro/includes/share/class-social-share-pro.php:2424
 msgid "Sync with Inline Buttons?"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2420
+#: pro/includes/share/class-social-share-pro.php:2426
 msgid "If enabled, the bottom bar will be aligned to the inline buttons in your content. It will also be hidden if inline buttons are visible."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2432
+#: pro/includes/share/class-social-share-pro.php:2438
 msgid "Pinterest"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2434
+#: pro/includes/share/class-social-share-pro.php:2440
 msgid "Enter your Pinterest info here."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2438
+#: pro/includes/share/class-social-share-pro.php:2444
 msgid "Pinterest Username"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2439
+#: pro/includes/share/class-social-share-pro.php:2445
 msgid "Enter your Pinterest @username. This adds “via @username” to share description when someone pins one of your posts/pages."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2450
+#: pro/includes/share/class-social-share-pro.php:2456
 msgid "Enter your Facebook info here."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2454
+#: pro/includes/share/class-social-share-pro.php:2460
 msgid "Facebook App ID"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2455
+#: pro/includes/share/class-social-share-pro.php:2461
 msgid "This is required for Facebook Messenger share URL to work on desktop devices."
 msgstr ""
 
 #. translators: %s is home url
-#: pro/includes/share/class-social-share-pro.php:2463
+#: pro/includes/share/class-social-share-pro.php:2469
 msgid "Add the following link to your OAuth redirect URIs in your Facebook app's settings in the Products > Facebook Login config: %s"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2487
+#: pro/includes/share/class-social-share-pro.php:2493
 msgid "Choose total shares style."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2545, pro/includes/share/class-social-share-pro.php:2612
+#: pro/includes/share/class-social-share-pro.php:2551, pro/includes/share/class-social-share-pro.php:2618
 msgid "Custom Share Target URL"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2549, pro/includes/share/class-social-share-pro.php:2615
+#: pro/includes/share/class-social-share-pro.php:2555, pro/includes/share/class-social-share-pro.php:2621
 msgid "Enter URL of the page to be shared. This must be a valid page URL on this site. Leave empty to use current page."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2574
+#: pro/includes/share/class-social-share-pro.php:2580
 msgid "Custom Tweet"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2577
+#: pro/includes/share/class-social-share-pro.php:2583
 msgid "Tweet to be shared when user clicks the Twitter share button. Leave empty to auto-generate the content based on your settings."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2588
+#: pro/includes/share/class-social-share-pro.php:2594
 msgid "Pinterest Image"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2590
+#: pro/includes/share/class-social-share-pro.php:2596
 msgid "Upload an image which will be displayed when this post is shared on Pinterest."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2591
+#: pro/includes/share/class-social-share-pro.php:2597
 msgid "Recommended image dimension is 800px by 1200px."
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2600
+#: pro/includes/share/class-social-share-pro.php:2606
 msgid "Pinterest Description"
 msgstr ""
 
-#: pro/includes/share/class-social-share-pro.php:2602
+#: pro/includes/share/class-social-share-pro.php:2608
 msgid "Content to be shared when user clicks the Pinterest share button. Leave empty to use the title of the post."
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:48
+#: pro/includes/share/class-top-posts-widget.php:54
 msgctxt "Widget"
 msgid "Displays the most popular posts by share or view count."
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:56
+#: pro/includes/share/class-top-posts-widget.php:62
 msgctxt "Widget"
 msgid "Social Snap: Popular Posts"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:237
+#: pro/includes/share/class-top-posts-widget.php:243
 msgctxt "Widget"
 msgid "Number of posts to show:"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:245
+#: pro/includes/share/class-top-posts-widget.php:251
 msgctxt "Widget"
 msgid "Select which post type to display:"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:253
+#: pro/includes/share/class-top-posts-widget.php:259
 msgctxt "Widget"
 msgid "Posts"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:254
+#: pro/includes/share/class-top-posts-widget.php:260
 msgctxt "Widget"
 msgid "Pages"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:268
+#: pro/includes/share/class-top-posts-widget.php:274
 msgctxt "Widget"
 msgid "Select how to base post rankings:"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:272
+#: pro/includes/share/class-top-posts-widget.php:278
 msgctxt "Widget"
 msgid "Posts with most shares"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:273
+#: pro/includes/share/class-top-posts-widget.php:279
 msgctxt "Widget"
 msgid "Posts with most views"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:274
+#: pro/includes/share/class-top-posts-widget.php:280
 msgctxt "Widget"
 msgid "Posts with most likes"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:280
+#: pro/includes/share/class-top-posts-widget.php:286
 msgctxt "Widget"
 msgid "Display posts published:"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:284
+#: pro/includes/share/class-top-posts-widget.php:290
 msgctxt "Widget"
 msgid "Past Day"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:285
+#: pro/includes/share/class-top-posts-widget.php:291
 msgctxt "Widget"
 msgid "Past Week"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:286
+#: pro/includes/share/class-top-posts-widget.php:292
 msgctxt "Widget"
 msgid "Past Month"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:287
+#: pro/includes/share/class-top-posts-widget.php:293
 msgctxt "Widget"
 msgid "Past Year"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:288
+#: pro/includes/share/class-top-posts-widget.php:294
 msgctxt "Widget"
 msgid "Anytime"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:294
+#: pro/includes/share/class-top-posts-widget.php:300
 msgctxt "Widget"
 msgid "Thumbnail shape:"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:298
+#: pro/includes/share/class-top-posts-widget.php:304
 msgctxt "Widget"
 msgid "Square thumbnails"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:299
+#: pro/includes/share/class-top-posts-widget.php:305
 msgctxt "Widget"
 msgid "Circle thumbnails"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:305
+#: pro/includes/share/class-top-posts-widget.php:311
 msgctxt "Widget"
 msgid "Thumbnail size:"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:309
+#: pro/includes/share/class-top-posts-widget.php:315
 msgctxt "Widget"
 msgid "Default Thumbnails"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:310
+#: pro/includes/share/class-top-posts-widget.php:316
 msgctxt "Widget"
 msgid "Medium thumbnails"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:311
+#: pro/includes/share/class-top-posts-widget.php:317
 msgctxt "Widget"
 msgid "Large thumbnails"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:318
+#: pro/includes/share/class-top-posts-widget.php:324
 msgctxt "Widget"
 msgid "Display thumbnails"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:322
+#: pro/includes/share/class-top-posts-widget.php:328
 msgctxt "Widget"
 msgid "Display ranking numbers"
 msgstr ""
 
-#: pro/includes/share/class-top-posts-widget.php:326
+#: pro/includes/share/class-top-posts-widget.php:332
 msgctxt "Widget"
 msgid "Display total share/view count"
 msgstr ""
 
-#: includes/admin/settings/fields/field_button.php:35
+#: includes/admin/settings/fields/field_button.php:41
 msgid "Button"
 msgstr ""
 
-#: includes/admin/settings/fields/field_checkbox_group.php:68
+#: includes/admin/settings/fields/field_checkbox_group.php:74
 msgid "Shop"
 msgstr ""
 
-#: includes/admin/settings/fields/field_checkbox_group.php:79, includes/admin/settings/fields/field_checkbox_group.php:91
+#: includes/admin/settings/fields/field_checkbox_group.php:85, includes/admin/settings/fields/field_checkbox_group.php:97
 msgid "Archive"
 msgstr ""
 
-#: includes/admin/settings/fields/field_color.php:68
+#: includes/admin/settings/fields/field_color.php:74
 msgid "Select color"
 msgstr ""
 
-#: includes/admin/settings/fields/field_dropdown.php:98
+#: includes/admin/settings/fields/field_dropdown.php:104
 msgid "Select Option"
 msgstr ""
 
-#: includes/admin/settings/fields/field_editor_upload.php:40
+#: includes/admin/settings/fields/field_editor_text.php:85, includes/admin/settings/fields/field_editor_textarea.php:96
+msgid "characters remaining"
+msgstr ""
+
+#: includes/admin/settings/fields/field_editor_upload.php:46
 msgid "Upload Image"
 msgstr ""
 
-#: includes/admin/settings/fields/field_restore.php:50
+#: includes/admin/settings/fields/field_restore.php:56
 msgid "Are you sure you want to reset all settings?"
 msgstr ""
 
-#: includes/admin/settings/fields/field_restore.php:50
+#: includes/admin/settings/fields/field_restore.php:56
 msgid "Reset to Default"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:90, includes/admin/settings/fields/field_social_follow_networks.php:335
+#: includes/admin/settings/fields/field_social_follow_networks.php:96, includes/admin/settings/fields/field_social_follow_networks.php:341
 msgid "Setup"
 msgstr ""
 
 #. translators: %s is network name
-#: includes/admin/settings/fields/field_social_follow_networks.php:109
+#: includes/admin/settings/fields/field_social_follow_networks.php:115
 msgid "Follow on %1$s"
 msgstr ""
 
 #. translators: %1$s is network name.
-#: includes/admin/settings/fields/field_social_follow_networks.php:133
+#: includes/admin/settings/fields/field_social_follow_networks.php:139
 msgid "Connect %1$s Account"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:159
+#: includes/admin/settings/fields/field_social_follow_networks.php:143
+msgid "Authorize Social Snap to automatically obtain followers count from your account. The count is updated daily."
+msgstr ""
+
+#: includes/admin/settings/fields/field_social_follow_networks.php:165
 msgid "Connect as:"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:149
+#: includes/admin/settings/fields/field_social_follow_networks.php:155
 msgid "Connected as %1$s."
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:173, pro/includes/admin/settings/fields/field_bitly_authorize.php:80
+#: includes/admin/settings/fields/field_social_follow_networks.php:179, pro/includes/admin/settings/fields/field_bitly_authorize.php:86
 msgid "Disconnect?"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:201
+#: includes/admin/settings/fields/field_social_follow_networks.php:207
 msgid "Username"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:202
+#: includes/admin/settings/fields/field_social_follow_networks.php:208
 msgid "Enter your profile ID/username (without @ prefix)."
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:226
+#: includes/admin/settings/fields/field_social_follow_networks.php:232
 msgid "Username obtained automatically."
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:235
+#: includes/admin/settings/fields/field_social_follow_networks.php:241
 msgid "Profile URL"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:236
+#: includes/admin/settings/fields/field_social_follow_networks.php:242
 msgid "Enter your profile URL (including http://)."
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:242
+#: includes/admin/settings/fields/field_social_follow_networks.php:248
 msgid "Profile URL obtained automatically."
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:248
+#: includes/admin/settings/fields/field_social_follow_networks.php:254
 msgid "Button Label"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:249
+#: includes/admin/settings/fields/field_social_follow_networks.php:255
 msgid "Specify the label that will be displayed on follow buttons."
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:258
+#: includes/admin/settings/fields/field_social_follow_networks.php:264
 msgid "Number of Followers"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:259
+#: includes/admin/settings/fields/field_social_follow_networks.php:265
 msgid "Manually enter your number of followers as a backup method for followers count."
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_follow_networks.php:331
+#: includes/admin/settings/fields/field_social_follow_networks.php:337
 msgid "Followers obtained automatically"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:55, includes/admin/settings/fields/field_social_share_networks.php:179
+#: includes/admin/settings/fields/field_social_share_networks.php:61, includes/admin/settings/fields/field_social_share_networks.php:185
 msgid "Add Networks"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:73
+#: includes/admin/settings/fields/field_social_share_networks.php:79
 msgid "Unlock 30+ share networks, share counters for all networks, URL shortening, custom share images and descriptions and more awesome features!"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:135
+#: includes/admin/settings/fields/field_social_share_networks.php:141
 msgid "Enter network label"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:138
+#: includes/admin/settings/fields/field_social_share_networks.php:144
 msgid "Change label"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:140
+#: includes/admin/settings/fields/field_social_share_networks.php:146
 msgid "Device visibility"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:161
+#: includes/admin/settings/fields/field_social_share_networks.php:167
 msgid "Mobile only"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:146
+#: includes/admin/settings/fields/field_social_share_networks.php:152
 msgid "Desktop"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:153
+#: includes/admin/settings/fields/field_social_share_networks.php:159
 msgid "Mobile"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:168
+#: includes/admin/settings/fields/field_social_share_networks.php:174
 msgid "Remove"
 msgstr ""
 
-#: includes/admin/settings/fields/field_social_share_networks.php:182
+#: includes/admin/settings/fields/field_social_share_networks.php:188
 msgid "These networks apply to all locations."
 msgstr ""
 
-#: includes/admin/settings/fields/field_upload.php:72
+#: includes/admin/settings/fields/field_upload.php:78
 msgid "Use this image"
 msgstr ""
 
-#: includes/admin/settings/fields/field_upload.php:73
+#: includes/admin/settings/fields/field_upload.php:79
 msgid "Upload"
 msgstr ""
 
-#: pro/includes/admin/settings/fields/field_bitly_authorize.php:82
+#: pro/includes/admin/settings/fields/field_bitly_authorize.php:88
 msgid "Please authorize Social Snap to connect with your Bitly account."
 msgstr ""
 
-#: pro/includes/admin/settings/fields/field_bitly_authorize.php:79
+#: pro/includes/admin/settings/fields/field_bitly_authorize.php:85
 msgid "Bitly connected."
 msgstr ""
